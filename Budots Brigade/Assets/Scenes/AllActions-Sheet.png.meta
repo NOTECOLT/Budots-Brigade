@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
 guid: bebaf3a667e1b794c9926798b443bead
-=======
-guid: 1f68c38b3e2555f49874ce69ae919d4b
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -52,11 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-  spritePixelsToUnits: 100
-=======
   spritePixelsToUnits: 32
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -71,16 +63,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -93,7 +85,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -106,7 +98,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -119,7 +111,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -134,28 +126,19 @@ TextureImporter:
       name: AllActions-Sheet_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 132
-        width: 15
-        height: 26
+        x: 0
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: b266eccabf07421498226410e5c042a8
-      internalID: -996978249
-=======
-      spriteID: cd92d58fb6de44841b69f444d07ead37
-      internalID: -334283345
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: ec0810f7c1c88224aaf421c899ac638b
+      internalID: 147214513
       vertices: []
       indices: 
       edges: []
@@ -164,28 +147,19 @@ TextureImporter:
       name: AllActions-Sheet_1
       rect:
         serializedVersion: 2
-        x: 40
-        y: 133
-        width: 15
-        height: 23
+        x: 32
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 2423488ee924e8147bc5947922616dd2
-      internalID: 1068244677
-=======
-      spriteID: 879b970f6ac344a4ea403f49044489bd
-      internalID: 1359422760
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 48d58a9501c7ba545a5ea84cde51b440
+      internalID: 687937104
       vertices: []
       indices: 
       edges: []
@@ -194,28 +168,19 @@ TextureImporter:
       name: AllActions-Sheet_2
       rect:
         serializedVersion: 2
-        x: 72
-        y: 132
-        width: 15
-        height: 26
+        x: 64
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 987822558a9ca174d9cde0959cf16432
-      internalID: 93794333
-=======
-      spriteID: 2051b2d6a73cb3e4dae246bd8f0f33c7
-      internalID: 1114825873
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: d0ec9f83e1e527d4aa6fdbc3c134d2a7
+      internalID: 1453898993
       vertices: []
       indices: 
       edges: []
@@ -224,28 +189,19 @@ TextureImporter:
       name: AllActions-Sheet_3
       rect:
         serializedVersion: 2
-        x: 104
-        y: 135
-        width: 15
-        height: 22
+        x: 96
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: d015ae8cc3f8bc6448d00d3c92fb91c2
-      internalID: 1845612728
-=======
-      spriteID: 1d0f1fb8b204ee84c9087292f2d53cb7
-      internalID: -65740139
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 6d0bca4420d213e44b04dda8ee232b83
+      internalID: -1238552490
       vertices: []
       indices: 
       edges: []
@@ -254,28 +210,19 @@ TextureImporter:
       name: AllActions-Sheet_4
       rect:
         serializedVersion: 2
-        x: 136
-        y: 132
-        width: 15
-        height: 26
+        x: 128
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 214928ccb4449ea4a85abe94f74b2448
-      internalID: -413048572
-=======
-      spriteID: 8c2e7f664c6ddc44683b883360391e8b
-      internalID: 1120491060
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 871053ed91de63642a71bba1050aea6f
+      internalID: 29412531
       vertices: []
       indices: 
       edges: []
@@ -284,28 +231,19 @@ TextureImporter:
       name: AllActions-Sheet_5
       rect:
         serializedVersion: 2
-        x: 168
-        y: 134
-        width: 15
-        height: 22
+        x: 160
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 70e58d4c50966c049b8ce99b18fca099
-      internalID: 639415282
-=======
-      spriteID: 39068e09b95f4914cb71587bcffe5b8b
-      internalID: 58203196
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: cfcb30c3b21301048967275829c83f49
+      internalID: 843192149
       vertices: []
       indices: 
       edges: []
@@ -314,28 +252,19 @@ TextureImporter:
       name: AllActions-Sheet_6
       rect:
         serializedVersion: 2
-        x: 200
-        y: 132
-        width: 15
-        height: 26
+        x: 192
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 01b51169933b99f41953edf0f9fd62f4
-      internalID: 1297672299
-=======
-      spriteID: 0f681e4beca27bd40bf9c7b5a4531407
-      internalID: 430525972
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 9c1780642dc21154e921fb9e6ad05c75
+      internalID: 328333255
       vertices: []
       indices: 
       edges: []
@@ -344,28 +273,19 @@ TextureImporter:
       name: AllActions-Sheet_7
       rect:
         serializedVersion: 2
-        x: 232
-        y: 135
-        width: 15
-        height: 22
+        x: 224
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 27a73d321ebdc8c46a0ec5e7df8a6d5a
-      internalID: -2088992760
-=======
-      spriteID: 1cf4294b61f5c8f4f86c5d876a060506
-      internalID: -1030775818
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 1835d1b2d6834c24fab96692fb05a822
+      internalID: -946778564
       vertices: []
       indices: 
       edges: []
@@ -374,28 +294,19 @@ TextureImporter:
       name: AllActions-Sheet_8
       rect:
         serializedVersion: 2
-        x: 264
-        y: 132
-        width: 15
-        height: 26
+        x: 256
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 2330a2ccf600e1242a7ae30bb448a7cd
-      internalID: -723243156
-=======
-      spriteID: 702bce268e339f64c95761d1c71d7f4b
-      internalID: -613164045
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: eba66dc135249f245a197d93a4a9c7ef
+      internalID: -1455479794
       vertices: []
       indices: 
       edges: []
@@ -404,28 +315,19 @@ TextureImporter:
       name: AllActions-Sheet_9
       rect:
         serializedVersion: 2
-        x: 296
-        y: 133
-        width: 15
-        height: 23
+        x: 288
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: b544936a7de2d6547b0ea2a9cfba87e0
-      internalID: 1763815535
-=======
-      spriteID: 602a911cb9d579d409aeb14809fc8489
-      internalID: -777989411
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: dc03aedc27729514ca93d6d93c125e9a
+      internalID: -280861164
       vertices: []
       indices: 
       edges: []
@@ -434,28 +336,19 @@ TextureImporter:
       name: AllActions-Sheet_10
       rect:
         serializedVersion: 2
-        x: 323
-        y: 133
-        width: 19
-        height: 24
+        x: 320
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 3aad7f2ce10dbad4f9f9cff05d7a362e
-      internalID: 1999616647
-=======
-      spriteID: 26e054006e3678c4db5ac6104d0799d0
-      internalID: -1444845367
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: e15bc9d1f3830fc49979cea635ac0f74
+      internalID: -1119093729
       vertices: []
       indices: 
       edges: []
@@ -464,28 +357,19 @@ TextureImporter:
       name: AllActions-Sheet_11
       rect:
         serializedVersion: 2
-        x: 355
-        y: 133
-        width: 20
-        height: 24
+        x: 352
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 8219c61e8a2ae4b46aa79fadf0a283a9
-      internalID: -920723263
-=======
-      spriteID: b519332076b7fb34cb8902e7e85332f5
-      internalID: 1742730458
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 6924980957fcb5a4992c23aba67a2892
+      internalID: -1702015212
       vertices: []
       indices: 
       edges: []
@@ -494,28 +378,19 @@ TextureImporter:
       name: AllActions-Sheet_12
       rect:
         serializedVersion: 2
-        x: 392
-        y: 132
-        width: 15
-        height: 26
+        x: 384
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: e4e862faa67eee8488c529ad15f2faed
-      internalID: 2066670149
-=======
-      spriteID: c12339f3fa52e714ba49b5937b2138da
-      internalID: -815657749
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: cf90a28bb0b22a24da930e0bf0e5a068
+      internalID: 2068607665
       vertices: []
       indices: 
       edges: []
@@ -524,28 +399,19 @@ TextureImporter:
       name: AllActions-Sheet_13
       rect:
         serializedVersion: 2
-        x: 424
-        y: 134
-        width: 15
-        height: 22
+        x: 416
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 0cb0565a2a16b0a4da814d968fdb0f3a
-      internalID: 1115391763
-=======
-      spriteID: 43aae57c95634ef4e920993a704c40b0
-      internalID: -770482532
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 44c6456ea6c0b814da5379806d6e1a6a
+      internalID: 1589732985
       vertices: []
       indices: 
       edges: []
@@ -554,28 +420,19 @@ TextureImporter:
       name: AllActions-Sheet_14
       rect:
         serializedVersion: 2
-        x: 456
-        y: 134
-        width: 18
-        height: 23
+        x: 448
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: be07c982ad09d7e4fbf3895abaae859d
-      internalID: -1917202915
-=======
-      spriteID: e62335121c91e0d4987d057dd7814832
-      internalID: 673798023
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: a1516071d35b34e4e9beaefa1337c41e
+      internalID: 771202856
       vertices: []
       indices: 
       edges: []
@@ -584,28 +441,19 @@ TextureImporter:
       name: AllActions-Sheet_15
       rect:
         serializedVersion: 2
-        x: 488
-        y: 134
-        width: 18
-        height: 23
+        x: 480
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 879c3328bfe03414e923552cb8ffade4
-      internalID: 1365286862
-=======
-      spriteID: e06b5e2de24c24a4bbe6cc853ccefd5d
-      internalID: 45740132
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: c2b2253a479b22346848a20847e84fa1
+      internalID: -1072990686
       vertices: []
       indices: 
       edges: []
@@ -614,28 +462,19 @@ TextureImporter:
       name: AllActions-Sheet_16
       rect:
         serializedVersion: 2
-        x: 520
-        y: 132
-        width: 15
-        height: 26
+        x: 512
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 2dbe497c4955b2c4a864048ef770e859
-      internalID: -1719984445
-=======
-      spriteID: b14da8d2dd82b7b43b706cb57401bc0e
-      internalID: 1130315090
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 510c187c80c4e7c4fb0c3f53becc36cc
+      internalID: 8885337
       vertices: []
       indices: 
       edges: []
@@ -644,28 +483,19 @@ TextureImporter:
       name: AllActions-Sheet_17
       rect:
         serializedVersion: 2
-        x: 549
-        y: 131
-        width: 18
-        height: 26
+        x: 544
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 8f06b8e6b274a14428728831f01754c0
-      internalID: 125213342
-=======
-      spriteID: 6875fac3b21fec34b93ad54aefc66b10
-      internalID: 581505420
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: b34b07f4531a9314783f708ebc7ea09e
+      internalID: 1725128138
       vertices: []
       indices: 
       edges: []
@@ -674,28 +504,19 @@ TextureImporter:
       name: AllActions-Sheet_18
       rect:
         serializedVersion: 2
-        x: 581
-        y: 131
-        width: 18
-        height: 26
+        x: 576
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 8b07797478235c64ab42035bf772aea7
-      internalID: -545632854
-=======
-      spriteID: a00e5de2ad6214042b7dec024242bad2
-      internalID: -1327317146
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 370a419dbe7e74f4bb42256d8f61ce34
+      internalID: 1480725427
       vertices: []
       indices: 
       edges: []
@@ -705,27 +526,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 608
-        y: 130
-        width: 25
-        height: 25
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 8e483d8cbfd3fdc46b27dae9b2d3cd67
-      internalID: 1829192070
-=======
-      spriteID: b9c4ef79198303b418251fbf86f13db9
-      internalID: -535420061
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: e9f1e86ceb2cc2b4e834d375846dea88
+      internalID: 16671126
       vertices: []
       indices: 
       edges: []
@@ -734,28 +546,19 @@ TextureImporter:
       name: AllActions-Sheet_20
       rect:
         serializedVersion: 2
-        x: 648
-        y: 132
-        width: 15
-        height: 26
+        x: 640
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: ab3bf06b02b1f984a984d3e8e23ae4e6
-      internalID: -1295399714
-=======
-      spriteID: e631da32a56b5cd41a4559783bdc349f
-      internalID: 721638122
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: d88bd2b0ed788cc44994f7519477e9ff
+      internalID: 1439082330
       vertices: []
       indices: 
       edges: []
@@ -764,28 +567,19 @@ TextureImporter:
       name: AllActions-Sheet_21
       rect:
         serializedVersion: 2
-        x: 680
-        y: 131
-        width: 18
-        height: 28
+        x: 672
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 18a10b4bef5da8d41b7965c3173cc835
-      internalID: -1457694369
-=======
-      spriteID: f25b92ff1c4d89840832393c202e2488
-      internalID: 104562160
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 6da656be982e1214ca55d879c2ead998
+      internalID: -1592544201
       vertices: []
       indices: 
       edges: []
@@ -794,28 +588,19 @@ TextureImporter:
       name: AllActions-Sheet_22
       rect:
         serializedVersion: 2
-        x: 712
-        y: 131
-        width: 18
-        height: 28
+        x: 704
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 9a9f8942fb2279f41950efd296c7533d
-      internalID: -2012018562
-=======
-      spriteID: 732bc489964d3ce4fa352c13ceb1b8ce
-      internalID: 663776125
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: cce9b7bdfe7b0ed42a593f1f64299e8f
+      internalID: -1240147081
       vertices: []
       indices: 
       edges: []
@@ -824,28 +609,19 @@ TextureImporter:
       name: AllActions-Sheet_23
       rect:
         serializedVersion: 2
-        x: 741
-        y: 130
-        width: 23
-        height: 27
+        x: 736
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: a2c9309478e1ce14f84bd78fa23a8912
-      internalID: 1629439932
-=======
-      spriteID: 3230438524c9bf8429a99e2756840d6d
-      internalID: 403914450
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 85bde12b988ac5f4784c6a356a253419
+      internalID: 450197332
       vertices: []
       indices: 
       edges: []
@@ -854,28 +630,19 @@ TextureImporter:
       name: AllActions-Sheet_24
       rect:
         serializedVersion: 2
-        x: 775
-        y: 133
-        width: 15
-        height: 23
+        x: 768
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 4d822d4a6b834e84ea8e1f67561b2437
-      internalID: 98228849
-=======
-      spriteID: efc034bd165160849a573fdc4a11068b
-      internalID: -1503851794
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: d4e0cb27a43966847abd90844c534ff0
+      internalID: -1602813020
       vertices: []
       indices: 
       edges: []
@@ -884,28 +651,19 @@ TextureImporter:
       name: AllActions-Sheet_25
       rect:
         serializedVersion: 2
-        x: 806
-        y: 132
-        width: 17
-        height: 25
+        x: 800
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 0ffff6f3355cc734090764e9c5421245
-      internalID: 1165577975
-=======
-      spriteID: 811b965f6a470b64aadd6d1a749790d6
-      internalID: 957004283
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 46d5e4a98717f69448ae8b5f29a7483e
+      internalID: 1319501834
       vertices: []
       indices: 
       edges: []
@@ -914,28 +672,19 @@ TextureImporter:
       name: AllActions-Sheet_26
       rect:
         serializedVersion: 2
-        x: 840
-        y: 134
-        width: 15
-        height: 23
+        x: 832
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: aedff9022403d8040a04224afe68cc39
-      internalID: -1995567249
-=======
-      spriteID: a0de3fed8db749244a9f5af399c4cb48
-      internalID: -759886297
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 735384c6703fc3e4b82af191ff822f57
+      internalID: 191353364
       vertices: []
       indices: 
       edges: []
@@ -944,28 +693,19 @@ TextureImporter:
       name: AllActions-Sheet_27
       rect:
         serializedVersion: 2
-        x: 871
-        y: 133
-        width: 17
-        height: 25
+        x: 864
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 01bc8d78f649d4a43b17aaa351fc8c20
-      internalID: -126176363
-=======
-      spriteID: e10391d335c39bc4db8c5f0078b1ae9f
-      internalID: 1972392571
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 350c2cf8aecc9e246bd034eeacb8a5b5
+      internalID: -763559671
       vertices: []
       indices: 
       edges: []
@@ -974,28 +714,19 @@ TextureImporter:
       name: AllActions-Sheet_28
       rect:
         serializedVersion: 2
-        x: 9
-        y: 100
-        width: 13
-        height: 24
+        x: 0
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 80fe31692628e26428b4329dc0c8f39a
-      internalID: 1265990412
-=======
-      spriteID: 8f35aab0f1229f44fadc6de260571a41
-      internalID: 1309517922
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 44e15c81b6dd22147b1c6738d86f8d6d
+      internalID: -488158247
       vertices: []
       indices: 
       edges: []
@@ -1004,28 +735,19 @@ TextureImporter:
       name: AllActions-Sheet_29
       rect:
         serializedVersion: 2
-        x: 40
-        y: 102
-        width: 14
-        height: 20
+        x: 32
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 9cacc0cf43c4ada40b4749974cac2c72
-      internalID: 2010055901
-=======
-      spriteID: eaeb54878b4d0824b9aa1a885efd5961
-      internalID: 572770508
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 14b5a48448db0b64da9d4bfe33a58a99
+      internalID: -694371445
       vertices: []
       indices: 
       edges: []
@@ -1034,28 +756,19 @@ TextureImporter:
       name: AllActions-Sheet_30
       rect:
         serializedVersion: 2
-        x: 73
-        y: 100
-        width: 13
-        height: 24
+        x: 64
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 59f04fabfed6498428471b8ed23db742
-      internalID: 829093945
-=======
-      spriteID: f0e9a711a61f3e843afae93653154ba3
-      internalID: 738559627
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: e1f8590ee78d9e6408fae0c322b0165c
+      internalID: -1268016102
       vertices: []
       indices: 
       edges: []
@@ -1064,28 +777,19 @@ TextureImporter:
       name: AllActions-Sheet_31
       rect:
         serializedVersion: 2
-        x: 104
-        y: 103
-        width: 14
-        height: 20
+        x: 96
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 61905b48ad1901e49870b5d8eb1c81a3
-      internalID: 668250727
-=======
-      spriteID: dbbd4be709735064aa55b3d5ce92ec77
-      internalID: -978446785
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: b79b14b273878f44a8ef32750c4757e8
+      internalID: -186110406
       vertices: []
       indices: 
       edges: []
@@ -1094,28 +798,19 @@ TextureImporter:
       name: AllActions-Sheet_32
       rect:
         serializedVersion: 2
-        x: 136
-        y: 100
-        width: 13
-        height: 24
+        x: 128
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 6ce9b62c9229da44d8c920123aefd810
-      internalID: 429553373
-=======
-      spriteID: 0b5faa1651aa38544ac7c5ba3665177a
-      internalID: -463293918
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 243ae853657c70744abf4dc693c7d2b9
+      internalID: 1510270433
       vertices: []
       indices: 
       edges: []
@@ -1124,28 +819,19 @@ TextureImporter:
       name: AllActions-Sheet_33
       rect:
         serializedVersion: 2
-        x: 168
-        y: 102
-        width: 13
-        height: 19
+        x: 160
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 5f50813c360d3d84583ac1f4b1737624
-      internalID: -1429177160
-=======
-      spriteID: 29fe12cc8d8f9fb48ac30a6ab2c66ea1
-      internalID: 2129032209
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 69feb131235b55a458116225e09625f4
+      internalID: 2060971115
       vertices: []
       indices: 
       edges: []
@@ -1154,28 +840,19 @@ TextureImporter:
       name: AllActions-Sheet_34
       rect:
         serializedVersion: 2
-        x: 200
-        y: 100
-        width: 13
-        height: 24
+        x: 192
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 50e51d63d2ce68c48af4aaa12703f925
-      internalID: 1836573494
-=======
-      spriteID: 599a7ce2066f28345bad6dd3ca445eb7
-      internalID: 731841860
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 3f93f241cebd98249a7f78492441bfe2
+      internalID: 1289160092
       vertices: []
       indices: 
       edges: []
@@ -1184,28 +861,19 @@ TextureImporter:
       name: AllActions-Sheet_35
       rect:
         serializedVersion: 2
-        x: 232
-        y: 103
-        width: 14
-        height: 19
+        x: 224
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: b459263c9ecbebb418ea9332d2dfcaf1
-      internalID: 1944348558
-=======
-      spriteID: 28f2006a91982284eb8da25d51135af4
-      internalID: -1668849584
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: e54c0059787fc084d9c88ca850e99349
+      internalID: -1017829355
       vertices: []
       indices: 
       edges: []
@@ -1214,28 +882,19 @@ TextureImporter:
       name: AllActions-Sheet_36
       rect:
         serializedVersion: 2
-        x: 265
-        y: 100
-        width: 13
-        height: 24
+        x: 256
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 663755afe8f5dd9429ebc40ed5f52e1b
-      internalID: -617564329
-=======
-      spriteID: 4dd8d8ce52361144bbf8e091e3165847
-      internalID: 1806097248
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 278688beb153acd4181b321436385933
+      internalID: -1574543729
       vertices: []
       indices: 
       edges: []
@@ -1244,28 +903,19 @@ TextureImporter:
       name: AllActions-Sheet_37
       rect:
         serializedVersion: 2
-        x: 296
-        y: 102
-        width: 14
-        height: 20
+        x: 288
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: eb10b4d54bdc3054e8d942245d71ff9b
-      internalID: 1092489409
-=======
-      spriteID: 75b32691114900c4bb88b8e7f0ad063d
-      internalID: 1716916218
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: d53645d0fb87380448607d756520d747
+      internalID: -1552296812
       vertices: []
       indices: 
       edges: []
@@ -1274,28 +924,19 @@ TextureImporter:
       name: AllActions-Sheet_38
       rect:
         serializedVersion: 2
-        x: 322
-        y: 103
-        width: 20
-        height: 20
+        x: 320
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: a19f408731c77e8428915e37c502813c
-      internalID: 827241183
-=======
-      spriteID: b8d90a01be6a1eb44a91b72e3b4e2167
-      internalID: 1712845891
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: de8021be831131a4db270eea8a871de6
+      internalID: 878259048
       vertices: []
       indices: 
       edges: []
@@ -1304,28 +945,19 @@ TextureImporter:
       name: AllActions-Sheet_39
       rect:
         serializedVersion: 2
-        x: 355
-        y: 103
-        width: 19
-        height: 20
+        x: 352
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 32dd009c01323e5488ff3e61b903bef2
-      internalID: -334978532
-=======
-      spriteID: 69780d07dc9fa494092893148ad45c04
-      internalID: 198156755
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 660473befa4e956428eccb1d4c994088
+      internalID: -247638009
       vertices: []
       indices: 
       edges: []
@@ -1334,28 +966,19 @@ TextureImporter:
       name: AllActions-Sheet_40
       rect:
         serializedVersion: 2
-        x: 392
-        y: 100
-        width: 13
-        height: 24
+        x: 384
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: a1751cafb04f9fa41a5c1f0b6ee8227f
-      internalID: -983273294
-=======
-      spriteID: 8c25bfc99e5adf54ca8d6e413fc98adc
-      internalID: 1975507998
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 5a0a7353bb783b84e96fe785e3b73133
+      internalID: -727795550
       vertices: []
       indices: 
       edges: []
@@ -1364,28 +987,19 @@ TextureImporter:
       name: AllActions-Sheet_41
       rect:
         serializedVersion: 2
-        x: 424
-        y: 102
-        width: 13
-        height: 19
+        x: 416
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 99f2cbaecfb2ea746b89835f84569e71
-      internalID: 1910662399
-=======
-      spriteID: 5e64c00a15877464091adde2e840517b
-      internalID: -1577296850
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: fb9a79a3b1c6768468a83b5634be701d
+      internalID: 1775276661
       vertices: []
       indices: 
       edges: []
@@ -1394,28 +1008,19 @@ TextureImporter:
       name: AllActions-Sheet_42
       rect:
         serializedVersion: 2
-        x: 457
-        y: 102
-        width: 15
-        height: 19
+        x: 448
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 421182f035ec65e4c8729b3377f83419
-      internalID: 2103201308
-=======
-      spriteID: b804c2a9b1cf55a4e9dd72ab397225cf
-      internalID: 1328265921
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 51b0322290261ef43835fecddab6bdbe
+      internalID: -1580311086
       vertices: []
       indices: 
       edges: []
@@ -1424,28 +1029,19 @@ TextureImporter:
       name: AllActions-Sheet_43
       rect:
         serializedVersion: 2
-        x: 489
-        y: 102
-        width: 17
-        height: 19
+        x: 480
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 5422a496b8566f047a981b00f1093e64
-      internalID: -690748674
-=======
-      spriteID: d2ceaa4212cc51943b49ee4bd84c312e
-      internalID: 1765258802
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 310f81cd55f6bef42a73082a537f7dbf
+      internalID: 948198669
       vertices: []
       indices: 
       edges: []
@@ -1454,28 +1050,19 @@ TextureImporter:
       name: AllActions-Sheet_44
       rect:
         serializedVersion: 2
-        x: 521
-        y: 100
-        width: 13
-        height: 24
+        x: 512
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: b21026438b8f51846add02c62937f3c7
-      internalID: -1252271941
-=======
-      spriteID: 601591edb1d384144ba789793f398f9c
-      internalID: -1019820206
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 8d09f8f4f63bc894fa4b5f43e42abad8
+      internalID: 2073822714
       vertices: []
       indices: 
       edges: []
@@ -1484,28 +1071,19 @@ TextureImporter:
       name: AllActions-Sheet_45
       rect:
         serializedVersion: 2
-        x: 549
-        y: 99
-        width: 18
-        height: 25
+        x: 544
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: b638e2e189194564bb8b94d1ddb1b42a
-      internalID: 894592173
-=======
-      spriteID: 24cf9b1af512e7147975f2b70d2ec51b
-      internalID: -1810564978
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: d55ea446adba6e141a711e2e06e53aea
+      internalID: -1818313714
       vertices: []
       indices: 
       edges: []
@@ -1514,28 +1092,19 @@ TextureImporter:
       name: AllActions-Sheet_46
       rect:
         serializedVersion: 2
-        x: 581
-        y: 99
-        width: 18
-        height: 25
+        x: 576
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: cab42cdfec0f85e40bfc74a4b4f50ded
-      internalID: 358506617
-=======
-      spriteID: 59568b9df303ab44db879ef505a9fc02
-      internalID: 1347632447
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: a3b8da3fd0f86d74987446ded928568d
+      internalID: -1633185233
       vertices: []
       indices: 
       edges: []
@@ -1544,28 +1113,19 @@ TextureImporter:
       name: AllActions-Sheet_47
       rect:
         serializedVersion: 2
-        x: 610
-        y: 98
-        width: 23
-        height: 23
+        x: 608
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: d5bb34b582c334a49a98ec7fd1620b5a
-      internalID: 1018000505
-=======
-      spriteID: d44b1f97dd30802409eb34995f8a23f0
-      internalID: 1761475793
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 2b9caeea9975e5141b11eaa8db0f3275
+      internalID: -1035996109
       vertices: []
       indices: 
       edges: []
@@ -1574,28 +1134,19 @@ TextureImporter:
       name: AllActions-Sheet_48
       rect:
         serializedVersion: 2
-        x: 648
-        y: 100
-        width: 13
-        height: 24
+        x: 640
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 73bb0e03855acd545bd52c1d83063d63
-      internalID: 824502242
-=======
-      spriteID: a80737edc8428384a9ce54fb13e98da5
-      internalID: -1848892787
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 443f77d29fc986844a472309e3dab00a
+      internalID: 924545815
       vertices: []
       indices: 
       edges: []
@@ -1604,28 +1155,19 @@ TextureImporter:
       name: AllActions-Sheet_49
       rect:
         serializedVersion: 2
-        x: 680
-        y: 99
-        width: 16
-        height: 26
+        x: 672
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: c04f332ba73781c47aa3b415dbe9ee03
-      internalID: 697286216
-=======
-      spriteID: 4cf6e6be65c096b4080ff627a6e39111
-      internalID: 519381784
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 37a69fe564c53e049bf419f7de6f9c38
+      internalID: -786105223
       vertices: []
       indices: 
       edges: []
@@ -1634,28 +1176,19 @@ TextureImporter:
       name: AllActions-Sheet_50
       rect:
         serializedVersion: 2
-        x: 712
-        y: 99
-        width: 16
-        height: 26
+        x: 704
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: d71df4b1231910f469cd05b2ac3d9960
-      internalID: -179549457
-=======
-      spriteID: e89c34dfbf0cf3e4eabb1f974b1fac73
-      internalID: -1980552529
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 32970c8c862bf204baff88cdfbb4a365
+      internalID: -876895721
       vertices: []
       indices: 
       edges: []
@@ -1664,28 +1197,19 @@ TextureImporter:
       name: AllActions-Sheet_51
       rect:
         serializedVersion: 2
-        x: 741
-        y: 98
-        width: 24
-        height: 23
+        x: 736
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 80ea7bdb0a7391f48aa43bd279908c88
-      internalID: 304457239
-=======
-      spriteID: 856091403e1f01441a44ce0cf9548a5f
-      internalID: -943380103
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 194e9c08cd6123142b40e2d8bca01094
+      internalID: -1335304584
       vertices: []
       indices: 
       edges: []
@@ -1694,28 +1218,19 @@ TextureImporter:
       name: AllActions-Sheet_52
       rect:
         serializedVersion: 2
-        x: 776
-        y: 103
-        width: 14
-        height: 20
+        x: 768
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: fd00504cb016f0f4f8f1eff15c7a86d8
-      internalID: -1931167154
-=======
-      spriteID: 3a52fe68a16681e48b8b6e1d61d6c006
-      internalID: 2049206171
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: fe7bb8ae4caa4e34fac291ec9d47093f
+      internalID: 73644509
       vertices: []
       indices: 
       edges: []
@@ -1724,28 +1239,19 @@ TextureImporter:
       name: AllActions-Sheet_53
       rect:
         serializedVersion: 2
-        x: 807
-        y: 102
-        width: 16
-        height: 22
+        x: 800
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 5480d03bc78a4fd4cbed3c4937138b14
-      internalID: 1982682066
-=======
-      spriteID: 880fc2058c05f4f429616ef7f0fd5274
-      internalID: -709138043
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: e64af94a93b7e924a83f273ccb323339
+      internalID: -1729293335
       vertices: []
       indices: 
       edges: []
@@ -1754,28 +1260,19 @@ TextureImporter:
       name: AllActions-Sheet_54
       rect:
         serializedVersion: 2
-        x: 841
-        y: 102
-        width: 14
-        height: 19
+        x: 832
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: bc995ed8111408f40a7b2531e06f8ba0
-      internalID: 1838149536
-=======
-      spriteID: e24045ef63719514c8f1563a62ab9715
-      internalID: -600813478
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 93c354b7d46464b4d824c9deef2e149a
+      internalID: -1055874369
       vertices: []
       indices: 
       edges: []
@@ -1784,28 +1281,19 @@ TextureImporter:
       name: AllActions-Sheet_55
       rect:
         serializedVersion: 2
-        x: 872
-        y: 101
-        width: 16
-        height: 21
+        x: 864
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 6449e437f52e3814eab0ae2a2761857b
-      internalID: -680173339
-=======
-      spriteID: 141a468e9a2fa1845b4a67be674619a7
-      internalID: -1671093285
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 75c00aef3dfb433438c656c6454b99c3
+      internalID: -290070453
       vertices: []
       indices: 
       edges: []
@@ -1814,28 +1302,19 @@ TextureImporter:
       name: AllActions-Sheet_56
       rect:
         serializedVersion: 2
-        x: 10
-        y: 68
-        width: 13
-        height: 24
+        x: 0
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: d84cf456b1ca44d4291d7b05ff11188b
-      internalID: 1112584007
-=======
-      spriteID: 4c6fadb1211b7bc45b779d0b3f1cb840
-      internalID: -1427970772
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: a6403ad5acb5f6549aca21e5ebe30450
+      internalID: 1821749395
       vertices: []
       indices: 
       edges: []
@@ -1844,28 +1323,19 @@ TextureImporter:
       name: AllActions-Sheet_57
       rect:
         serializedVersion: 2
-        x: 40
-        y: 71
-        width: 15
-        height: 19
+        x: 32
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 62c1c5af031132d4389a3552e3971a4f
-      internalID: -1491055937
-=======
-      spriteID: 4c7cbea233fa68b45b0bf70381b0bac8
-      internalID: -1894784178
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: e1fb2d4460059c34cb8752b20684a330
+      internalID: 702682220
       vertices: []
       indices: 
       edges: []
@@ -1874,28 +1344,19 @@ TextureImporter:
       name: AllActions-Sheet_58
       rect:
         serializedVersion: 2
-        x: 74
-        y: 68
-        width: 13
-        height: 24
+        x: 64
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 4c7cc443263ea3649a89e19565107a1f
-      internalID: -1064863971
-=======
-      spriteID: 1fbf039ab7a10714598eef746ac8b9fd
-      internalID: 1983861241
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: db4c68ffcc7f06244b012d91129175ba
+      internalID: -1857222144
       vertices: []
       indices: 
       edges: []
@@ -1904,28 +1365,19 @@ TextureImporter:
       name: AllActions-Sheet_59
       rect:
         serializedVersion: 2
-        x: 104
-        y: 71
-        width: 15
-        height: 20
+        x: 96
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 205545ee45290504b91fb5128d27328f
-      internalID: 1858455249
-=======
-      spriteID: cec0ba9ffd40a5c4baa924ab86083b57
-      internalID: -1239257452
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 1d97b31ff93011f4fa3477202ccc7a9d
+      internalID: 1723717363
       vertices: []
       indices: 
       edges: []
@@ -1934,28 +1386,19 @@ TextureImporter:
       name: AllActions-Sheet_60
       rect:
         serializedVersion: 2
-        x: 137
-        y: 68
-        width: 12
-        height: 24
+        x: 128
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 3c652c6789083e449a334aed1db20fb3
-      internalID: 1564704195
-=======
-      spriteID: 8793a92e8a92c7449889e765875f6f17
-      internalID: -1029313315
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 5c7490f39a484804ab5c6fa39e3ce4d6
+      internalID: 563288291
       vertices: []
       indices: 
       edges: []
@@ -1964,28 +1407,19 @@ TextureImporter:
       name: AllActions-Sheet_61
       rect:
         serializedVersion: 2
-        x: 169
-        y: 70
-        width: 12
-        height: 20
+        x: 160
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 22657087d145a044fa71069210311b9e
-      internalID: 1530416709
-=======
-      spriteID: 1bf910416335e0b4caa8217c557c30ba
-      internalID: -1345863854
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 72c9e05c150aa424691066d4fd9edbb1
+      internalID: -2141980933
       vertices: []
       indices: 
       edges: []
@@ -1994,28 +1428,19 @@ TextureImporter:
       name: AllActions-Sheet_62
       rect:
         serializedVersion: 2
-        x: 201
-        y: 68
-        width: 12
-        height: 24
+        x: 192
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 200b926eedfc98542ab351500ebcb92e
-      internalID: 962088638
-=======
-      spriteID: 5c5a51c4745dca3459a26ea2acede997
-      internalID: -1763353963
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: a79940139f7f352429ec3ed55453b346
+      internalID: 1985184892
       vertices: []
       indices: 
       edges: []
@@ -2024,28 +1449,19 @@ TextureImporter:
       name: AllActions-Sheet_63
       rect:
         serializedVersion: 2
-        x: 233
-        y: 71
-        width: 13
-        height: 20
+        x: 224
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 571378394157bfc418e2f5dafb1968bf
-      internalID: -951425249
-=======
-      spriteID: 86196b8e0c39dd340b656c3b4d8612e1
-      internalID: 739367340
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: da40c6bc9ebb8154b9f3bbed0fe09e4d
+      internalID: -1153792241
       vertices: []
       indices: 
       edges: []
@@ -2054,28 +1470,19 @@ TextureImporter:
       name: AllActions-Sheet_64
       rect:
         serializedVersion: 2
-        x: 266
-        y: 68
-        width: 13
-        height: 24
+        x: 256
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 0db70ba416438dd4aa632d396a9c1b17
-      internalID: 1738914317
-=======
-      spriteID: b177262b3598b294f80fae6d2e524671
-      internalID: 1822709781
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 0d4335cea3c78d24fb08dc0393482fa3
+      internalID: 409384384
       vertices: []
       indices: 
       edges: []
@@ -2084,28 +1491,19 @@ TextureImporter:
       name: AllActions-Sheet_65
       rect:
         serializedVersion: 2
-        x: 296
-        y: 71
-        width: 15
-        height: 19
+        x: 288
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 38634e1b0bcef3346b2c2dd9be915035
-      internalID: -1216269934
-=======
-      spriteID: f2f1637badea73545b913dd67cd680fb
-      internalID: 221200215
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 02a917ec73cb49f4185e7a7fa50de409
+      internalID: -534687752
       vertices: []
       indices: 
       edges: []
@@ -2114,28 +1512,19 @@ TextureImporter:
       name: AllActions-Sheet_66
       rect:
         serializedVersion: 2
-        x: 323
-        y: 71
-        width: 19
-        height: 19
+        x: 320
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 1e115087d0db8a84dad507eaa10769f6
-      internalID: 238262259
-=======
-      spriteID: 3bbf40a1a92eea34fba172f15cbffd9a
-      internalID: -938841253
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: be4c6b34c0402d146921d32d20f41b69
+      internalID: -1926495649
       vertices: []
       indices: 
       edges: []
@@ -2144,28 +1533,19 @@ TextureImporter:
       name: AllActions-Sheet_67
       rect:
         serializedVersion: 2
-        x: 355
-        y: 71
-        width: 19
-        height: 19
+        x: 352
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 4d3636e4c77e82d48b68b95399c89990
-      internalID: 1408806649
-=======
-      spriteID: f3355dd150c043e469dc211ef03fc000
-      internalID: -763836281
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 2f94a9ae42cf8044598ea69b69bdb0c2
+      internalID: 1476588849
       vertices: []
       indices: 
       edges: []
@@ -2174,28 +1554,19 @@ TextureImporter:
       name: AllActions-Sheet_68
       rect:
         serializedVersion: 2
-        x: 393
-        y: 68
-        width: 12
-        height: 24
+        x: 384
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 93e66cfa690add54facdc728509d7193
-      internalID: -942138083
-=======
-      spriteID: bf50700477e98a14e9e325dddfbfe8f5
-      internalID: -2069781693
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 43e105cb3e0e3c44b8656a45802e9fe2
+      internalID: -1355484328
       vertices: []
       indices: 
       edges: []
@@ -2204,28 +1575,19 @@ TextureImporter:
       name: AllActions-Sheet_69
       rect:
         serializedVersion: 2
-        x: 425
-        y: 70
-        width: 12
-        height: 20
+        x: 416
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: f6b6b1cc070f68548a3cb8d282e6262a
-      internalID: -1552252357
-=======
-      spriteID: 8510b3a2a8067af4eb167b2a9b67e913
-      internalID: -388851235
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 934e501184c01d845825d4a81de0d973
+      internalID: 1877970445
       vertices: []
       indices: 
       edges: []
@@ -2234,28 +1596,19 @@ TextureImporter:
       name: AllActions-Sheet_70
       rect:
         serializedVersion: 2
-        x: 457
-        y: 70
-        width: 16
-        height: 20
+        x: 448
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 080fbd21e34d1c44293935bb486ef6b9
-      internalID: -1751039712
-=======
-      spriteID: a9a9d18871f7600469fe71070197b2be
-      internalID: -1091253317
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: bb0dc1d3b9a27074289fbe11f4bf03df
+      internalID: -456362799
       vertices: []
       indices: 
       edges: []
@@ -2264,28 +1617,19 @@ TextureImporter:
       name: AllActions-Sheet_71
       rect:
         serializedVersion: 2
-        x: 489
-        y: 70
-        width: 16
-        height: 20
+        x: 480
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 2dfa4d806c0c65b45b1e5e1eaae5d0e6
-      internalID: -1085164769
-=======
-      spriteID: f6db42ad00e0be743884c1bc2c6dc96b
-      internalID: -1220456906
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 8185746489b57134f895bdda6988e279
+      internalID: -292164875
       vertices: []
       indices: 
       edges: []
@@ -2294,28 +1638,19 @@ TextureImporter:
       name: AllActions-Sheet_72
       rect:
         serializedVersion: 2
-        x: 522
-        y: 68
-        width: 13
-        height: 24
+        x: 512
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: d5b804199d62d064abf3ea1195eebcb9
-      internalID: -691328181
-=======
-      spriteID: 22ddeb72a721f8244ae98811a5795e15
-      internalID: -300473778
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 19805622dc17c3e43bbeb0250c75376e
+      internalID: 116219975
       vertices: []
       indices: 
       edges: []
@@ -2324,28 +1659,19 @@ TextureImporter:
       name: AllActions-Sheet_73
       rect:
         serializedVersion: 2
-        x: 550
-        y: 68
-        width: 16
-        height: 24
+        x: 544
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: e990ac38c6fefbd4ca6cf8d513ff0a37
-      internalID: 359856455
-=======
-      spriteID: e5fa1f6a3d1e0904aa8de4d0ec72a67d
-      internalID: -1168697423
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: b73e81e5c96fb5444bf26b5db612482b
+      internalID: 891114428
       vertices: []
       indices: 
       edges: []
@@ -2354,28 +1680,19 @@ TextureImporter:
       name: AllActions-Sheet_74
       rect:
         serializedVersion: 2
-        x: 582
-        y: 68
-        width: 16
-        height: 24
+        x: 576
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: a9630cd76e78013438ee8435ec6255ae
-      internalID: 454410165
-=======
-      spriteID: 74a5370c022f0694c909fde5597c92a4
-      internalID: -1140238702
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: abb315c4e3fc7c14ebecb1b549459c8d
+      internalID: 1586541166
       vertices: []
       indices: 
       edges: []
@@ -2384,28 +1701,19 @@ TextureImporter:
       name: AllActions-Sheet_75
       rect:
         serializedVersion: 2
-        x: 613
-        y: 71
-        width: 17
-        height: 19
+        x: 608
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 612e9dd2d96904047af16c8235c301e1
-      internalID: -1764963117
-=======
-      spriteID: 43a316556cb8dc84a9f415844988e709
-      internalID: -83184780
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 2d1ecfdd09e1df64188914622fb0c164
+      internalID: 1630982309
       vertices: []
       indices: 
       edges: []
@@ -2414,28 +1722,19 @@ TextureImporter:
       name: AllActions-Sheet_76
       rect:
         serializedVersion: 2
-        x: 649
-        y: 68
-        width: 12
-        height: 24
+        x: 640
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: c917671f51e6fb6458473ac27b14b452
-      internalID: -1537312873
-=======
-      spriteID: 46cc860fe1d48204dab716271502cabf
-      internalID: -97461582
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 24ddfdccef275ec49b8cc092d20afbb7
+      internalID: 1951453860
       vertices: []
       indices: 
       edges: []
@@ -2444,28 +1743,19 @@ TextureImporter:
       name: AllActions-Sheet_77
       rect:
         serializedVersion: 2
-        x: 681
-        y: 68
-        width: 12
-        height: 25
+        x: 672
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 9185fb9931cb4e74aba2d3631190776d
-      internalID: -400918779
-=======
-      spriteID: b56fd17510d90554da3c0b3ece275235
-      internalID: -1704200381
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 40735b335f1ec384d89b59d9688260a6
+      internalID: -1646310586
       vertices: []
       indices: 
       edges: []
@@ -2474,28 +1764,19 @@ TextureImporter:
       name: AllActions-Sheet_78
       rect:
         serializedVersion: 2
-        x: 713
-        y: 68
-        width: 12
-        height: 25
+        x: 704
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: faeb4d5f848c7074d86fc3c6b2666a67
-      internalID: 212851601
-=======
-      spriteID: cdc4c02b573cdb44db9b9d3494c9ee4d
-      internalID: 96516625
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: a6cd9a72d3259ba46a8753af9c501783
+      internalID: 1800948024
       vertices: []
       indices: 
       edges: []
@@ -2504,28 +1785,19 @@ TextureImporter:
       name: AllActions-Sheet_79
       rect:
         serializedVersion: 2
-        x: 745
-        y: 70
-        width: 14
-        height: 20
+        x: 736
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 4ecc06a7669d6e94ea65e73ac9c4df03
-      internalID: -825993720
-=======
-      spriteID: 85df25c4a6a4b954d98ef58b71e4f445
-      internalID: 285719708
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 36f115f0fe565fa4ab46531d2eed9da1
+      internalID: -764813400
       vertices: []
       indices: 
       edges: []
@@ -2534,28 +1806,19 @@ TextureImporter:
       name: AllActions-Sheet_80
       rect:
         serializedVersion: 2
-        x: 774
-        y: 71
-        width: 16
-        height: 19
+        x: 768
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 043d8d70fe339db44a5da61cdb3b7b1e
-      internalID: -285326810
-=======
-      spriteID: 64125c98ecf4a95439ac49abdb71ab7a
-      internalID: -500383350
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 6ad081130973af5408540c81ded735b0
+      internalID: -993442621
       vertices: []
       indices: 
       edges: []
@@ -2564,28 +1827,19 @@ TextureImporter:
       name: AllActions-Sheet_81
       rect:
         serializedVersion: 2
-        x: 805
-        y: 70
-        width: 18
-        height: 21
+        x: 800
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: f746342a307054f4ba83143cb98d475e
-      internalID: 283392964
-=======
-      spriteID: 14d0d9d6359d8ce449dac35bd9ab3d77
-      internalID: -1444029193
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 6bf296b8a5d0ac449949c92e5009fb4e
+      internalID: 1146600876
       vertices: []
       indices: 
       edges: []
@@ -2594,28 +1848,19 @@ TextureImporter:
       name: AllActions-Sheet_82
       rect:
         serializedVersion: 2
-        x: 841
-        y: 70
-        width: 16
-        height: 20
+        x: 832
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 612787ec0c467324b995e0173b55ee73
-      internalID: -609006070
-=======
-      spriteID: adcecbd861a29954686f6bce32289dbb
-      internalID: 141529641
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 64997074ad41d8848a05e838f73ba587
+      internalID: -1823918205
       vertices: []
       indices: 
       edges: []
@@ -2624,28 +1869,19 @@ TextureImporter:
       name: AllActions-Sheet_83
       rect:
         serializedVersion: 2
-        x: 872
-        y: 69
-        width: 18
-        height: 22
+        x: 864
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 818051b6f00e4ff4c81f4ba7bea3fdac
-      internalID: -1249006224
-=======
-      spriteID: b2aea24be4cbccf4ca40db431f04a41c
-      internalID: 1103000636
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: e500ea41313dc284ba4667a3ad16d9cc
+      internalID: -1999429016
       vertices: []
       indices: 
       edges: []
@@ -2654,28 +1890,19 @@ TextureImporter:
       name: AllActions-Sheet_84
       rect:
         serializedVersion: 2
-        x: 9
-        y: 36
-        width: 12
-        height: 23
+        x: 0
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 8a1a342113edf7441a1112f2ab1a0dc6
-      internalID: -2110334770
-=======
-      spriteID: a56ebef9ff0919a4893d2e8a38de1771
-      internalID: 649790558
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 6462ad5c27d700c41a849a9a6bfd854b
+      internalID: 1769931199
       vertices: []
       indices: 
       edges: []
@@ -2684,28 +1911,19 @@ TextureImporter:
       name: AllActions-Sheet_85
       rect:
         serializedVersion: 2
-        x: 40
-        y: 39
-        width: 13
-        height: 18
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 2412265583d18b949a9f91715606cc83
-      internalID: -226933550
-=======
-      spriteID: 1c401983e1cc64f4bb845fda44442fec
-      internalID: -1071480360
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: f6ff82a931cec624d8499c6e7675c283
+      internalID: 457076286
       vertices: []
       indices: 
       edges: []
@@ -2714,28 +1932,19 @@ TextureImporter:
       name: AllActions-Sheet_86
       rect:
         serializedVersion: 2
-        x: 73
-        y: 36
-        width: 12
-        height: 23
+        x: 64
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 0b670623b50e23e44ac9be231eb3a25a
-      internalID: -1256929938
-=======
-      spriteID: 2f6e6ce6917ba7d42b2ef8c9823ba9cc
-      internalID: 1613618409
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 0f9f7d34e6340b54b94eaa2ebd78e493
+      internalID: -130667294
       vertices: []
       indices: 
       edges: []
@@ -2744,28 +1953,19 @@ TextureImporter:
       name: AllActions-Sheet_87
       rect:
         serializedVersion: 2
-        x: 104
-        y: 39
-        width: 13
-        height: 19
+        x: 96
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 05dd115e41c0a5e4988c88a1c725f5fb
-      internalID: 771014245
-=======
-      spriteID: 9b585fb9d1b47b3479268a4589a87002
-      internalID: -99856421
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 0523c31b8317a3047bc145f592f72679
+      internalID: -2101017062
       vertices: []
       indices: 
       edges: []
@@ -2774,28 +1974,19 @@ TextureImporter:
       name: AllActions-Sheet_88
       rect:
         serializedVersion: 2
-        x: 137
-        y: 36
-        width: 12
-        height: 23
+        x: 128
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 558feec22d7907540af35befa17be983
-      internalID: 960735937
-=======
-      spriteID: 70d6f5bef76d4e142a9dc3313cb92089
-      internalID: -1805487939
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 955f57e97adfd6c438c608e59a4ecdb3
+      internalID: 1665932108
       vertices: []
       indices: 
       edges: []
@@ -2804,28 +1995,19 @@ TextureImporter:
       name: AllActions-Sheet_89
       rect:
         serializedVersion: 2
-        x: 169
-        y: 38
-        width: 12
-        height: 19
+        x: 160
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: f4e0217c556913a41bdd967db5085043
-      internalID: -2026094472
-=======
-      spriteID: d4778241ec2da6d4881bbd31b5757d72
-      internalID: -342053364
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 39092288a42f35741a125ca80ea177d5
+      internalID: 623038136
       vertices: []
       indices: 
       edges: []
@@ -2834,28 +2016,19 @@ TextureImporter:
       name: AllActions-Sheet_90
       rect:
         serializedVersion: 2
-        x: 201
-        y: 36
-        width: 12
-        height: 23
+        x: 192
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: e96db98aeba39914cb372a4c4a0e8446
-      internalID: -1691873744
-=======
-      spriteID: a3b764d44e84b6248bae4bf64f523c08
-      internalID: 1767300250
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 3de8edf8801df7743ada404d5a834314
+      internalID: 161230965
       vertices: []
       indices: 
       edges: []
@@ -2864,28 +2037,19 @@ TextureImporter:
       name: AllActions-Sheet_91
       rect:
         serializedVersion: 2
-        x: 233
-        y: 39
-        width: 13
-        height: 19
+        x: 224
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: c4656c4b150f4ef48bb63053eaf2b8b4
-      internalID: -415960077
-=======
-      spriteID: 7aa36ac24b44bb648a776112054fb3d4
-      internalID: 933810175
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 2da619c47d329fe44ba83d12099b04f0
+      internalID: 1352639897
       vertices: []
       indices: 
       edges: []
@@ -2894,28 +2058,19 @@ TextureImporter:
       name: AllActions-Sheet_92
       rect:
         serializedVersion: 2
-        x: 265
-        y: 36
-        width: 12
-        height: 23
+        x: 256
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: bcbdc327169453440a5f8854d4e7bb2a
-      internalID: -120504141
-=======
-      spriteID: 7eb7531b6d8bbaa468807eca1bcbd577
-      internalID: 1939196914
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: d66527b05f773474294f37c13ac82065
+      internalID: 1945954149
       vertices: []
       indices: 
       edges: []
@@ -2924,28 +2079,19 @@ TextureImporter:
       name: AllActions-Sheet_93
       rect:
         serializedVersion: 2
-        x: 296
-        y: 39
-        width: 13
-        height: 18
+        x: 288
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 56798cb95232b9047a4f5ab88c8f2ec2
-      internalID: -1521657409
-=======
-      spriteID: 297485cb91b69f54f8a6d772bd61f07c
-      internalID: 1835488803
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 4e5bfe721bea61b4a9828e6f766c2614
+      internalID: 1535232088
       vertices: []
       indices: 
       edges: []
@@ -2955,27 +2101,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 320
-        y: 39
-        width: 21
-        height: 18
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 28ccac6ead835a4498e4da841c7eb761
-      internalID: 1727841908
-=======
-      spriteID: eec201278e34dd54e8d644747e9c909e
-      internalID: 984883887
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 3fd35e3b536cd4746b87152fefde5c54
+      internalID: -1617472350
       vertices: []
       indices: 
       edges: []
@@ -2985,27 +2122,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 352
-        y: 39
-        width: 21
-        height: 18
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 27bb1f828d80f774699d58372fdd2595
-      internalID: -1828905282
-=======
-      spriteID: 4bb4b370b0a714b4c90fef07db9526b0
-      internalID: 1229349198
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 188ec23b42a6a25419bdcb8d3ab67313
+      internalID: -1959443561
       vertices: []
       indices: 
       edges: []
@@ -3014,28 +2142,19 @@ TextureImporter:
       name: AllActions-Sheet_96
       rect:
         serializedVersion: 2
-        x: 393
-        y: 36
-        width: 12
-        height: 23
+        x: 384
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: e0c633be8477ca64398e63ad7f47edb8
-      internalID: 1230437510
-=======
-      spriteID: 603793a646a499c408c0a62b8d81876f
-      internalID: 148768482
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 1af902c06fa25534c96b78aafd05c74c
+      internalID: 525886712
       vertices: []
       indices: 
       edges: []
@@ -3044,28 +2163,19 @@ TextureImporter:
       name: AllActions-Sheet_97
       rect:
         serializedVersion: 2
-        x: 425
-        y: 38
-        width: 12
-        height: 19
+        x: 416
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: e9b7c6eec8d3fc1419179a110f0e7749
-      internalID: -958581497
-=======
-      spriteID: 81d4aa1b2477679448da8262fa1ff7f4
-      internalID: -245666671
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 5e582e4d5019e72439f98ee4214ad459
+      internalID: 1203625225
       vertices: []
       indices: 
       edges: []
@@ -3074,28 +2184,19 @@ TextureImporter:
       name: AllActions-Sheet_98
       rect:
         serializedVersion: 2
-        x: 457
-        y: 38
-        width: 19
-        height: 19
+        x: 448
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: e4e3ece1a38d367468ad46852d431979
-      internalID: -1143138624
-=======
-      spriteID: ab52084e241f56d43ad83468da9d45e9
-      internalID: -931918950
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: b525abcf11ee3464980a78681b25d921
+      internalID: -1677033214
       vertices: []
       indices: 
       edges: []
@@ -3104,28 +2205,19 @@ TextureImporter:
       name: AllActions-Sheet_99
       rect:
         serializedVersion: 2
-        x: 489
-        y: 38
-        width: 19
-        height: 19
+        x: 480
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: c04f9bdc35371ff418c7a63fb0cf540e
-      internalID: -2127506543
-=======
-      spriteID: 57eb42037f5bf93479e36375d1f11301
-      internalID: -757451240
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 07a90f71617c94a4b9dd336848ba6cb9
+      internalID: -1969781643
       vertices: []
       indices: 
       edges: []
@@ -3134,28 +2226,19 @@ TextureImporter:
       name: AllActions-Sheet_100
       rect:
         serializedVersion: 2
-        x: 521
-        y: 36
-        width: 12
-        height: 23
+        x: 512
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: b0bd9e965007447469ba050124cbe114
-      internalID: -1609396410
-=======
-      spriteID: f68fe2be7f3d8b24c90c9bc2eb55f041
-      internalID: 854477510
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 8faa6cdc2e9f63d4db6c928e4b9339d7
+      internalID: -1125869961
       vertices: []
       indices: 
       edges: []
@@ -3164,28 +2247,19 @@ TextureImporter:
       name: AllActions-Sheet_101
       rect:
         serializedVersion: 2
-        x: 549
-        y: 35
-        width: 18
-        height: 25
+        x: 544
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: cb24faebe4ddf534ba1a82ab3d47676c
-      internalID: -1537454866
-=======
-      spriteID: 44761113ced80df4d82cc426d3508fe3
-      internalID: 568404236
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: fd6b69164ddb68742b6594031b7d9502
+      internalID: 2072970084
       vertices: []
       indices: 
       edges: []
@@ -3194,28 +2268,19 @@ TextureImporter:
       name: AllActions-Sheet_102
       rect:
         serializedVersion: 2
-        x: 581
-        y: 35
-        width: 18
-        height: 26
+        x: 576
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 821473e0ca1cffa449639cc8fc81b747
-      internalID: -588824817
-=======
-      spriteID: 8905a39f576a9ff469d2a9b5c8be9ea6
-      internalID: -1567487873
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: dc0127361f0b92945aee091ab38cf099
+      internalID: -1287238846
       vertices: []
       indices: 
       edges: []
@@ -3224,28 +2289,19 @@ TextureImporter:
       name: AllActions-Sheet_103
       rect:
         serializedVersion: 2
-        x: 611
-        y: 34
-        width: 22
-        height: 23
+        x: 608
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 8e617ec5decc8ab41a43874502548cbd
-      internalID: 327155424
-=======
-      spriteID: 29d09dd570254eb46b49e1579e23a043
-      internalID: 226175194
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: e31e4d9efc8f63a48a12f0f3061a0d72
+      internalID: -598759879
       vertices: []
       indices: 
       edges: []
@@ -3254,28 +2310,19 @@ TextureImporter:
       name: AllActions-Sheet_104
       rect:
         serializedVersion: 2
-        x: 649
-        y: 36
-        width: 12
-        height: 23
+        x: 640
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 6f9759acda1f27343b7c61530a65e5ff
-      internalID: 1000859412
-=======
-      spriteID: 860c87178c0f8844b8320aeae43636f4
-      internalID: 1552872001
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: d52233f5903990e40bc27c1425aadc55
+      internalID: 724736658
       vertices: []
       indices: 
       edges: []
@@ -3284,28 +2331,19 @@ TextureImporter:
       name: AllActions-Sheet_105
       rect:
         serializedVersion: 2
-        x: 680
-        y: 35
-        width: 16
-        height: 25
+        x: 672
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 05a0c46a00470ff489aeced1066355a0
-      internalID: -1070814776
-=======
-      spriteID: df914d3561df69c43977602e0f3c42c1
-      internalID: 705352224
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 0051b428cbe9bb146897689700457cc0
+      internalID: -1727695230
       vertices: []
       indices: 
       edges: []
@@ -3314,28 +2352,19 @@ TextureImporter:
       name: AllActions-Sheet_106
       rect:
         serializedVersion: 2
-        x: 712
-        y: 35
-        width: 16
-        height: 25
+        x: 704
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 0f3aa6cf47eefa34ca663ca1fe68b0f9
-      internalID: 612891671
-=======
-      spriteID: e327dd6f93e4e4640878c22cae9f7c06
-      internalID: -1831750883
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 1225c7ea8c76b43498ff62ce13132e9f
+      internalID: 830707641
       vertices: []
       indices: 
       edges: []
@@ -3344,28 +2373,19 @@ TextureImporter:
       name: AllActions-Sheet_107
       rect:
         serializedVersion: 2
-        x: 741
-        y: 34
-        width: 20
-        height: 23
+        x: 736
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 3c95212b6dbc1354ea647ebda6351054
-      internalID: 2052591709
-=======
-      spriteID: def42a34be80d9048aa2e5a7550f169b
-      internalID: 1411774079
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: a8a554b354179fc4084f3f60c93981b7
+      internalID: 785717443
       vertices: []
       indices: 
       edges: []
@@ -3374,28 +2394,19 @@ TextureImporter:
       name: AllActions-Sheet_108
       rect:
         serializedVersion: 2
-        x: 775
-        y: 39
-        width: 14
-        height: 17
+        x: 768
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 488688d85fc00d14095d5705942ad03f
-      internalID: -498702480
-=======
-      spriteID: 092e22b8de8c04d489c6a07380ca5d43
-      internalID: 1172435461
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: f34df0836d0aaab40a65230b9c5dd92f
+      internalID: 764429636
       vertices: []
       indices: 
       edges: []
@@ -3404,28 +2415,19 @@ TextureImporter:
       name: AllActions-Sheet_109
       rect:
         serializedVersion: 2
-        x: 806
-        y: 38
-        width: 16
-        height: 19
+        x: 800
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: a1c4220a5aaa3e5438a89e5b70d75640
-      internalID: 1574492399
-=======
-      spriteID: 4024b8bee7ad16e42b39f1248f4388c6
-      internalID: -768603064
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: e788cf5699b205e43bad43a13c93872f
+      internalID: 264273667
       vertices: []
       indices: 
       edges: []
@@ -3434,28 +2436,19 @@ TextureImporter:
       name: AllActions-Sheet_110
       rect:
         serializedVersion: 2
-        x: 841
-        y: 38
-        width: 19
-        height: 19
+        x: 832
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 7d44932ac6c1d44459b57778d9f11808
-      internalID: 902180715
-=======
-      spriteID: 52cd27c25b0afb541915a167764b4af6
-      internalID: 1496354742
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 60442ef6da2866c42a667412353d55e4
+      internalID: 1380869042
       vertices: []
       indices: 
       edges: []
@@ -3464,28 +2457,19 @@ TextureImporter:
       name: AllActions-Sheet_111
       rect:
         serializedVersion: 2
-        x: 872
-        y: 37
-        width: 21
-        height: 21
+        x: 864
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: d86735dca3c7a494b90b3bf6f3364fd2
-      internalID: 1212571971
-=======
-      spriteID: 63c1a71ee81457b49ba789b30b65947b
-      internalID: 230469381
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 04eb8fa5aec0cd146878b24015e1db4d
+      internalID: 1299424389
       vertices: []
       indices: 
       edges: []
@@ -3494,28 +2478,19 @@ TextureImporter:
       name: AllActions-Sheet_112
       rect:
         serializedVersion: 2
-        x: 10
-        y: 4
-        width: 10
-        height: 25
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 9c69efecffc83c24aa51652e17b9043c
-      internalID: -1308098503
-=======
-      spriteID: fb48cf0c3f7f8da4bbce8131fe89ac4b
-      internalID: 829684304
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 8a57da609c21ba0478422f92d0d3f5aa
+      internalID: -785986353
       vertices: []
       indices: 
       edges: []
@@ -3524,28 +2499,19 @@ TextureImporter:
       name: AllActions-Sheet_113
       rect:
         serializedVersion: 2
-        x: 40
-        y: 6
-        width: 12
-        height: 21
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 436ab11114a090348ac10de1b575b70c
-      internalID: -1502518226
-=======
-      spriteID: 13d616ae7c1e64544afe99df424f27d7
-      internalID: -1960750470
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 036c982464b19fc46839c97ff805230e
+      internalID: -663143593
       vertices: []
       indices: 
       edges: []
@@ -3554,28 +2520,19 @@ TextureImporter:
       name: AllActions-Sheet_114
       rect:
         serializedVersion: 2
-        x: 74
-        y: 4
-        width: 10
-        height: 25
+        x: 64
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: ca6ccc7e84b939543af1e3d9c4cc6294
-      internalID: 1454773975
-=======
-      spriteID: 5b0d3e0f6a66c674cb0337c24da9b4fd
-      internalID: -1886936449
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: df6b5342277fbb041b33b75949376697
+      internalID: -567756526
       vertices: []
       indices: 
       edges: []
@@ -3584,28 +2541,19 @@ TextureImporter:
       name: AllActions-Sheet_115
       rect:
         serializedVersion: 2
-        x: 104
-        y: 7
-        width: 14
-        height: 21
+        x: 96
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 816312ced0ae8a048b443a7b369127fb
-      internalID: 1237606934
-=======
-      spriteID: 5572dbdd3affe414d951f94bf4ab139c
-      internalID: -493538140
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: aa1af7f832b52184db7a194da9c646fd
+      internalID: -1364459414
       vertices: []
       indices: 
       edges: []
@@ -3614,28 +2562,19 @@ TextureImporter:
       name: AllActions-Sheet_116
       rect:
         serializedVersion: 2
-        x: 139
-        y: 4
-        width: 9
-        height: 24
+        x: 128
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: ac38df1ff055f1a44ba74e4f272d6a68
-      internalID: -1782459701
-=======
-      spriteID: 8bfed55136c6f604e8e2aa2f488be31d
-      internalID: 1064264249
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 88b0ab88ca0f2c340ac1ff800eaa1160
+      internalID: 597356580
       vertices: []
       indices: 
       edges: []
@@ -3644,28 +2583,19 @@ TextureImporter:
       name: AllActions-Sheet_117
       rect:
         serializedVersion: 2
-        x: 169
-        y: 6
-        width: 12
-        height: 20
+        x: 160
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 5a250b94d5895e142b6d935813bb513e
-      internalID: 1487267095
-=======
-      spriteID: 0627a719dbbe12b439fa89e805c5142f
-      internalID: 1763721714
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 4f2b619b11d81f74eba866d8409e720d
+      internalID: 1179584519
       vertices: []
       indices: 
       edges: []
@@ -3674,28 +2604,19 @@ TextureImporter:
       name: AllActions-Sheet_118
       rect:
         serializedVersion: 2
-        x: 202
-        y: 4
-        width: 10
-        height: 24
+        x: 192
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 745da4e2d791cd14b99a78d0af6dd04e
-      internalID: 278671179
-=======
-      spriteID: 20d5f597461081c4e8d9f1684325956f
-      internalID: -1704925444
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 6b8fc13339301634e821f4c1626452b4
+      internalID: -386607683
       vertices: []
       indices: 
       edges: []
@@ -3704,28 +2625,19 @@ TextureImporter:
       name: AllActions-Sheet_119
       rect:
         serializedVersion: 2
-        x: 233
-        y: 7
-        width: 13
-        height: 20
+        x: 224
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 815e26de8d525a942a0ebbb30dbe4470
-      internalID: 608021770
-=======
-      spriteID: 26e2d60f3ac41db4db3b99eb48951b88
-      internalID: 375556316
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: acec27ef6520d834fac2c87f3ebf628d
+      internalID: -486570292
       vertices: []
       indices: 
       edges: []
@@ -3734,28 +2646,19 @@ TextureImporter:
       name: AllActions-Sheet_120
       rect:
         serializedVersion: 2
-        x: 266
-        y: 4
-        width: 10
-        height: 25
+        x: 256
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 38b48d0d7959683419ad2721632e6b53
-      internalID: -2055771813
-=======
-      spriteID: 0446048dcea5dc047b870998c81130c1
-      internalID: 2137936259
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 03c2c86e035f11c4d8f7eaa63dab6c1a
+      internalID: -935787462
       vertices: []
       indices: 
       edges: []
@@ -3764,28 +2667,19 @@ TextureImporter:
       name: AllActions-Sheet_121
       rect:
         serializedVersion: 2
-        x: 296
-        y: 6
-        width: 12
-        height: 21
+        x: 288
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 21e7f81685fe501469507dc35010fa77
-      internalID: 847140329
-=======
-      spriteID: 2a84cff5f3df91047a0e9df74e2df899
-      internalID: -1082477110
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: bc585bc7089e5834b8a426b221b4b835
+      internalID: -1227773574
       vertices: []
       indices: 
       edges: []
@@ -3795,27 +2689,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 320
-        y: 6
-        width: 21
-        height: 21
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 0a17f19754986fa4a9bf98cd2c03aee6
-      internalID: 647602877
-=======
-      spriteID: 1412fba46ab00bd438e46785d58e0b98
-      internalID: -1125587935
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: ca75f6533957aee4489ac874c932e446
+      internalID: 651636519
       vertices: []
       indices: 
       edges: []
@@ -3825,27 +2710,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 352
-        y: 6
-        width: 21
-        height: 21
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 7c711f04d4154194e9092815842dcd07
-      internalID: 1244271112
-=======
-      spriteID: 8c6785b37a2502b4497f3aaa898b51c6
-      internalID: -1275663757
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 74731c9cdaa214a46b2e24cdbfaf9fc4
+      internalID: 431379219
       vertices: []
       indices: 
       edges: []
@@ -3854,28 +2730,19 @@ TextureImporter:
       name: AllActions-Sheet_124
       rect:
         serializedVersion: 2
-        x: 395
-        y: 4
-        width: 9
-        height: 24
+        x: 384
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 4917d48288a211248a59339a99530d3c
-      internalID: 828229181
-=======
-      spriteID: 56a49ae0476f949488610ed8cefe4556
-      internalID: 7318377
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 8157d7c58bf46a44c9169ab4c3edfe96
+      internalID: -6384816
       vertices: []
       indices: 
       edges: []
@@ -3884,28 +2751,19 @@ TextureImporter:
       name: AllActions-Sheet_125
       rect:
         serializedVersion: 2
-        x: 425
-        y: 6
-        width: 12
-        height: 20
+        x: 416
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 8d02cba06edc05c4290d0249b703c57a
-      internalID: 1965043839
-=======
-      spriteID: 45a76b26a978f4a4bb2178bfcc66321a
-      internalID: -960952427
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 3e7bfc6bf421d404a9262a3cb6156335
+      internalID: -2101880095
       vertices: []
       indices: 
       edges: []
@@ -3914,28 +2772,19 @@ TextureImporter:
       name: AllActions-Sheet_126
       rect:
         serializedVersion: 2
-        x: 457
-        y: 6
-        width: 20
-        height: 20
+        x: 448
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: c7966e9bf267e5646810f9927a44d526
-      internalID: -1252464086
-=======
-      spriteID: 138c0c78998ade04da334cab6ce3800a
-      internalID: 1024601379
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 37ce720f09b1de34799e971a0526a27b
+      internalID: -1415787316
       vertices: []
       indices: 
       edges: []
@@ -3944,28 +2793,19 @@ TextureImporter:
       name: AllActions-Sheet_127
       rect:
         serializedVersion: 2
-        x: 489
-        y: 6
-        width: 19
-        height: 20
+        x: 480
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: cf4d89abf242abb4e8ab2f7b047a1934
-      internalID: -996010187
-=======
-      spriteID: 7a8d2eb2fe3937e4ea34b9c41b75e43b
-      internalID: 345081107
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: e1c8bbe5923f63942ae8be2124a09950
+      internalID: -2019731697
       vertices: []
       indices: 
       edges: []
@@ -3974,28 +2814,19 @@ TextureImporter:
       name: AllActions-Sheet_128
       rect:
         serializedVersion: 2
-        x: 522
-        y: 4
-        width: 10
-        height: 25
+        x: 512
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: c3caa720bfd55384d9b0312c6fbf6201
-      internalID: 585661288
-=======
-      spriteID: ba23bec0916507b4884aad984d827b67
-      internalID: -69653654
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: f4f7574589c5c894980260375e7c7d9e
+      internalID: -122284869
       vertices: []
       indices: 
       edges: []
@@ -4004,28 +2835,19 @@ TextureImporter:
       name: AllActions-Sheet_129
       rect:
         serializedVersion: 2
-        x: 550
-        y: 4
-        width: 16
-        height: 23
+        x: 544
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: ee9664bc208c58e4aaa3c240c810305e
-      internalID: -1220595366
-=======
-      spriteID: 84d5adc4ff89d6148956f6dd333ca3a0
-      internalID: 279210596
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 9c10db3a95b243a43ac69cc77d0fa46a
+      internalID: 1334587268
       vertices: []
       indices: 
       edges: []
@@ -4034,28 +2856,19 @@ TextureImporter:
       name: AllActions-Sheet_130
       rect:
         serializedVersion: 2
-        x: 582
-        y: 4
-        width: 16
-        height: 23
+        x: 576
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: e7ce57d2b92d1584aa60026d3ffcedbe
-      internalID: 209021988
-=======
-      spriteID: c57ad933b62a9ea4983fda7302f3579d
-      internalID: 1883821258
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 1c14ab1db69119341bcc8830b0d8117e
+      internalID: -840593576
       vertices: []
       indices: 
       edges: []
@@ -4064,28 +2877,19 @@ TextureImporter:
       name: AllActions-Sheet_131
       rect:
         serializedVersion: 2
-        x: 613
-        y: 5
-        width: 16
-        height: 21
+        x: 608
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 4f838748f4f5e68469e1c6a8cd77d8d3
-      internalID: 566148793
-=======
-      spriteID: 1b127c2291c3fab4dbe24aa0561ab043
-      internalID: 1820205936
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: cb506cf939ee46b4db641fedd2e88655
+      internalID: -806617093
       vertices: []
       indices: 
       edges: []
@@ -4094,28 +2898,19 @@ TextureImporter:
       name: AllActions-Sheet_132
       rect:
         serializedVersion: 2
-        x: 651
-        y: 4
-        width: 9
-        height: 24
+        x: 640
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 464f40ab389261342985556a4414eacc
-      internalID: 2016620449
-=======
-      spriteID: 643c6ffa8eeb3774cbff6a71788aeea5
-      internalID: 2138436333
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: b05073ed74d58664b8caa5881ddcfb2f
+      internalID: -951520874
       vertices: []
       indices: 
       edges: []
@@ -4124,28 +2919,19 @@ TextureImporter:
       name: AllActions-Sheet_133
       rect:
         serializedVersion: 2
-        x: 683
-        y: 4
-        width: 12
-        height: 25
+        x: 672
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 952f0077e5f782840a4fdebd9c1d5870
-      internalID: -832044550
-=======
-      spriteID: 242e12be47a3cb541ad023afb807336c
-      internalID: 869643136
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: ecc155542afc9eb4994900719a4d5503
+      internalID: 436432016
       vertices: []
       indices: 
       edges: []
@@ -4154,28 +2940,19 @@ TextureImporter:
       name: AllActions-Sheet_134
       rect:
         serializedVersion: 2
-        x: 715
-        y: 4
-        width: 12
-        height: 25
+        x: 704
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 6f7fa4cc22c85ca4d966718a2a359ba0
-      internalID: -867840929
-=======
-      spriteID: a99b20ec6ca93cf4da588e9a5d16b194
-      internalID: -519093568
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: dbfe9354ceb85bd4a9670cf00d8b1024
+      internalID: 1898451263
       vertices: []
       indices: 
       edges: []
@@ -4184,28 +2961,19 @@ TextureImporter:
       name: AllActions-Sheet_135
       rect:
         serializedVersion: 2
-        x: 745
-        y: 6
-        width: 14
-        height: 20
+        x: 736
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 0824dbf0fa7242e4688891b163fc9b9f
-      internalID: -2127690601
-=======
-      spriteID: d20936701ff4eb54d895b3787780b082
-      internalID: -494761818
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 4b8b35403a9be914db06db197dc5fb9c
+      internalID: 764361593
       vertices: []
       indices: 
       edges: []
@@ -4214,28 +2982,19 @@ TextureImporter:
       name: AllActions-Sheet_136
       rect:
         serializedVersion: 2
-        x: 775
-        y: 4
-        width: 13
-        height: 23
+        x: 768
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: 7727df4bb61469d4ca9ddaf72f2807fc
-      internalID: -1726375506
-=======
-      spriteID: 59e70fd6a25987f4f93e08ec3353ab12
-      internalID: 775650899
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: 53ab62b16035c0149974f5ff1d966143
+      internalID: 1463978363
       vertices: []
       indices: 
       edges: []
@@ -4244,28 +3003,19 @@ TextureImporter:
       name: AllActions-Sheet_137
       rect:
         serializedVersion: 2
-        x: 806
-        y: 3
-        width: 15
-        height: 25
+        x: 800
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: ca6dfff8d4690354b8de632220fa402b
-      internalID: -556417348
-=======
-      spriteID: 5f267549bed97224a9ec24e84926b2c4
-      internalID: -1930019140
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: f7c0a6af8e0c87141b6200590bdfa5a0
+      internalID: 243478566
       vertices: []
       indices: 
       edges: []
@@ -4274,28 +3024,19 @@ TextureImporter:
       name: AllActions-Sheet_138
       rect:
         serializedVersion: 2
-        x: 841
-        y: 6
-        width: 19
-        height: 20
+        x: 832
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: baae58396ff077247a70e724941db7c2
-      internalID: 958982899
-=======
-      spriteID: fe8608691e8e0c9409575caba76b1ca2
-      internalID: -726537160
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: b5ff2d17f6a3f734da0c9051e1203857
+      internalID: -522027545
       vertices: []
       indices: 
       edges: []
@@ -4304,28 +3045,19 @@ TextureImporter:
       name: AllActions-Sheet_139
       rect:
         serializedVersion: 2
-        x: 872
-        y: 5
-        width: 21
-        height: 22
+        x: 864
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
       pivot: {x: 0.5, y: 0.5}
-=======
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      spriteID: df2c3e1d5fa6734498d52b87b13b8f89
-      internalID: 144868906
-=======
-      spriteID: 90abf4f1036d70f4e8f4481719c6c71e
-      internalID: 329081042
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      spriteID: e83ea710020abcc4892647f3df6f693f
+      internalID: 1258113075
       vertices: []
       indices: 
       edges: []
@@ -4333,11 +3065,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-    spriteID: 92c232c14e4d69c48ac754448d431fdf
-=======
-    spriteID: 5e97eb03825dee720800000000000000
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+    spriteID: 2f5b42f795fb05248be08d7dba8a4e56
     internalID: 0
     vertices: []
     indices: 
@@ -4345,289 +3073,146 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-<<<<<<< Updated upstream:Budots Brigade/Assets/Scenes/AllActions-Sheet.png.meta
-      AllActions-Sheet_0: -996978249
-      AllActions-Sheet_1: 1068244677
-      AllActions-Sheet_10: 1999616647
-      AllActions-Sheet_100: -1609396410
-      AllActions-Sheet_101: -1537454866
-      AllActions-Sheet_102: -588824817
-      AllActions-Sheet_103: 327155424
-      AllActions-Sheet_104: 1000859412
-      AllActions-Sheet_105: -1070814776
-      AllActions-Sheet_106: 612891671
-      AllActions-Sheet_107: 2052591709
-      AllActions-Sheet_108: -498702480
-      AllActions-Sheet_109: 1574492399
-      AllActions-Sheet_11: -920723263
-      AllActions-Sheet_110: 902180715
-      AllActions-Sheet_111: 1212571971
-      AllActions-Sheet_112: -1308098503
-      AllActions-Sheet_113: -1502518226
-      AllActions-Sheet_114: 1454773975
-      AllActions-Sheet_115: 1237606934
-      AllActions-Sheet_116: -1782459701
-      AllActions-Sheet_117: 1487267095
-      AllActions-Sheet_118: 278671179
-      AllActions-Sheet_119: 608021770
-      AllActions-Sheet_12: 2066670149
-      AllActions-Sheet_120: -2055771813
-      AllActions-Sheet_121: 847140329
-      AllActions-Sheet_122: 647602877
-      AllActions-Sheet_123: 1244271112
-      AllActions-Sheet_124: 828229181
-      AllActions-Sheet_125: 1965043839
-      AllActions-Sheet_126: -1252464086
-      AllActions-Sheet_127: -996010187
-      AllActions-Sheet_128: 585661288
-      AllActions-Sheet_129: -1220595366
-      AllActions-Sheet_13: 1115391763
-      AllActions-Sheet_130: 209021988
-      AllActions-Sheet_131: 566148793
-      AllActions-Sheet_132: 2016620449
-      AllActions-Sheet_133: -832044550
-      AllActions-Sheet_134: -867840929
-      AllActions-Sheet_135: -2127690601
-      AllActions-Sheet_136: -1726375506
-      AllActions-Sheet_137: -556417348
-      AllActions-Sheet_138: 958982899
-      AllActions-Sheet_139: 144868906
-      AllActions-Sheet_14: -1917202915
-      AllActions-Sheet_15: 1365286862
-      AllActions-Sheet_16: -1719984445
-      AllActions-Sheet_17: 125213342
-      AllActions-Sheet_18: -545632854
-      AllActions-Sheet_19: 1829192070
-      AllActions-Sheet_2: 93794333
-      AllActions-Sheet_20: -1295399714
-      AllActions-Sheet_21: -1457694369
-      AllActions-Sheet_22: -2012018562
-      AllActions-Sheet_23: 1629439932
-      AllActions-Sheet_24: 98228849
-      AllActions-Sheet_25: 1165577975
-      AllActions-Sheet_26: -1995567249
-      AllActions-Sheet_27: -126176363
-      AllActions-Sheet_28: 1265990412
-      AllActions-Sheet_29: 2010055901
-      AllActions-Sheet_3: 1845612728
-      AllActions-Sheet_30: 829093945
-      AllActions-Sheet_31: 668250727
-      AllActions-Sheet_32: 429553373
-      AllActions-Sheet_33: -1429177160
-      AllActions-Sheet_34: 1836573494
-      AllActions-Sheet_35: 1944348558
-      AllActions-Sheet_36: -617564329
-      AllActions-Sheet_37: 1092489409
-      AllActions-Sheet_38: 827241183
-      AllActions-Sheet_39: -334978532
-      AllActions-Sheet_4: -413048572
-      AllActions-Sheet_40: -983273294
-      AllActions-Sheet_41: 1910662399
-      AllActions-Sheet_42: 2103201308
-      AllActions-Sheet_43: -690748674
-      AllActions-Sheet_44: -1252271941
-      AllActions-Sheet_45: 894592173
-      AllActions-Sheet_46: 358506617
-      AllActions-Sheet_47: 1018000505
-      AllActions-Sheet_48: 824502242
-      AllActions-Sheet_49: 697286216
-      AllActions-Sheet_5: 639415282
-      AllActions-Sheet_50: -179549457
-      AllActions-Sheet_51: 304457239
-      AllActions-Sheet_52: -1931167154
-      AllActions-Sheet_53: 1982682066
-      AllActions-Sheet_54: 1838149536
-      AllActions-Sheet_55: -680173339
-      AllActions-Sheet_56: 1112584007
-      AllActions-Sheet_57: -1491055937
-      AllActions-Sheet_58: -1064863971
-      AllActions-Sheet_59: 1858455249
-      AllActions-Sheet_6: 1297672299
-      AllActions-Sheet_60: 1564704195
-      AllActions-Sheet_61: 1530416709
-      AllActions-Sheet_62: 962088638
-      AllActions-Sheet_63: -951425249
-      AllActions-Sheet_64: 1738914317
-      AllActions-Sheet_65: -1216269934
-      AllActions-Sheet_66: 238262259
-      AllActions-Sheet_67: 1408806649
-      AllActions-Sheet_68: -942138083
-      AllActions-Sheet_69: -1552252357
-      AllActions-Sheet_7: -2088992760
-      AllActions-Sheet_70: -1751039712
-      AllActions-Sheet_71: -1085164769
-      AllActions-Sheet_72: -691328181
-      AllActions-Sheet_73: 359856455
-      AllActions-Sheet_74: 454410165
-      AllActions-Sheet_75: -1764963117
-      AllActions-Sheet_76: -1537312873
-      AllActions-Sheet_77: -400918779
-      AllActions-Sheet_78: 212851601
-      AllActions-Sheet_79: -825993720
-      AllActions-Sheet_8: -723243156
-      AllActions-Sheet_80: -285326810
-      AllActions-Sheet_81: 283392964
-      AllActions-Sheet_82: -609006070
-      AllActions-Sheet_83: -1249006224
-      AllActions-Sheet_84: -2110334770
-      AllActions-Sheet_85: -226933550
-      AllActions-Sheet_86: -1256929938
-      AllActions-Sheet_87: 771014245
-      AllActions-Sheet_88: 960735937
-      AllActions-Sheet_89: -2026094472
-      AllActions-Sheet_9: 1763815535
-      AllActions-Sheet_90: -1691873744
-      AllActions-Sheet_91: -415960077
-      AllActions-Sheet_92: -120504141
-      AllActions-Sheet_93: -1521657409
-      AllActions-Sheet_94: 1727841908
-      AllActions-Sheet_95: -1828905282
-      AllActions-Sheet_96: 1230437510
-      AllActions-Sheet_97: -958581497
-      AllActions-Sheet_98: -1143138624
-      AllActions-Sheet_99: -2127506543
-=======
-      AllActions-Sheet_0: -334283345
-      AllActions-Sheet_1: 1359422760
-      AllActions-Sheet_10: -1444845367
-      AllActions-Sheet_100: 854477510
-      AllActions-Sheet_101: 568404236
-      AllActions-Sheet_102: -1567487873
-      AllActions-Sheet_103: 226175194
-      AllActions-Sheet_104: 1552872001
-      AllActions-Sheet_105: 705352224
-      AllActions-Sheet_106: -1831750883
-      AllActions-Sheet_107: 1411774079
-      AllActions-Sheet_108: 1172435461
-      AllActions-Sheet_109: -768603064
-      AllActions-Sheet_11: 1742730458
-      AllActions-Sheet_110: 1496354742
-      AllActions-Sheet_111: 230469381
-      AllActions-Sheet_112: 829684304
-      AllActions-Sheet_113: -1960750470
-      AllActions-Sheet_114: -1886936449
-      AllActions-Sheet_115: -493538140
-      AllActions-Sheet_116: 1064264249
-      AllActions-Sheet_117: 1763721714
-      AllActions-Sheet_118: -1704925444
-      AllActions-Sheet_119: 375556316
-      AllActions-Sheet_12: -815657749
-      AllActions-Sheet_120: 2137936259
-      AllActions-Sheet_121: -1082477110
-      AllActions-Sheet_122: -1125587935
-      AllActions-Sheet_123: -1275663757
-      AllActions-Sheet_124: 7318377
-      AllActions-Sheet_125: -960952427
-      AllActions-Sheet_126: 1024601379
-      AllActions-Sheet_127: 345081107
-      AllActions-Sheet_128: -69653654
-      AllActions-Sheet_129: 279210596
-      AllActions-Sheet_13: -770482532
-      AllActions-Sheet_130: 1883821258
-      AllActions-Sheet_131: 1820205936
-      AllActions-Sheet_132: 2138436333
-      AllActions-Sheet_133: 869643136
-      AllActions-Sheet_134: -519093568
-      AllActions-Sheet_135: -494761818
-      AllActions-Sheet_136: 775650899
-      AllActions-Sheet_137: -1930019140
-      AllActions-Sheet_138: -726537160
-      AllActions-Sheet_139: 329081042
-      AllActions-Sheet_14: 673798023
-      AllActions-Sheet_15: 45740132
-      AllActions-Sheet_16: 1130315090
-      AllActions-Sheet_17: 581505420
-      AllActions-Sheet_18: -1327317146
-      AllActions-Sheet_19: -535420061
-      AllActions-Sheet_2: 1114825873
-      AllActions-Sheet_20: 721638122
-      AllActions-Sheet_21: 104562160
-      AllActions-Sheet_22: 663776125
-      AllActions-Sheet_23: 403914450
-      AllActions-Sheet_24: -1503851794
-      AllActions-Sheet_25: 957004283
-      AllActions-Sheet_26: -759886297
-      AllActions-Sheet_27: 1972392571
-      AllActions-Sheet_28: 1309517922
-      AllActions-Sheet_29: 572770508
-      AllActions-Sheet_3: -65740139
-      AllActions-Sheet_30: 738559627
-      AllActions-Sheet_31: -978446785
-      AllActions-Sheet_32: -463293918
-      AllActions-Sheet_33: 2129032209
-      AllActions-Sheet_34: 731841860
-      AllActions-Sheet_35: -1668849584
-      AllActions-Sheet_36: 1806097248
-      AllActions-Sheet_37: 1716916218
-      AllActions-Sheet_38: 1712845891
-      AllActions-Sheet_39: 198156755
-      AllActions-Sheet_4: 1120491060
-      AllActions-Sheet_40: 1975507998
-      AllActions-Sheet_41: -1577296850
-      AllActions-Sheet_42: 1328265921
-      AllActions-Sheet_43: 1765258802
-      AllActions-Sheet_44: -1019820206
-      AllActions-Sheet_45: -1810564978
-      AllActions-Sheet_46: 1347632447
-      AllActions-Sheet_47: 1761475793
-      AllActions-Sheet_48: -1848892787
-      AllActions-Sheet_49: 519381784
-      AllActions-Sheet_5: 58203196
-      AllActions-Sheet_50: -1980552529
-      AllActions-Sheet_51: -943380103
-      AllActions-Sheet_52: 2049206171
-      AllActions-Sheet_53: -709138043
-      AllActions-Sheet_54: -600813478
-      AllActions-Sheet_55: -1671093285
-      AllActions-Sheet_56: -1427970772
-      AllActions-Sheet_57: -1894784178
-      AllActions-Sheet_58: 1983861241
-      AllActions-Sheet_59: -1239257452
-      AllActions-Sheet_6: 430525972
-      AllActions-Sheet_60: -1029313315
-      AllActions-Sheet_61: -1345863854
-      AllActions-Sheet_62: -1763353963
-      AllActions-Sheet_63: 739367340
-      AllActions-Sheet_64: 1822709781
-      AllActions-Sheet_65: 221200215
-      AllActions-Sheet_66: -938841253
-      AllActions-Sheet_67: -763836281
-      AllActions-Sheet_68: -2069781693
-      AllActions-Sheet_69: -388851235
-      AllActions-Sheet_7: -1030775818
-      AllActions-Sheet_70: -1091253317
-      AllActions-Sheet_71: -1220456906
-      AllActions-Sheet_72: -300473778
-      AllActions-Sheet_73: -1168697423
-      AllActions-Sheet_74: -1140238702
-      AllActions-Sheet_75: -83184780
-      AllActions-Sheet_76: -97461582
-      AllActions-Sheet_77: -1704200381
-      AllActions-Sheet_78: 96516625
-      AllActions-Sheet_79: 285719708
-      AllActions-Sheet_8: -613164045
-      AllActions-Sheet_80: -500383350
-      AllActions-Sheet_81: -1444029193
-      AllActions-Sheet_82: 141529641
-      AllActions-Sheet_83: 1103000636
-      AllActions-Sheet_84: 649790558
-      AllActions-Sheet_85: -1071480360
-      AllActions-Sheet_86: 1613618409
-      AllActions-Sheet_87: -99856421
-      AllActions-Sheet_88: -1805487939
-      AllActions-Sheet_89: -342053364
-      AllActions-Sheet_9: -777989411
-      AllActions-Sheet_90: 1767300250
-      AllActions-Sheet_91: 933810175
-      AllActions-Sheet_92: 1939196914
-      AllActions-Sheet_93: 1835488803
-      AllActions-Sheet_94: 984883887
-      AllActions-Sheet_95: 1229349198
-      AllActions-Sheet_96: 148768482
-      AllActions-Sheet_97: -245666671
-      AllActions-Sheet_98: -931918950
-      AllActions-Sheet_99: -757451240
->>>>>>> Stashed changes:Budots Brigade/Assets/Sprites/Temp/AllActions-Sheet.png.meta
+      AllActions-Sheet_0: 147214513
+      AllActions-Sheet_1: 687937104
+      AllActions-Sheet_10: -1119093729
+      AllActions-Sheet_100: -1125869961
+      AllActions-Sheet_101: 2072970084
+      AllActions-Sheet_102: -1287238846
+      AllActions-Sheet_103: -598759879
+      AllActions-Sheet_104: 724736658
+      AllActions-Sheet_105: -1727695230
+      AllActions-Sheet_106: 830707641
+      AllActions-Sheet_107: 785717443
+      AllActions-Sheet_108: 764429636
+      AllActions-Sheet_109: 264273667
+      AllActions-Sheet_11: -1702015212
+      AllActions-Sheet_110: 1380869042
+      AllActions-Sheet_111: 1299424389
+      AllActions-Sheet_112: -785986353
+      AllActions-Sheet_113: -663143593
+      AllActions-Sheet_114: -567756526
+      AllActions-Sheet_115: -1364459414
+      AllActions-Sheet_116: 597356580
+      AllActions-Sheet_117: 1179584519
+      AllActions-Sheet_118: -386607683
+      AllActions-Sheet_119: -486570292
+      AllActions-Sheet_12: 2068607665
+      AllActions-Sheet_120: -935787462
+      AllActions-Sheet_121: -1227773574
+      AllActions-Sheet_122: 651636519
+      AllActions-Sheet_123: 431379219
+      AllActions-Sheet_124: -6384816
+      AllActions-Sheet_125: -2101880095
+      AllActions-Sheet_126: -1415787316
+      AllActions-Sheet_127: -2019731697
+      AllActions-Sheet_128: -122284869
+      AllActions-Sheet_129: 1334587268
+      AllActions-Sheet_13: 1589732985
+      AllActions-Sheet_130: -840593576
+      AllActions-Sheet_131: -806617093
+      AllActions-Sheet_132: -951520874
+      AllActions-Sheet_133: 436432016
+      AllActions-Sheet_134: 1898451263
+      AllActions-Sheet_135: 764361593
+      AllActions-Sheet_136: 1463978363
+      AllActions-Sheet_137: 243478566
+      AllActions-Sheet_138: -522027545
+      AllActions-Sheet_139: 1258113075
+      AllActions-Sheet_14: 771202856
+      AllActions-Sheet_15: -1072990686
+      AllActions-Sheet_16: 8885337
+      AllActions-Sheet_17: 1725128138
+      AllActions-Sheet_18: 1480725427
+      AllActions-Sheet_19: 16671126
+      AllActions-Sheet_2: 1453898993
+      AllActions-Sheet_20: 1439082330
+      AllActions-Sheet_21: -1592544201
+      AllActions-Sheet_22: -1240147081
+      AllActions-Sheet_23: 450197332
+      AllActions-Sheet_24: -1602813020
+      AllActions-Sheet_25: 1319501834
+      AllActions-Sheet_26: 191353364
+      AllActions-Sheet_27: -763559671
+      AllActions-Sheet_28: -488158247
+      AllActions-Sheet_29: -694371445
+      AllActions-Sheet_3: -1238552490
+      AllActions-Sheet_30: -1268016102
+      AllActions-Sheet_31: -186110406
+      AllActions-Sheet_32: 1510270433
+      AllActions-Sheet_33: 2060971115
+      AllActions-Sheet_34: 1289160092
+      AllActions-Sheet_35: -1017829355
+      AllActions-Sheet_36: -1574543729
+      AllActions-Sheet_37: -1552296812
+      AllActions-Sheet_38: 878259048
+      AllActions-Sheet_39: -247638009
+      AllActions-Sheet_4: 29412531
+      AllActions-Sheet_40: -727795550
+      AllActions-Sheet_41: 1775276661
+      AllActions-Sheet_42: -1580311086
+      AllActions-Sheet_43: 948198669
+      AllActions-Sheet_44: 2073822714
+      AllActions-Sheet_45: -1818313714
+      AllActions-Sheet_46: -1633185233
+      AllActions-Sheet_47: -1035996109
+      AllActions-Sheet_48: 924545815
+      AllActions-Sheet_49: -786105223
+      AllActions-Sheet_5: 843192149
+      AllActions-Sheet_50: -876895721
+      AllActions-Sheet_51: -1335304584
+      AllActions-Sheet_52: 73644509
+      AllActions-Sheet_53: -1729293335
+      AllActions-Sheet_54: -1055874369
+      AllActions-Sheet_55: -290070453
+      AllActions-Sheet_56: 1821749395
+      AllActions-Sheet_57: 702682220
+      AllActions-Sheet_58: -1857222144
+      AllActions-Sheet_59: 1723717363
+      AllActions-Sheet_6: 328333255
+      AllActions-Sheet_60: 563288291
+      AllActions-Sheet_61: -2141980933
+      AllActions-Sheet_62: 1985184892
+      AllActions-Sheet_63: -1153792241
+      AllActions-Sheet_64: 409384384
+      AllActions-Sheet_65: -534687752
+      AllActions-Sheet_66: -1926495649
+      AllActions-Sheet_67: 1476588849
+      AllActions-Sheet_68: -1355484328
+      AllActions-Sheet_69: 1877970445
+      AllActions-Sheet_7: -946778564
+      AllActions-Sheet_70: -456362799
+      AllActions-Sheet_71: -292164875
+      AllActions-Sheet_72: 116219975
+      AllActions-Sheet_73: 891114428
+      AllActions-Sheet_74: 1586541166
+      AllActions-Sheet_75: 1630982309
+      AllActions-Sheet_76: 1951453860
+      AllActions-Sheet_77: -1646310586
+      AllActions-Sheet_78: 1800948024
+      AllActions-Sheet_79: -764813400
+      AllActions-Sheet_8: -1455479794
+      AllActions-Sheet_80: -993442621
+      AllActions-Sheet_81: 1146600876
+      AllActions-Sheet_82: -1823918205
+      AllActions-Sheet_83: -1999429016
+      AllActions-Sheet_84: 1769931199
+      AllActions-Sheet_85: 457076286
+      AllActions-Sheet_86: -130667294
+      AllActions-Sheet_87: -2101017062
+      AllActions-Sheet_88: 1665932108
+      AllActions-Sheet_89: 623038136
+      AllActions-Sheet_9: -280861164
+      AllActions-Sheet_90: 161230965
+      AllActions-Sheet_91: 1352639897
+      AllActions-Sheet_92: 1945954149
+      AllActions-Sheet_93: 1535232088
+      AllActions-Sheet_94: -1617472350
+      AllActions-Sheet_95: -1959443561
+      AllActions-Sheet_96: 525886712
+      AllActions-Sheet_97: 1203625225
+      AllActions-Sheet_98: -1677033214
+      AllActions-Sheet_99: -1969781643
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
