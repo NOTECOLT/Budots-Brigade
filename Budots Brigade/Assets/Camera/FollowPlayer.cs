@@ -6,10 +6,13 @@ public class FollowPlayer : MonoBehaviour
 {
     [SerializeField] public Transform target;
     [SerializeField] public Camera cam;
-    public float smoothTime = 0.3f;
+    [SerializeField] public float smoothTime = 0.3f;
 
     private Vector3 velocity = Vector3.zero;
     private Vector3 offset = Vector3.zero;
+    
+    [SerializeField] private float closeRadius = 30f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +25,13 @@ public class FollowPlayer : MonoBehaviour
     void FixedUpdate()
     {
         Vector3 targetPosition = target.transform.position + offset;
-        transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref velocity, smoothTime);
+        Vector2 newOffset = transform.position - target.transform.position;
+        if (newOffset.magnitude > closeRadius){
+            transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref velocity, smoothTime*3);
+        } else {
+            transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref velocity, smoothTime/2);
+        }
+        
     }
 
 }

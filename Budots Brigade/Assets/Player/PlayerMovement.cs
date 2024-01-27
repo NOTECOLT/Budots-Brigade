@@ -53,12 +53,14 @@ public class PlayerMovement : MonoBehaviour
         if (movement.y < 0) facingUp = false;
         if (movement.y > 0) facingUp = true; 
 
-        if (facingUp){
-            if (facingLeft) ChangeAnimationState(PLAYER_LU);
-            else ChangeAnimationState(PLAYER_RU);
-        } else {
-            if (facingLeft) ChangeAnimationState(PLAYER_LD);
-            else ChangeAnimationState(PLAYER_RD);
+        if (anim){
+            if (facingUp){
+                if (facingLeft) ChangeAnimationState(PLAYER_LU);
+                else ChangeAnimationState(PLAYER_RU);
+            } else {
+                if (facingLeft) ChangeAnimationState(PLAYER_LD);
+                else ChangeAnimationState(PLAYER_RD);
+            }
         }
 
 
