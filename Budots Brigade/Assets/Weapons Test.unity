@@ -626,7 +626,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 2001341806}
-  equippedWeapon: {fileID: 11400000, guid: 1ed9d1bf49346984bb78393331aab425, type: 2}
+  equippedWeapon: {fileID: 11400000, guid: b76ae371c7d83334397a162457509f26, type: 2}
 --- !u!1 &1906354393
 GameObject:
   m_ObjectHideFlags: 0
