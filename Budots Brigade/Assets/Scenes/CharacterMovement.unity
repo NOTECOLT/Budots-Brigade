@@ -172,6 +172,7 @@ MonoBehaviour:
   cam: {fileID: 2131612111}
   distanceScale: 0.5
   smoothTime: 0.1
+  sprite: {fileID: 103078846}
 --- !u!212 &103078846
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -734,6 +735,7 @@ GameObject:
   - component: {fileID: 1553786936}
   - component: {fileID: 1553786935}
   - component: {fileID: 1553786940}
+  - component: {fileID: 1553786941}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -918,6 +920,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1553786941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553786934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3089268c1aefdf24984bd86f7536e538, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  walkSpeed: 2
+  runMult: 1.4
+  dashMult: 2
 --- !u!1 &1721498281
 GameObject:
   m_ObjectHideFlags: 0
