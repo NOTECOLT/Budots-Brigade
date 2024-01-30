@@ -34,10 +34,25 @@ public class SteeringBehaviors : MonoBehaviour
         }
     }
 
+    public void SteerSlowly(Vector2 linearAcceleration)
+    {
+        rb.velocity += linearAcceleration * Time.deltaTime * 0.2f;
+
+        if ( rb.velocity.magnitude > maxSpeed)
+        {
+            rb.velocity = rb.velocity.normalized * maxSpeed;
+        }
+    }
+
+    // STEERING BEHAVIORS
     public Vector2 Seek(Vector2 targetPos)
     {
-        Vector2 targetDirection = (targetPos - movingEntity.Pos()).normalized;
-        return targetDirection * maxAcceleration;
+        Vector2 toTarget = targetPos - movingEntity.Pos();          // position of target relative to movingEntity
+        if (toTarget.magnitude > movingEntity.seekMinDistance)
+        {
+            return toTarget.normalized * maxAcceleration;
+        }
+        return Vector2.zero;
     }
 
     public Vector2 Flee(Vector2 targetPos)
@@ -51,4 +66,6 @@ public class SteeringBehaviors : MonoBehaviour
         }
         else return Vector2.zero;
     }
+
+    
 }

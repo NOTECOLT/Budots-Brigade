@@ -3,11 +3,15 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class EnemyEntity : MonoBehaviour, IDamageable, IEnemyMoveable {
+public class EnemyEntity : MonoBehaviour, IDamageable, IEnemyMoveable, ITriggerCheckable {
     [field: SerializeField] public float MaxHealth {get; set; }
     [field: SerializeField] public float CurrentHealth{get; set;}
     public Rigidbody2D rb{get; set;}
     public bool IsFacingRight{get; set;} = true;
+
+    // ITriggerCheckable
+    public bool IsAggroed {get; set;}
+    public bool IsWithinRange {get; set;}
 
     #region State Machine Variables
     public EnemyStateMachine StateMachine{get; set;}
@@ -23,6 +27,7 @@ public class EnemyEntity : MonoBehaviour, IDamageable, IEnemyMoveable {
     #region Idle Variables
     public float RandomMovementRange = 2f;
     public float RandomMovementSpeed = 0.3f;
+    public float AggroRadius = 1f;
     #endregion
 
     SteeringBehaviors steeringBehaviors;
@@ -46,7 +51,7 @@ public class EnemyEntity : MonoBehaviour, IDamageable, IEnemyMoveable {
         ChaseState = new EnemyChaseState(this, StateMachine, steeringBehaviors);
         FleeState = new EnemyFleeState(this, StateMachine, steeringBehaviors);
 
-        StateMachine.Initialize(FleeState);
+        StateMachine.Initialize(IdleState);
     }
 
     void Update() {
@@ -79,5 +84,15 @@ public class EnemyEntity : MonoBehaviour, IDamageable, IEnemyMoveable {
             transform.rotation = Quaternion.Euler(rotator);
             IsFacingRight = !IsFacingRight;
         }
+    }
+
+    public void SetAggroStatus(bool isAggroed)
+    {
+        IsAggroed = isAggroed;
+    }
+
+    public void SetStrikingDistanceBool(bool isWithinStrikingDistance)
+    {
+        IsWithinRange = isWithinStrikingDistance;
     }
 }
