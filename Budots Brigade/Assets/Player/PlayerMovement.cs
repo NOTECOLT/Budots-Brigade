@@ -27,8 +27,14 @@ public class PlayerMovement : MonoBehaviour
     private bool facingLeft = true;
     private bool facingUp = true;
 
+    [SerializeField] private PlayerStats stats;
 
-    // Update is called once per frame
+    void Start()
+    {
+        //Initialize stats from stats.
+        updateStats();
+    }
+
     void Update()
     {
         movement.x = Input.GetAxisRaw("Horizontal");
@@ -64,7 +70,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
 
-        if (Input.GetKeyDown("space"))
+        if (Input.GetMouseButtonDown(1))
         {
             DashMove();
         }
@@ -87,4 +93,10 @@ public class PlayerMovement : MonoBehaviour
     {
         moveSpeed = 3;
     }
+
+    public void updateStats()
+    {
+        moveSpeed = stats.mod_walkSpeed;
+    }
+
 }
