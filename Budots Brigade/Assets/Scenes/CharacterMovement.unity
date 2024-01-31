@@ -251,7 +251,7 @@ GameObject:
   - component: {fileID: 127148880}
   - component: {fileID: 127148879}
   m_Layer: 0
-  m_Name: Text (TMP) (1)
+  m_Name: Speed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -506,6 +506,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72335829d67350c4bbbc8f9330ba36a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeout: 100
+  t: {fileID: 447086877}
   pup_type: walkSpeed
   amount: 1
 --- !u!1 &456098332
@@ -968,7 +970,7 @@ GameObject:
   - component: {fileID: 1177805108}
   - component: {fileID: 1177805107}
   m_Layer: 0
-  m_Name: Text (TMP) (2)
+  m_Name: Damage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1253,7 +1255,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3, y: 1}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1540,7 +1542,7 @@ GameObject:
   - component: {fileID: 1884228142}
   - component: {fileID: 1884228141}
   m_Layer: 0
-  m_Name: Text (TMP)
+  m_Name: Health
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1803,6 +1805,7 @@ GameObject:
   - component: {fileID: 1996914848}
   - component: {fileID: 1996914847}
   - component: {fileID: 1996914846}
+  - component: {fileID: 1996914850}
   m_Layer: 0
   m_Name: GUI
   m_TagString: Untagged
@@ -1895,6 +1898,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1996914850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996914845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d9644f48484a194d9305168c2b1b43a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1553786941}
+  health: {fileID: 1884228141}
+  speed: {fileID: 127148879}
+  damage: {fileID: 1177805107}
 --- !u!1 &2131612108
 GameObject:
   m_ObjectHideFlags: 0

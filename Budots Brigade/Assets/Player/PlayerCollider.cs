@@ -9,13 +9,16 @@ public class PlayerCollider : MonoBehaviour
     // Start is called before the first frame update
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag("PowerUp"))
-        {
-            PowerUpCoin coinStats = other.gameObject.GetComponent<PowerUpCoin>();
-            string type = coinStats.pup_type; // gotta change this to equipment or make a new version.
-            float amt = coinStats.amount;
-            
-            stats.modify_add(type, amt);
+        if(other){
+            if(other.CompareTag("PowerUp"))
+            {
+                PowerUpCoin coin = other.gameObject.GetComponent<PowerUpCoin>();
+                string type = coin.pup_type; // gotta change this to equipment or make a new version.
+                float amt = coin.amount;
+                
+                stats.modify_add(type, amt);
+                coin.Despawn();
+            }
         }
     }
 }
