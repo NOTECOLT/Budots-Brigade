@@ -18,5 +18,5 @@ MonoBehaviour:
   Timer: 3
   Type: 0
   Projectile: {fileID: 1247630485736372528, guid: 01300a2affc7f9e41b65d6b614cdf293, type: 3}
-  ProjectileVelocity: 2
+  ProjectileVelocity: 3
   Spray: 20

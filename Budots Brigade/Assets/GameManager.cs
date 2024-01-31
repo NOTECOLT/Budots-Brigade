@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour {
@@ -14,8 +15,9 @@ public class GameManager : MonoBehaviour {
             Instance = this;
         }
     }
-
+    [SerializeField] private float _nullWeaponTimer;
     public int PlayerHP = 100;
+    public float Timer { get; private set; }
     public int Wave = 0;
     [SerializeField] private GameObject _enemyParent;
     [SerializeField] private List<GameObject> _enemyPrefabs; // EnemyPrefabs[(int)EnemyType] to find the enemy prefab to instantiate
@@ -25,9 +27,25 @@ public class GameManager : MonoBehaviour {
 
     
     void Update() {
+        if (PlayerHP <= 0) Debug.Log("PLAYER DIED");
+
         if (_enemyParent.transform.childCount == 0 && Wave < EnemyWaves.FINAL_WAVE) {
             SpawnNextWave();
         }
+
+        if (Timer > 0) {
+            Timer -= Time.deltaTime;
+        } else {    
+            Instance.PlayerHP = 0;
+        }
+    }
+
+    public void StartTimer(float sec) {
+        Timer = sec;
+    }
+
+    public void StartNullWeaponTimer() {
+        StartTimer(_nullWeaponTimer);
     }
 
     public void SpawnNextWave() {

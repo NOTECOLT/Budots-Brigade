@@ -280,6 +280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ceb1cb268897c640b48d95f93cb7ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _nullWeaponTimer: 3
   PlayerHP: 100
   Wave: 0
   _enemyParent: {fileID: 988999046}
@@ -513,7 +514,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 1647869609}
-  equippedWeapon: {fileID: 11400000, guid: b76ae371c7d83334397a162457509f26, type: 2}
+  equippedWeapon: {fileID: 11400000, guid: 1ed9d1bf49346984bb78393331aab425, type: 2}
+  weaponObj: {fileID: 961248551}
+  throwProjectile: {fileID: 1247630485736372528, guid: 01300a2affc7f9e41b65d6b614cdf293, type: 3}
+  throwVelocity: 3
 --- !u!1 &961248551
 GameObject:
   m_ObjectHideFlags: 0
@@ -526,6 +530,7 @@ GameObject:
   - component: {fileID: 961248555}
   - component: {fileID: 961248554}
   - component: {fileID: 961248553}
+  - component: {fileID: 961248556}
   m_Layer: 2
   m_Name: Gun
   m_TagString: Untagged
@@ -629,6 +634,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &961248556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961248551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 421896b7620809e42b4f8fce40b80a5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &988999046
 GameObject:
   m_ObjectHideFlags: 0
