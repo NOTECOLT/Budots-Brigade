@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class PlayerMovement : MonoBehaviour
 {
     // Basics
@@ -13,19 +12,16 @@ public class PlayerMovement : MonoBehaviour
 
     // Extra Movement
     private bool canDash = true;
-    private float timerDash = 1f; 
-    private float delayDash = 0.3f; 
+    private float delayDash = 1f;
+    private bool isDashing = false;
 
     // Animation States
     [SerializeField] public Animator anim;
     string currentState;
-    const string PLAYER_IDLE = "Player_Idle";
-    const string PLAYER_LU = "PlayerWalkLeftUp";
-    const string PLAYER_LD = "PlayerWalkLeftDown";
-    const string PLAYER_RU = "PlayerWalkRightUp";
-    const string PLAYER_RD = "PlayerWalkRightDown";
     private bool facingLeft = true;
     private bool facingUp = true;
+    private bool prioUp = false;
+    private bool isMoving = false;
 
     [SerializeField] private PlayerStats stats;
 
@@ -39,40 +35,59 @@ public class PlayerMovement : MonoBehaviour
     {
         movement.x = Input.GetAxisRaw("Horizontal");
 		movement.y = Input.GetAxisRaw("Vertical");
+        
         movement = movement.normalized;
-
-        timerDash += Time.deltaTime;
-        if (!canDash && timerDash > delayDash){
-            canDash = true;
-        }
+        prioUp = movement.x == 0;
+        isMoving = Mathf.Abs(movement.x) + Mathf.Abs(movement.y) > 0;
     }
 	
 	void FixedUpdate()
 	{
 		rb.velocity = new Vector2(movement.x * moveSpeed, movement.y * moveSpeed);
 
-        if (movement == Vector2.zero) anim.speed = 0f;
-        else anim.speed = 1f;
-
         if (movement.x < 0) facingLeft = true;
         if (movement.x > 0) facingLeft = false; 
         if (movement.y < 0) facingUp = false;
         if (movement.y > 0) facingUp = true; 
 
+        //Debug.Log(prioUp);
+        Debug.Log(isMoving);
+        //Debug.Log(facingLeft);
         if (anim){
-            if (facingUp){
-                if (facingLeft) ChangeAnimationState(PLAYER_LU);
-                else ChangeAnimationState(PLAYER_RU);
-            } else {
-                if (facingLeft) ChangeAnimationState(PLAYER_LD);
-                else ChangeAnimationState(PLAYER_RD);
+            if(isDashing)
+            {
+                if (!prioUp){
+                    if (facingLeft) ChangeAnimationState("PLD");
+                    else if (!facingLeft) ChangeAnimationState("PRD");
+                } else{
+                    if (facingUp) ChangeAnimationState("PUD");
+                    else if (!facingUp) ChangeAnimationState("PDD");
+                }
             }
-        }
-
-
-        if (Input.GetMouseButtonDown(1))
+            else if (isMoving){
+                if (!prioUp){
+                    if (facingLeft) ChangeAnimationState("PLW");
+                    else if (!facingLeft) ChangeAnimationState("PRW");
+                } else{
+                    if (facingUp) ChangeAnimationState("PUW");
+                    else if (!facingUp) ChangeAnimationState("PDW");
+                }
+            }
+            else 
+            {
+                if (!prioUp){
+                    if (facingLeft) ChangeAnimationState("PLI");
+                    else if (!facingLeft) ChangeAnimationState("PRI");
+                } else{
+                    if (facingUp) ChangeAnimationState("PUI");
+                    else if (!facingUp) ChangeAnimationState("PDI");
+                }
+            }
+        
+        if (Input.GetMouseButtonDown(1) && canDash)
         {
             DashMove();
+        }
         }
 	}
 
@@ -86,12 +101,16 @@ public class PlayerMovement : MonoBehaviour
     void DashMove()
     {
         canDash = false;
-        moveSpeed = 9;
-        Invoke("DashEnd", 0.2f);
+        isDashing = true;
+        moveSpeed *= stats.mod_dashMult;
+        
+        Invoke("DashEnd", delayDash);
     }
     void DashEnd()
     {
-        moveSpeed = 3;
+        canDash = true;
+        isDashing = false;
+        moveSpeed = stats.mod_walkSpeed;
     }
 
     public void updateStats()
