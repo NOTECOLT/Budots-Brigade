@@ -31,6 +31,7 @@ public class EnemyEntity : MonoBehaviour, IDamageable, IEnemyMoveable, ITriggerC
     #endregion
 
     SteeringBehaviors steeringBehaviors;
+    Animator animator;
 
     private void Awake()
     {
@@ -44,6 +45,7 @@ public class EnemyEntity : MonoBehaviour, IDamageable, IEnemyMoveable, ITriggerC
     void Start() {
         CurrentHealth = MaxHealth;
         rb  = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
 
         steeringBehaviors = GetComponent<SteeringBehaviors>();
 
@@ -57,11 +59,11 @@ public class EnemyEntity : MonoBehaviour, IDamageable, IEnemyMoveable, ITriggerC
     void Update() {
         //enemyClass.DoAI(gameObject);
 
-        StateMachine.CurrentEnemyState.FrameUpdate();
+        //StateMachine.CurrentEnemyState.FrameUpdate();
     }
 
     void FixedUpdate() {
-        StateMachine.CurrentEnemyState.PhysicsUpdate();
+        //StateMachine.CurrentEnemyState.PhysicsUpdate();
     }
 
     public void MoveEnemy(Vector2 velocity)
@@ -84,6 +86,22 @@ public class EnemyEntity : MonoBehaviour, IDamageable, IEnemyMoveable, ITriggerC
             transform.rotation = Quaternion.Euler(rotator);
             IsFacingRight = !IsFacingRight;
         }
+    }
+
+    public void Damage(int damage)
+    {
+        animator.SetTrigger("Entity_Hit_Trigger");
+        CurrentHealth -= damage;
+
+        if (CurrentHealth <= 0)
+        {
+            OnDeath();
+        }
+    }
+
+    void OnDeath()
+    {
+        Destroy(gameObject);
     }
 
     public void SetAggroStatus(bool isAggroed)

@@ -9,6 +9,6 @@ public class EnemyClass : ScriptableObject {
     public float AttackCooldown; // Time between
 
     public virtual void DoAI(GameObject gameObject) {
-
+        
     }
 }

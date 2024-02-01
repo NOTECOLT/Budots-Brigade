@@ -143,6 +143,10 @@ PrefabInstance:
       propertyPath: RandomMovementSpeed
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 1946012322422807037, guid: 6ff8a55817a0e98469f66339badd8dff, type: 3}
+      propertyPath: <MaxHealth>k__BackingField
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 3164757518820971194, guid: 6ff8a55817a0e98469f66339badd8dff, type: 3}
       propertyPath: m_LinearDrag
       value: 5
@@ -191,6 +195,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Melee
       objectReference: {fileID: 0}
+    - target: {fileID: 8562219901565625005, guid: 6ff8a55817a0e98469f66339badd8dff, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8562219901565625005, guid: 6ff8a55817a0e98469f66339badd8dff, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -204,6 +216,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8562219901565625005, guid: 6ff8a55817a0e98469f66339badd8dff, type: 3}
       insertIndex: 5
       addedObject: {fileID: 53520207}
+    - targetCorrespondingSourceObject: {fileID: 8562219901565625005, guid: 6ff8a55817a0e98469f66339badd8dff, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 53520213}
   m_SourcePrefab: {fileID: 100100000, guid: 6ff8a55817a0e98469f66339badd8dff, type: 3}
 --- !u!1 &53520201 stripped
 GameObject:
@@ -243,6 +258,27 @@ MonoBehaviour:
   maxAcceleration: 20
   fleeDistance: 4
   seekMinDistance: 1
+--- !u!95 &53520213
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53520201}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cde3255c6ed130c46a66540fcac509f0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &75568797
 GameObject:
   m_ObjectHideFlags: 0
@@ -254,7 +290,7 @@ GameObject:
   - component: {fileID: 75568798}
   - component: {fileID: 75568799}
   - component: {fileID: 75568800}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: StrikingDistance
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -930,7 +966,7 @@ GameObject:
   - component: {fileID: 739323352}
   - component: {fileID: 739323353}
   - component: {fileID: 739323354}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: AggroRadius
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1166,7 +1202,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 876340075}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Enemies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1625,7 +1661,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1612241581}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: TriggerAreas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
