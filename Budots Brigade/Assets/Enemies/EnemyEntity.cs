@@ -11,9 +11,9 @@ public class EnemyEntity : MonoBehaviour, IDamageable, IEnemyMoveable, ITriggerC
 
     // ITriggerCheckable
     public bool IsAggroed {get; set;}
-    public bool IsWithinRange {get; set;}
+    public bool IsWithinAttackRange {get; set;}
 
-    public EnemyClass enemyClass;
+    EnemyClass enemyClass;
 
     // STATE MACHINE
     #region State Machine Variables
@@ -46,6 +46,7 @@ public class EnemyEntity : MonoBehaviour, IDamageable, IEnemyMoveable, ITriggerC
         CurrentHealth = MaxHealth;
         rb  = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        enemyClass = GetComponent<EnemyClass>();
 
         steeringBehaviors = GetComponent<SteeringBehaviors>();
 
@@ -53,12 +54,15 @@ public class EnemyEntity : MonoBehaviour, IDamageable, IEnemyMoveable, ITriggerC
         ChaseState = new EnemyChaseState(this, StateMachine, steeringBehaviors);
         FleeState = new EnemyFleeState(this, StateMachine, steeringBehaviors);
 
-        StateMachine.Initialize(IdleState);
+        StateMachine.Initialize(ChaseState);
     }
 
     void Update() {
-        //enemyClass.DoAI(gameObject);
-
+        if (IsWithinAttackRange)
+        {
+            enemyClass.DoAttack(gameObject);
+        }
+    
         StateMachine.CurrentEnemyState.FrameUpdate();
     }
 
@@ -109,8 +113,8 @@ public class EnemyEntity : MonoBehaviour, IDamageable, IEnemyMoveable, ITriggerC
         IsAggroed = isAggroed;
     }
 
-    public void SetStrikingDistanceBool(bool isWithinStrikingDistance)
+    public void SetStrikingDistanceBool(bool isWithinAttackRange)
     {
-        IsWithinRange = isWithinStrikingDistance;
+        IsWithinAttackRange = isWithinAttackRange;
     }
 }

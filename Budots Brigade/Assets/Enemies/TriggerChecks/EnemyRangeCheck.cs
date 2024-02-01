@@ -17,6 +17,7 @@ public class EnemyRangeCheck : MonoBehaviour
     {
         if (collision.gameObject == PlayerTarget)
         {
+            //Debug.Log("Yes");
             _enemy.SetStrikingDistanceBool(true);
         }
     }
