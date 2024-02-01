@@ -34,7 +34,7 @@ public class EnemyEntity : MonoBehaviour, IEnemyMoveable, ITriggerCheckable {
 
     SteeringBehaviors steeringBehaviors;
     Animator animator;
-    PlayerHealth playerHealth;
+    GameObject playerObj;
 
     private void Awake()
     {
@@ -46,7 +46,7 @@ public class EnemyEntity : MonoBehaviour, IEnemyMoveable, ITriggerCheckable {
     }
 
     void Start() {
-        playerHealth = FindObjectOfType<PlayerHealth>();
+        playerObj = GameObject.FindGameObjectWithTag("Player");
 
         enemyClass = GetComponent<EnemyClass>();
         MaxHealth = enemyClass.MaxHP;
@@ -68,7 +68,7 @@ public class EnemyEntity : MonoBehaviour, IEnemyMoveable, ITriggerCheckable {
     void Update() {
         if (IsWithinAttackRange)
         {
-            enemyClass.DoAttack(playerHealth);
+            enemyClass.DoAttack(playerObj);
         }
     
         StateMachine.CurrentEnemyState.FrameUpdate();
@@ -94,7 +94,7 @@ public class EnemyEntity : MonoBehaviour, IEnemyMoveable, ITriggerCheckable {
         }
     }
 
-    public void Damage(int damage)
+    public void Damage(float damage)
     {
         animator.SetTrigger("Entity_Hit_Trigger");
         CurrentHealth -= damage;

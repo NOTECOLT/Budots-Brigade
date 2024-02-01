@@ -40,7 +40,7 @@ public class PlayerAttack : MonoBehaviour {
 
         proj.transform.localPosition = (mousePos - (Vector2)transform.position).normalized;
         ProjectileVelocity pv = proj.GetComponent<ProjectileVelocity>();
-        pv.SetValues((mousePos - (Vector2)transform.position).normalized, throwVelocity, GameManager.Instance.Timer);
+        pv.SetValues((mousePos - (Vector2)transform.position).normalized, throwVelocity, GameManager.Instance.Timer, equippedWeapon.Damage, true);
 
         GameManager.Instance.StartNullWeaponTimer();
     }

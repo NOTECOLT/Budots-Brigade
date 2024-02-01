@@ -4,22 +4,21 @@ using UnityEngine;
 
 //[CreateAssetMenu(fileName = "Ranged", menuName = "Enemy/Ranged", order = 2)]
 public class RangedEnemy : EnemyClass {
-    public Projectile projectile;
+    public GameObject projectile;
 
     void Start()
     {
 
     }
 
-    public override void Attack(PlayerHealth gameObject) {
-        //Debug.Log("Ranged attack");
-        GameObject bulletGameObject = Instantiate(projectile.gameObject, this.gameObject.transform.position, Quaternion.identity);
-        bulletGameObject.GetComponent<Projectile>().Setup(GetDirectionToPlayer(gameObject));
+    public override void Attack(GameObject playerObj) {
+        GameObject bulletGameObject = Instantiate(projectile, this.gameObject.transform.position, Quaternion.identity);
+        bulletGameObject.GetComponent<ProjectileVelocity>().SetValues(GetDirectionToPlayer(playerObj), 5.0f, 3.0f, AttackDamage, false);
+
     }
 
-    Vector2 GetDirectionToPlayer(PlayerHealth playerHealth)
+    Vector2 GetDirectionToPlayer(GameObject playerObj)
     {
-        Vector2 direction = (playerHealth.gameObject.transform.position - this.transform.position).normalized;
-        return direction;
+        return (playerObj.transform.position - this.transform.position).normalized;
     }
 }

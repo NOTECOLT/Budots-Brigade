@@ -15,9 +15,8 @@ public class Pistol : Weapon {
 
         if (hit) {
             Debug.Log("HIT " + hit.collider.name + " using Pistol.");
-            if (hit.collider.gameObject.tag == "Enemy")
-            {
-                hit.collider.gameObject.GetComponent<EnemyEntity>().Damage(1);
+            if (hit.collider.gameObject.tag == "Enemy") {
+                hit.collider.gameObject.GetComponent<EnemyEntity>().Damage(Damage);
             }
         }
 

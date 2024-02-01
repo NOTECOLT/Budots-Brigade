@@ -12,7 +12,7 @@ public class EnemyClass : MonoBehaviour {
     public int AttackDamage;
 
     // player
-    protected PlayerHealth playerHealth;
+    protected GameObject player;
     
     float nextFire;
 
@@ -23,19 +23,19 @@ public class EnemyClass : MonoBehaviour {
 
     void Start()
     {
-        playerHealth = FindObjectOfType<PlayerHealth>();
+        player = GameObject.FindGameObjectWithTag ("Player");
     }
 
-    public void DoAttack(PlayerHealth gameObject) {
+    public void DoAttack(GameObject playerObj) {
         if (Time.time > nextFire)
         {
             // Debug.Log("do attack");
             nextFire = Time.time + AttackCooldown;
-            Attack(gameObject);
+            Attack(playerObj);
         }
     }
 
-    public virtual void Attack(PlayerHealth gameObject)
+    public virtual void Attack(GameObject playerObj)
     {
         Debug.Log("attack");
     }

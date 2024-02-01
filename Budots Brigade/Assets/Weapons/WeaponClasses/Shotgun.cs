@@ -27,7 +27,7 @@ public class Shotgun : Weapon {
             ProjectileVelocity pv = p.GetComponent<ProjectileVelocity>();
 
             Vector2 direction = new Vector2(Mathf.Cos(angle * Mathf.Deg2Rad), Mathf.Sin(angle * Mathf.Deg2Rad));
-            pv.SetValues(direction, ProjectileVelocity, 1.0f);
+            pv.SetValues(direction, ProjectileVelocity, 1.0f, Damage, true);
 
             angle += Spray;
         }

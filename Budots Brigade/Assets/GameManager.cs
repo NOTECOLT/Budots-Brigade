@@ -16,18 +16,20 @@ public class GameManager : MonoBehaviour {
         }
     }
     [SerializeField] private float _nullWeaponTimer;
-    public int PlayerHP = 100;
+    public float PlayerHP = 100;
+    private float _currentHP;
     public float Timer { get; private set; }
     public int Wave = 0;
     [SerializeField] private GameObject _enemyParent;
     [SerializeField] private List<GameObject> _enemyPrefabs; // EnemyPrefabs[(int)EnemyType] to find the enemy prefab to instantiate
 
     void Start() {
+        _currentHP = PlayerHP;
     }
 
     
     void Update() {
-        if (PlayerHP <= 0) {} //Debug.Log("PLAYER DIED");
+        if (_currentHP <= 0) Debug.Log("PLAYER DIED");
 
         if (_enemyParent.transform.childCount == 0 && Wave < EnemyWaves.FINAL_WAVE) {
             SpawnNextWave();
@@ -36,7 +38,7 @@ public class GameManager : MonoBehaviour {
         if (Timer > 0) {
             Timer -= Time.deltaTime;
         } else {    
-            Instance.PlayerHP = 0;
+            _currentHP = 0;
         }
     }
 
@@ -59,6 +61,10 @@ public class GameManager : MonoBehaviour {
                 GameObject enemy = SpawnEnemy(entry.Key);
             }
         }
+    }
+
+    public void DamagePlayer(float damage) {
+        _currentHP -= damage;
     }
 
     private GameObject SpawnEnemy(EnemyType enemyType) {

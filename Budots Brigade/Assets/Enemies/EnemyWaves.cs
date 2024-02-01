@@ -14,7 +14,8 @@ public static class EnemyWaves {
     public const int FINAL_WAVE = 10;
     public static Dictionary<EnemyType, int>[] WaveList { get; private set; } = new Dictionary<EnemyType, int>[FINAL_WAVE] {
         new Dictionary<EnemyType, int>() { // Wave 1
-            {EnemyType.MELEE, 1} 
+            {EnemyType.MELEE, 1},
+            {EnemyType.RANGED, 1}  
         },
         new Dictionary<EnemyType, int>() { // Wave 2
             {EnemyType.MELEE, 2},

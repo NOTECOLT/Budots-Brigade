@@ -1,16 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ProjectileVelocity : MonoBehaviour {
     Vector2 direction;
     float velocity;
     float timer;
+    float damage;
+    bool isPlayerProjectile; // if false, this means its an enemy projectile
 
-    public void SetValues(Vector2 direction, float velocity, float timer) {
+    public void SetValues(Vector2 direction, float velocity, float timer, float damage, bool isPlayerProjectile) {
         this.direction = direction;
         this.velocity = velocity;
         this.timer = timer;
+        this.damage = damage;
+        this.isPlayerProjectile = isPlayerProjectile;
     }
     
     void Start() {
@@ -28,9 +33,21 @@ public class ProjectileVelocity : MonoBehaviour {
     }
 
     void OnTriggerEnter2D(Collider2D col) {
-        if (col.gameObject.tag != "Projectile") {
+        if (col.gameObject.tag == "Projectile" || col.gameObject.tag == "TriggerArea") return;
+
+        if (isPlayerProjectile) {
+            if (col.gameObject.tag == "Player") return;
+
+            if (col.gameObject.tag == "Enemy") {
+                col.gameObject.GetComponent<EnemyEntity>().Damage(damage);
+            }
+
+            
             Destroy(gameObject);
+        } else {
+            if (col.gameObject.tag == "Enemy") return;
+            GameManager.Instance.DamagePlayer(damage);
+            Destroy(gameObject); 
         }
-        
     }
 }

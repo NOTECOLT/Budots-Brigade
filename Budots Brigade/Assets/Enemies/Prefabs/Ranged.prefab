@@ -202,12 +202,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1576158aea1965047a20915b82479e29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHP: 4
+  MaxHP: 100
   Speed: 2
   Acceleration: 20
   AttackCooldown: 1
   AttackDamage: 0
-  projectile: {fileID: 550250486395772870, guid: 913c4bfd0362ba24e823852ce27882cb, type: 3}
+  projectile: {fileID: 1247630485736372528, guid: 01300a2affc7f9e41b65d6b614cdf293, type: 3}
 --- !u!114 &5210450393753501687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -257,7 +257,7 @@ GameObject:
   - component: {fileID: 6059449470291012554}
   m_Layer: 0
   m_Name: AggroRadius
-  m_TagString: Untagged
+  m_TagString: TriggerArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -370,7 +370,7 @@ GameObject:
   - component: {fileID: 4565977497823046719}
   m_Layer: 0
   m_Name: StrikingDistance
-  m_TagString: Untagged
+  m_TagString: TriggerArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

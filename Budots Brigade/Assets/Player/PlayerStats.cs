@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
-    public float    base_health =    100f;
+    // public float    base_health =    100f;
     public float    base_walkSpeed = 2f;
     public float    base_dashMult =  2.0f;
     public float    base_damMult =   1.0f;
     public float    base_damBonus =  0.0f;
     public float    base_atkSpeed =  1.0f;
 
-    public float    mod_health =     100f;
+    // public float    mod_health =     100f;
     public float    mod_walkSpeed =  2f;
     public float    mod_dashMult =   2.0f;
     public float    mod_damMult =    1.0f;
@@ -26,7 +26,7 @@ public class PlayerStats : MonoBehaviour
     {
         switch(stat){
             case "health":
-                mod_health = mod_health + (amount);
+                // mod_health = mod_health + (amount);
                 break;
             case "walkSpeed":
                 mod_walkSpeed = mod_walkSpeed + (amount);
@@ -55,7 +55,7 @@ public class PlayerStats : MonoBehaviour
     {
         switch(stat){
             case "health":
-                mod_health = mod_health * (amount);
+                // mod_health = mod_health * (amount);
                 break;
             case "walkSpeed":
                 mod_walkSpeed = mod_walkSpeed * (amount);
