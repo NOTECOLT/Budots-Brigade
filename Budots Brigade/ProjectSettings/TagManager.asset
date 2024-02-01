@@ -7,6 +7,7 @@ TagManager:
   - Projectile
   - PowerUp
   - Enemy
+  - TriggerArea
   layers:
   - Default
   - TransparentFX
