@@ -9,11 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad5fe9a41748d14408c7eb0bda680e3b, type: 3}
-  m_Name: Pistol
+  m_Script: {fileID: 11500000, guid: 1576158aea1965047a20915b82479e29, type: 3}
+  m_Name: Ranged
   m_EditorClassIdentifier: 
-  Name: Pistol
-  Sprite: {fileID: 21300000, guid: 74c87447e9b355448b01b1ee2d482dae, type: 3}
-  Damage: 10
-  Timer: 5
-  Type: 0
+  MaxHP: 100
+  Speed: 5
+  AttackCooldown: 10
