@@ -13,6 +13,9 @@ public class EnemyEntity : MonoBehaviour, IDamageable, IEnemyMoveable, ITriggerC
     public bool IsAggroed {get; set;}
     public bool IsWithinRange {get; set;}
 
+    public EnemyClass enemyClass;
+
+    // STATE MACHINE
     #region State Machine Variables
     public EnemyStateMachine StateMachine{get; set;}
     public EnemyIdleState IdleState{get; set;}
@@ -20,9 +23,6 @@ public class EnemyEntity : MonoBehaviour, IDamageable, IEnemyMoveable, ITriggerC
     public EnemyAttackState AttackState{get; set;}
     public EnemyFleeState FleeState{get; set;}
     #endregion
-
-    public EnemyClass enemyClass;
-    //protected int _hp;
 
     #region Idle Variables
     public float RandomMovementRange = 2f;
@@ -59,11 +59,11 @@ public class EnemyEntity : MonoBehaviour, IDamageable, IEnemyMoveable, ITriggerC
     void Update() {
         //enemyClass.DoAI(gameObject);
 
-        //StateMachine.CurrentEnemyState.FrameUpdate();
+        StateMachine.CurrentEnemyState.FrameUpdate();
     }
 
     void FixedUpdate() {
-        //StateMachine.CurrentEnemyState.PhysicsUpdate();
+        StateMachine.CurrentEnemyState.PhysicsUpdate();
     }
 
     public void MoveEnemy(Vector2 velocity)
