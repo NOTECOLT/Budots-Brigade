@@ -6,6 +6,7 @@ using UnityEngine;
 public class SteeringBehaviors : MonoBehaviour
 {
     MovingEntity movingEntity;
+    EnemyClass enemyClass;
     Rigidbody2D rb;
     float maxSpeed;
     float maxAcceleration;
@@ -14,8 +15,11 @@ public class SteeringBehaviors : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         movingEntity = GetComponent<MovingEntity>();
-        maxSpeed = movingEntity.maxSpeed;
-        maxAcceleration = movingEntity.maxAcceleration;
+        //maxSpeed = movingEntity.maxSpeed;
+        //maxAcceleration = movingEntity.maxAcceleration;
+        enemyClass = GetComponent<EnemyClass>();
+        maxSpeed = enemyClass.Speed;
+        maxAcceleration = enemyClass.Acceleration;
     }
 
     // Update is called once per frame

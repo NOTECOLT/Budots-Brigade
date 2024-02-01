@@ -7,7 +7,12 @@ public class EnemyClass : MonoBehaviour {
     // GENERIC ENEMY CLASS -- Inherit from me!!
     public int MaxHP;
     public float Speed;
+    public float Acceleration;
     public float AttackCooldown; // Time between
+    public int AttackDamage;
+
+    // player
+    protected PlayerHealth playerHealth;
     
     float nextFire;
 
@@ -16,16 +21,21 @@ public class EnemyClass : MonoBehaviour {
         nextFire = 0;
     }
 
-    public void DoAttack(GameObject gameObject) {
+    void Start()
+    {
+        playerHealth = FindObjectOfType<PlayerHealth>();
+    }
+
+    public void DoAttack(PlayerHealth gameObject) {
         if (Time.time > nextFire)
         {
-            Debug.Log("do attack");
+            // Debug.Log("do attack");
             nextFire = Time.time + AttackCooldown;
             Attack(gameObject);
         }
     }
 
-    public virtual void Attack(GameObject gameObject)
+    public virtual void Attack(PlayerHealth gameObject)
     {
         Debug.Log("attack");
     }

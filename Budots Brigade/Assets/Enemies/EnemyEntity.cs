@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class EnemyEntity : MonoBehaviour, IDamageable, IEnemyMoveable, ITriggerCheckable {
-    [field: SerializeField] public float MaxHealth {get; set; }
-    [field: SerializeField] public float CurrentHealth{get; set;}
+public class EnemyEntity : MonoBehaviour, IEnemyMoveable, ITriggerCheckable {
+    //[field: SerializeField] public float MaxHealth {get; set; }
+    //[field: SerializeField] public float CurrentHealth{get; set;}
+    float CurrentHealth;
+    float MaxHealth;
     public Rigidbody2D rb{get; set;}
     public bool IsFacingRight{get; set;} = true;
 
@@ -32,6 +34,7 @@ public class EnemyEntity : MonoBehaviour, IDamageable, IEnemyMoveable, ITriggerC
 
     SteeringBehaviors steeringBehaviors;
     Animator animator;
+    PlayerHealth playerHealth;
 
     private void Awake()
     {
@@ -43,10 +46,15 @@ public class EnemyEntity : MonoBehaviour, IDamageable, IEnemyMoveable, ITriggerC
     }
 
     void Start() {
+        playerHealth = FindObjectOfType<PlayerHealth>();
+
+        enemyClass = GetComponent<EnemyClass>();
+        MaxHealth = enemyClass.MaxHP;
+
         CurrentHealth = MaxHealth;
         rb  = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        enemyClass = GetComponent<EnemyClass>();
+        
 
         steeringBehaviors = GetComponent<SteeringBehaviors>();
 
@@ -60,7 +68,7 @@ public class EnemyEntity : MonoBehaviour, IDamageable, IEnemyMoveable, ITriggerC
     void Update() {
         if (IsWithinAttackRange)
         {
-            enemyClass.DoAttack(gameObject);
+            enemyClass.DoAttack(playerHealth);
         }
     
         StateMachine.CurrentEnemyState.FrameUpdate();
