@@ -51,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
         if (movement.y > 0) facingUp = true; 
 
         //Debug.Log(prioUp);
-        Debug.Log(isMoving);
+        // Debug.Log(isMoving);
         //Debug.Log(facingLeft);
         if (anim){
             if(isDashing)

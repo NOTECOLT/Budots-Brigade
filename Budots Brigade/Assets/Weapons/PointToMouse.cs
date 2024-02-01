@@ -25,6 +25,7 @@ public class PointToMouse : MonoBehaviour {
         float angle = Mathf.Atan2(mousePos.y - _rayOrigin.y, mousePos.x - _rayOrigin.x) * Mathf.Rad2Deg;
 		transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle + angleOffset));
 
+        // Debug.Log(Mathf.Abs(angle + angleOffset));
         if (alwaysUpright) GetComponent<SpriteRenderer>().flipY = Mathf.Abs(angle + angleOffset) > 90;
     }
 }
