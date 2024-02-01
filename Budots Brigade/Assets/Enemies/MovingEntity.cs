@@ -5,8 +5,6 @@ using UnityEngine;
 public class MovingEntity : MonoBehaviour
 {
     Rigidbody2D rb;
-    public float maxSpeed = 2f;
-    public float maxAcceleration = 25f;
     public float fleeDistance = 3f;
     public float seekMinDistance = 0.8f;                // minimum distance that seek is called
 

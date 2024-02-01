@@ -78,12 +78,6 @@ public class EnemyEntity : MonoBehaviour, IEnemyMoveable, ITriggerCheckable {
         StateMachine.CurrentEnemyState.PhysicsUpdate();
     }
 
-    public void MoveEnemy(Vector2 velocity)
-    {
-        rb.velocity = velocity;
-        CheckForLeftOrRightFacing(velocity);
-    }
-
     public void CheckForLeftOrRightFacing(Vector2 velocity)
     {
         if (IsFacingRight && velocity.x < 0f)

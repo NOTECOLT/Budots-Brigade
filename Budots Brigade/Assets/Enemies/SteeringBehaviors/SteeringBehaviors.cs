@@ -15,8 +15,6 @@ public class SteeringBehaviors : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         movingEntity = GetComponent<MovingEntity>();
-        //maxSpeed = movingEntity.maxSpeed;
-        //maxAcceleration = movingEntity.maxAcceleration;
         enemyClass = GetComponent<EnemyClass>();
         maxSpeed = enemyClass.Speed;
         maxAcceleration = enemyClass.Acceleration;
