@@ -3,18 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerWeapon : MonoBehaviour {
-    private SpriteRenderer _spr;
     
-    void Start() {
-        _spr = GetComponent<SpriteRenderer>();
-    }
-
-   
-    void Update() {
-        
+    public void EquipWeapon(Weapon equip) {
+        GetComponent<SpriteRenderer>().sprite = equip.Sprite;
     }
 
     public void DequipWeapon() {
-        _spr.sprite = null;
+        GetComponent<SpriteRenderer>().sprite = null;
     }
 }

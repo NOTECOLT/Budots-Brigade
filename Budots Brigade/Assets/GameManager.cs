@@ -27,7 +27,7 @@ public class GameManager : MonoBehaviour {
 
     
     void Update() {
-        if (PlayerHP <= 0) Debug.Log("PLAYER DIED");
+        if (PlayerHP <= 0) {} //Debug.Log("PLAYER DIED");
 
         if (_enemyParent.transform.childCount == 0 && Wave < EnemyWaves.FINAL_WAVE) {
             SpawnNextWave();

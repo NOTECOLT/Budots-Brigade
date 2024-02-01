@@ -514,7 +514,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 1647869609}
-  equippedWeapon: {fileID: 11400000, guid: 1ed9d1bf49346984bb78393331aab425, type: 2}
+  equippedWeapon: {fileID: 11400000, guid: b76ae371c7d83334397a162457509f26, type: 2}
   weaponObj: {fileID: 961248551}
   throwProjectile: {fileID: 1247630485736372528, guid: 01300a2affc7f9e41b65d6b614cdf293, type: 3}
   throwVelocity: 3
@@ -566,7 +566,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 1647869609}
-  angleOffset: 180
+  angleOffset: 0
+  alwaysUpright: 1
 --- !u!114 &961248554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -623,7 +624,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a47b07c02f95fd44084fde2db9b723e6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 74c87447e9b355448b01b1ee2d482dae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

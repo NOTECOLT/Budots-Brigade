@@ -25,14 +25,15 @@ public class PlayerAttack : MonoBehaviour {
     }
 
     public void EquipWeapon(Weapon equip) {
+        Debug.Log("Equipped " + equip.name);
         equippedWeapon = equip;
         GameManager.Instance.StartTimer(equippedWeapon.Timer);
+        weaponObj.GetComponent<PlayerWeapon>().EquipWeapon(equip);
     }
 
     private void ThrowEquipped() {
         equippedWeapon = null;
-        PlayerWeapon pw = weaponObj.GetComponent<PlayerWeapon>();
-        pw.DequipWeapon();
+        weaponObj.GetComponent<PlayerWeapon>().DequipWeapon();
 
         GameObject proj = Instantiate(throwProjectile, transform);
         Vector2 mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
