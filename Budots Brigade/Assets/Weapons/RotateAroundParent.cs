@@ -9,6 +9,7 @@ public class RotateAroundParent : MonoBehaviour {
 
     private Vector2 velocity = Vector2.zero;
     public float smoothTime = 0.3f;
+    
 
     public SpriteRenderer sprite;
     void Start() {
