@@ -2,16 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerStats : MonoBehaviour
-{
-    // public float    base_health =    100f;
+public enum modifiableStat {
+    WALK_SPEED,
+    DASH_MULT,
+    DAMAGE_MULT,
+    DAMAGE_BONUS,
+    ATTACK_SPEED
+}
+
+public class PlayerStats : MonoBehaviour {
     public float    base_walkSpeed = 2f;
     public float    base_dashMult =  2.0f;
     public float    base_damMult =   1.0f;
     public float    base_damBonus =  0.0f;
     public float    base_atkSpeed =  1.0f;
 
-    // public float    mod_health =     100f;
     public float    mod_walkSpeed =  2f;
     public float    mod_dashMult =   2.0f;
     public float    mod_damMult =    1.0f;
@@ -22,54 +27,45 @@ public class PlayerStats : MonoBehaviour
     
     [SerializeField] public PlayerMovement pm;
 
-    public void modify_add(string stat, float amount)
-    {
-        switch(stat){
-            case "health":
-                // mod_health = mod_health + (amount);
-                break;
-            case "walkSpeed":
+    public void modify_add(modifiableStat stat, float amount) {
+        switch(stat) {
+            case modifiableStat.WALK_SPEED:
                 mod_walkSpeed = mod_walkSpeed + (amount);
                 break;
-            case "dashMult":
+            case modifiableStat.DASH_MULT:
                 mod_dashMult = mod_dashMult + (amount);
                 break;
-            case "damMult":
+            case modifiableStat.DAMAGE_MULT:
                 mod_damMult = mod_damMult + (amount);
                 break;
-            case "damBonus":
+            case modifiableStat.DAMAGE_BONUS:
                 mod_damBonus = mod_damBonus + (amount);
                 break;
-            case "atkSpeed":
+            case modifiableStat.ATTACK_SPEED:
                 mod_atkSpeed = mod_atkSpeed + (amount);
                 break;
             default:
                 Debug.Log("Unrecognized stat increase");
                 break;
         }
-        Debug.Log("Updating walkSpeed");
         pm.updateStats();
     }
 
-    public void modify_mult(string stat, float amount)
-    {
-        switch(stat){
-            case "health":
-                // mod_health = mod_health * (amount);
-                break;
-            case "walkSpeed":
+    public void modify_mult(modifiableStat stat, float amount) {
+        switch(stat) {
+            case modifiableStat.WALK_SPEED:
                 mod_walkSpeed = mod_walkSpeed * (amount);
                 break;
-            case "dashMult":
+            case modifiableStat.DASH_MULT:
                 mod_dashMult = mod_dashMult * (amount);
                 break;
-            case "damMult":
+            case modifiableStat.DAMAGE_MULT:
                 mod_damMult = mod_damMult * (amount);
                 break;
-            case "damBonus":
+            case modifiableStat.DAMAGE_BONUS:
                 mod_damBonus = mod_damBonus * (amount);
                 break;
-            case "atkSpeed":
+            case modifiableStat.ATTACK_SPEED:
                 mod_atkSpeed = mod_atkSpeed * (amount);
                 break;
             default:

@@ -60,10 +60,12 @@ public class GameManager : MonoBehaviour {
         Wave++;
         Debug.Log("Spawning Wave " + Wave);
         
-        Dictionary<EnemyType, int> currentWave = EnemyWaves.WaveList[Wave % EnemyWaves.WAVE_LIST_LEN];
+        Dictionary<EnemyType, int> currentWave = EnemyWaves.WaveList[(Wave - 1) % EnemyWaves.WAVE_LIST_LEN];
 
         foreach (KeyValuePair<EnemyType, int> entry in currentWave) {
-            for (int i = 0; i < entry.Value * Mathf.Ceil(Wave / EnemyWaves.WAVE_LIST_LEN); i++) {
+            int scaler = (Wave < 5) ? 1 : (int)Mathf.Ceil(Wave / EnemyWaves.WAVE_LIST_LEN);
+
+            for (int i = 0; i < entry.Value * scaler; i++) {
                 GameObject enemy = SpawnEnemy(entry.Key);
                 Vector2 minSpawn = SpawnCenter - SpawnRadius;
                 Vector2 maxSpawn = SpawnCenter + SpawnRadius;

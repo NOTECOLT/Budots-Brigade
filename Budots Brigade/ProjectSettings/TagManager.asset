@@ -5,9 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Projectile
-  - PowerUp
   - Enemy
   - TriggerArea
+  - Pickup
   layers:
   - Default
   - TransparentFX

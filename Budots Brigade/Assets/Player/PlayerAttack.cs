@@ -32,16 +32,31 @@ public class PlayerAttack : MonoBehaviour {
     }
 
     private void ThrowEquipped() {
-        equippedWeapon = null;
-        weaponObj.GetComponent<PlayerWeapon>().DequipWeapon();
+        if (equippedWeapon == null) return;
 
         GameObject proj = Instantiate(throwProjectile, transform);
         Vector2 mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
 
         proj.transform.localPosition = (mousePos - (Vector2)transform.position).normalized;
+        proj.transform.parent = null;
+
+        proj.GetComponent<SpriteRenderer>().sprite = equippedWeapon.Sprite;
+
         ProjectileVelocity pv = proj.GetComponent<ProjectileVelocity>();
         pv.SetValues((mousePos - (Vector2)transform.position).normalized, throwVelocity, GameManager.Instance.Timer, equippedWeapon.Damage, true);
 
+        weaponObj.GetComponent<PlayerWeapon>().DequipWeapon();
+        equippedWeapon = null;
         GameManager.Instance.StartNullWeaponTimer();
+    }
+
+    void OnTriggerEnter2D(Collider2D other) {
+        if(other.CompareTag("Pickup")) {
+            
+            if (other.GetComponent<WeaponPickup>() == null) return;
+            if (equippedWeapon != null) return;
+
+            EquipWeapon(other.GetComponent<WeaponPickup>().weapon);
+        }
     }
 }
