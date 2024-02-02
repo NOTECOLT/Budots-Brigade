@@ -22,7 +22,7 @@ public class FollowPlayer : MonoBehaviour
 
     }
 
-    void FixedUpdate()
+    void LateUpdate()
     {
         Vector3 targetPosition = target.transform.position + offset;
         Vector2 newOffset = transform.position - target.transform.position;

@@ -12,7 +12,8 @@ public class PlayerMovement : MonoBehaviour
 
     // Extra Movement
     private bool canDash = true;
-    private float delayDash = 1f;
+    private float regainDash = 1f;
+    private float delayDash = 0.3f;
     private bool isDashing = false;
 
     // Animation States
@@ -41,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
         isMoving = Mathf.Abs(movement.x) + Mathf.Abs(movement.y) > 0;
     }
 	
-	void FixedUpdate()
+	void LateUpdate()
 	{
 		rb.velocity = new Vector2(movement.x * moveSpeed, movement.y * moveSpeed);
 
@@ -105,12 +106,16 @@ public class PlayerMovement : MonoBehaviour
         moveSpeed *= stats.mod_dashMult;
         
         Invoke("DashEnd", delayDash);
+        Invoke("DashGain", regainDash);
     }
     void DashEnd()
     {
-        canDash = true;
         isDashing = false;
         moveSpeed = stats.mod_walkSpeed;
+    }
+    void DashGain()
+    {
+        canDash = true;
     }
 
     public void updateStats()
