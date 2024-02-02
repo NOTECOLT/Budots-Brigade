@@ -10,7 +10,7 @@ public class playGUI : MonoBehaviour
 
     [SerializeField] public SettingsPanel Settings;
     
-    
+    [SerializeField] public HealthBar hp;
     [SerializeField] public TextMeshProUGUI waveText;
     [SerializeField] public TextMeshProUGUI timerText;
     public void PauseGame()
@@ -23,5 +23,6 @@ public class playGUI : MonoBehaviour
     {
         timerText.text = gm.Timer.ToString("");
         waveText.text = gm.Wave.ToString("");
+        hp.n = player.mod_health;
     }
 }
