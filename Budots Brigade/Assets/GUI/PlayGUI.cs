@@ -14,7 +14,7 @@ public class PlayGUI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        health.text = player.mod_health.ToString("");
+        health.text = GameManager.Instance.PlayerHP.ToString("");
         speed.text = player.mod_walkSpeed.ToString("");
         damage.text = player.mod_damBonus.ToString("");
     }
