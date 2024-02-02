@@ -818,7 +818,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.84600186, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1106,7 +1106,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c161692373dcfe4bbfd9db0454bfc78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gm: {fileID: 0}
+  player: {fileID: 0}
+  gun: {fileID: 0}
   Settings: {fileID: 3099511730095732954}
+  gunImage: {fileID: 0}
+  waveText: {fileID: 0}
+  timerText: {fileID: 0}
 --- !u!1 &8992480456956940978
 GameObject:
   m_ObjectHideFlags: 0
@@ -1135,8 +1141,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8079914040570468503}
   - {fileID: 2299013644440147332}
+  - {fileID: 8079914040570468503}
   m_Father: {fileID: 5916165416046979114}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
