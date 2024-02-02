@@ -11,7 +11,7 @@ public class Pistol : Weapon {
         if (!Input.GetMouseButtonUp((int)MouseButton.Left)) return 0;
         
         // Casts a ray from the center of the player
-        RaycastHit2D hit = Physics2D.Raycast(obj.transform.position, mousePos - (Vector2)obj.transform.position, 100, LayerMask.GetMask("Attackable")); // 3 is Attackable layer mask
+        RaycastHit2D hit = Physics2D.Raycast(obj.transform.position, mousePos - (Vector2)obj.transform.position, 200, LayerMask.GetMask("Attackable")); // 3 is Attackable layer mask
 
         if (hit) {
             Debug.Log("HIT " + hit.collider.name + " using Pistol.");

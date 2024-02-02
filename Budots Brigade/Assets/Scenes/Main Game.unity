@@ -838,6 +838,8 @@ MonoBehaviour:
   _nullWeaponTimer: 3
   PlayerHP: 100
   Wave: 0
+  SpawnCenter: {x: 0, y: 0}
+  SpawnRadius: {x: 9, y: 9}
   _enemyParent: {fileID: 1641654066}
   _enemyPrefabs:
   - {fileID: 5930310144420328257, guid: fcd2d22c898bc934e9c106bc5215b5ab, type: 3}

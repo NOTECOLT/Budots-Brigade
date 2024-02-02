@@ -9,41 +9,30 @@ public enum EnemyType {
 }
 
 public static class EnemyWaves {
-    // THE DREADED ENEMY WAVE LIST
+    // How does the Wave list work?
+    // Will be storing 5 template waves that the game will loop through every 5 waves
+    // One each loop, the game should scale the waves in difficulty by multiplying the number of enemies
     // ==========================================================================
-    public const int FINAL_WAVE = 10;
-    public static Dictionary<EnemyType, int>[] WaveList { get; private set; } = new Dictionary<EnemyType, int>[FINAL_WAVE] {
+    public const int WAVE_LIST_LEN = 5;
+    public static Dictionary<EnemyType, int>[] WaveList { get; private set; } = new Dictionary<EnemyType, int>[WAVE_LIST_LEN] {
         new Dictionary<EnemyType, int>() { // Wave 1
             {EnemyType.MELEE, 1},
-            {EnemyType.RANGED, 1}  
         },
         new Dictionary<EnemyType, int>() { // Wave 2
             {EnemyType.MELEE, 2},
             {EnemyType.RANGED, 1}  
         },
         new Dictionary<EnemyType, int>() { // Wave 3
-            {EnemyType.MELEE, 3} 
+            {EnemyType.MELEE, 2}, 
+            {EnemyType.RANGED, 2} 
         },
         new Dictionary<EnemyType, int>() { // Wave 4
-            {EnemyType.MELEE, 1} 
+            {EnemyType.MELEE, 1},
+            {EnemyType.RANGED, 3} 
         },
         new Dictionary<EnemyType, int>() { // Wave 5
-            {EnemyType.MELEE, 1} 
-        },
-        new Dictionary<EnemyType, int>() { // Wave 6
-            {EnemyType.MELEE, 1} 
-        },
-        new Dictionary<EnemyType, int>() { // Wave 7
-            {EnemyType.MELEE, 1} 
-        },
-        new Dictionary<EnemyType, int>() { // Wave 8
-            {EnemyType.MELEE, 1} 
-        },
-        new Dictionary<EnemyType, int>() { // Wave 9
-            {EnemyType.MELEE, 1} 
-        },
-        new Dictionary<EnemyType, int>() { // Wave 10
-            {EnemyType.MELEE, 1} 
+            {EnemyType.MELEE, 3},
+            {EnemyType.RANGED, 2}
         },
     };
 }
