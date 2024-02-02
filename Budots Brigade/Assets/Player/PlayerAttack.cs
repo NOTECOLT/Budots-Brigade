@@ -11,6 +11,8 @@ public class PlayerAttack : MonoBehaviour {
     public GameObject weaponObj;
     public GameObject throwProjectile;
     public float throwVelocity;
+    private float _cooldownTimer = 0;
+    
     
     void Start() {
         if (equippedWeapon != null) EquipWeapon(equippedWeapon);
@@ -19,7 +21,14 @@ public class PlayerAttack : MonoBehaviour {
     void Update() {
         if (equippedWeapon == null) return;
 
-        equippedWeapon.DoAttack(gameObject, cam.ScreenToWorldPoint(Input.mousePosition));
+        if (_cooldownTimer <= 0) {
+            if (equippedWeapon.DoAttack(gameObject, cam.ScreenToWorldPoint(Input.mousePosition)) == 1) {
+                _cooldownTimer = equippedWeapon.Cooldown;
+            }
+        } else {
+            _cooldownTimer -= Time.deltaTime;
+        }
+            
 
         if (Input.GetKeyUp(KeyCode.Q)) ThrowEquipped();
     }

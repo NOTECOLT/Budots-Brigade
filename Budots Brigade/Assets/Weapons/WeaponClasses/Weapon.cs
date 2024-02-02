@@ -9,10 +9,14 @@ public class Weapon : ScriptableObject {
     public float Damage;
     public float Timer;
     public WeaponType Type;
+    public float Cooldown;
+    public AudioClip[] SFX;
 
     /// <summary></summary>
     /// <param name="obj">Assumed that this will be the gameobject of the in-world weapon itself.</param>
-    public virtual int DoAttack(GameObject obj, Vector2 mousePos) { return 0; }
+    public virtual int DoAttack(GameObject obj, Vector2 mousePos) { 
+        return 0; 
+    }
 }
 
 public enum WeaponType {

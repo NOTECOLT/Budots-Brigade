@@ -17,6 +17,9 @@ MonoBehaviour:
   Damage: 10
   Timer: 5
   Type: 0
+  Cooldown: 0.4
+  SFX:
+  - {fileID: 8300000, guid: 89a32a635b2a0574b9f3bc4a7a384a9f, type: 3}
   Projectile: {fileID: 1247630485736372528, guid: 01300a2affc7f9e41b65d6b614cdf293, type: 3}
   ProjectileVelocity: 3
   Spray: 20

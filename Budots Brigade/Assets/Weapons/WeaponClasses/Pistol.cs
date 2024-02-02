@@ -20,6 +20,11 @@ public class Pistol : Weapon {
             }
         }
 
-        return 0;
+        System.Random random = new System.Random();
+
+        if (SFX.Length > 0)
+            SFXManager.Instance.PlayClip(SFX[random.Next(SFX.Length)]);
+
+        return 1;
     }
 }
