@@ -286,7 +286,7 @@ MonoBehaviour:
   Speed: 2
   Acceleration: 15
   AttackCooldown: 1
-  AttackDamage: 0
+  AttackDamage: 10
 --- !u!114 &3760308552321074523
 MonoBehaviour:
   m_ObjectHideFlags: 0

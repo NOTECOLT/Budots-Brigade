@@ -12,6 +12,7 @@ public class RangedEnemy : EnemyClass {
     }
 
     public override void Attack(GameObject playerObj) {
+        // Debug.Log("making projectile");
         GameObject bulletGameObject = Instantiate(projectile, this.gameObject.transform.position, Quaternion.identity);
         bulletGameObject.GetComponent<ProjectileVelocity>().SetValues(GetDirectionToPlayer(playerObj), 5.0f, 3.0f, AttackDamage, false);
 

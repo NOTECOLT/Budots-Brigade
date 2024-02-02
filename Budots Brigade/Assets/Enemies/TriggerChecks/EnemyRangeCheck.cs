@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class EnemyRangeCheck : MonoBehaviour
 {
-    public GameObject PlayerTarget {get; set;}
+    // public GameObject PlayerTarget {get; set;}
     private EnemyEntity _enemy;
     // Start is called before the first frame update
     void Start()
     {
-        PlayerTarget = GameObject.FindGameObjectWithTag("Player");
+        // PlayerTarget = GameObject.FindGameObjectWithTag("Player");
         _enemy = GetComponentInParent<EnemyEntity>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject == PlayerTarget)
+        if (collision.gameObject.tag == "Player")
         {
             //Debug.Log("Yes");
             _enemy.SetStrikingDistanceBool(true);
@@ -24,7 +24,7 @@ public class EnemyRangeCheck : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject == PlayerTarget)
+        if (collision.gameObject.tag == "Player")
         {
             _enemy.SetStrikingDistanceBool(false);
         }

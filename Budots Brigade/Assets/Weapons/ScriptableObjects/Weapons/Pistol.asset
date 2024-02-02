@@ -15,5 +15,5 @@ MonoBehaviour:
   Name: Pistol
   Sprite: {fileID: 21300000, guid: 74c87447e9b355448b01b1ee2d482dae, type: 3}
   Damage: 10
-  Timer: 5
+  Timer: 7
   Type: 0

@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour {
     [SerializeField] private float _nullWeaponTimer;
     public float PlayerHP = 100;
     private float _currentHP;
-    public float Timer { get; private set; }
+    public float Timer;
     public int Wave = 0;
     public Vector2 SpawnCenter = Vector2.zero;
     public Vector2 SpawnRadius;
@@ -69,8 +69,8 @@ public class GameManager : MonoBehaviour {
                 GameObject enemy = SpawnEnemy(entry.Key);
                 Vector2 minSpawn = SpawnCenter - SpawnRadius;
                 Vector2 maxSpawn = SpawnCenter + SpawnRadius;
-                enemy.transform.position = new Vector3(_r.Next((int)minSpawn.x, (int)maxSpawn.x),
-                                                        _r.Next((int)minSpawn.y, (int)maxSpawn.y), 0);
+                enemy.transform.position = new Vector2(_r.Next((int)minSpawn.x, (int)maxSpawn.x),
+                                                        _r.Next((int)minSpawn.y, (int)maxSpawn.y));
             }
         }
     }

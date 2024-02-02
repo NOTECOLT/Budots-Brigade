@@ -66,8 +66,10 @@ public class EnemyEntity : MonoBehaviour, IEnemyMoveable, ITriggerCheckable {
     }
 
     void Update() {
+        // Debug.Log(gameObject.name + " " + IsWithinAttackRange);
         if (IsWithinAttackRange)
         {
+            
             enemyClass.DoAttack(playerObj);
         }
     

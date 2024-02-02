@@ -39,6 +39,7 @@ public class PlayerAttack : MonoBehaviour {
 
         proj.transform.localPosition = (mousePos - (Vector2)transform.position).normalized;
         proj.transform.parent = null;
+        proj.transform.localScale = Vector3.one * 0.5f;
 
         proj.GetComponent<SpriteRenderer>().sprite = equippedWeapon.Sprite;
 

@@ -29,7 +29,7 @@ public class EnemyClass : MonoBehaviour {
     public void DoAttack(GameObject playerObj) {
         if (Time.time > nextFire)
         {
-            // Debug.Log("do attack");
+            
             nextFire = Time.time + AttackCooldown;
             Attack(playerObj);
         }
