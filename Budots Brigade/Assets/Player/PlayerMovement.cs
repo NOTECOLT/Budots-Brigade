@@ -26,10 +26,17 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private PlayerStats stats;
 
+    // Sounds
+    [SerializeField] private AudioClip[] footstepSFX;
+    private AudioSource audioSrc;
+    private System.Random _r;
+
     void Start()
     {
         //Initialize stats from stats.
         updateStats();
+        audioSrc = GetComponent<AudioSource>();
+        _r = new System.Random();
     }
 
     void Update()
@@ -40,6 +47,12 @@ public class PlayerMovement : MonoBehaviour
         movement = movement.normalized;
         prioUp = movement.x == 0;
         isMoving = Mathf.Abs(movement.x) + Mathf.Abs(movement.y) > 0;
+        if (isMoving) {
+            if (!audioSrc.isPlaying) {
+                audioSrc.clip = footstepSFX[_r.Next(0, footstepSFX.Length)];
+                audioSrc.Play();
+            }
+        }
     }
 	
 	void LateUpdate()

@@ -5,6 +5,7 @@ using UnityEngine;
 //[CreateAssetMenu(fileName = "Ranged", menuName = "Enemy/Ranged", order = 2)]
 public class RangedEnemy : EnemyClass {
     public GameObject projectile;
+    public float projectileVelocity;
 
     void Start()
     {
@@ -14,7 +15,7 @@ public class RangedEnemy : EnemyClass {
     public override void Attack(GameObject playerObj) {
         // Debug.Log("making projectile");
         GameObject bulletGameObject = Instantiate(projectile, this.gameObject.transform.position, Quaternion.identity);
-        bulletGameObject.GetComponent<ProjectileVelocity>().SetValues(GetDirectionToPlayer(playerObj), 5.0f, 3.0f, AttackDamage, false);
+        bulletGameObject.GetComponent<ProjectileVelocity>().SetValues(GetDirectionToPlayer(playerObj), projectileVelocity, 3.0f, AttackDamage, false);
 
     }
 
