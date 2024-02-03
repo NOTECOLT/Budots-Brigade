@@ -293,10 +293,10 @@ RectTransform:
   - {fileID: 1414764420}
   m_Father: {fileID: 1434469999}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 960, y: 102}
-  m_SizeDelta: {x: 393.44, y: 98.36319}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 102}
+  m_SizeDelta: {x: 393.43994, y: 98.36319}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &62339191
 MonoBehaviour:
@@ -480,7 +480,7 @@ MonoBehaviour:
     AUDIO
 
     Neal
-    Lerios - Lead
+    Lerios / RITUNI - Lead
 
     Zach Romualdez'
   m_isRightToLeft: 0
