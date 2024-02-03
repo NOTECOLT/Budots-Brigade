@@ -10,6 +10,7 @@ public class EnemyClass : MonoBehaviour {
     public float Acceleration;
     public float AttackCooldown; // Time between
     public int AttackDamage;
+    Animator anim;
 
     // player
     protected GameObject player;
@@ -24,6 +25,7 @@ public class EnemyClass : MonoBehaviour {
     void Start()
     {
         player = GameObject.FindGameObjectWithTag ("Player");
+        anim = GetComponent<Animator>();
     }
 
     public void DoAttack(GameObject playerObj) {
@@ -32,6 +34,7 @@ public class EnemyClass : MonoBehaviour {
             
             nextFire = Time.time + AttackCooldown;
             Attack(playerObj);
+            anim.SetTrigger("Attack");
         }
     }
 

@@ -32,7 +32,7 @@ public class SteeringBehaviors : MonoBehaviour
             anim.SetInteger("MovementDir", 1);
         } else {
             if (rb.velocity.y != 0) {
-                anim.SetInteger("MovementDir", 2);
+                anim.SetInteger("MovementDir", 2);  
             } else {
                 anim.SetInteger("MovementDir", 0);
             }
