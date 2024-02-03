@@ -10,6 +10,7 @@ public class SteeringBehaviors : MonoBehaviour
     Rigidbody2D rb;
     float maxSpeed;
     float maxAcceleration;
+    Animator anim;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,12 +19,24 @@ public class SteeringBehaviors : MonoBehaviour
         enemyClass = GetComponent<EnemyClass>();
         maxSpeed = enemyClass.Speed;
         maxAcceleration = enemyClass.Acceleration;
+
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (rb.velocity.x > 0) {
+            anim.SetInteger("MovementDir", 2);
+        } else if (rb.velocity.x < 0) {
+            anim.SetInteger("MovementDir", 1);
+        } else {
+            if (rb.velocity.y != 0) {
+                anim.SetInteger("MovementDir", 2);
+            } else {
+                anim.SetInteger("MovementDir", 0);
+            }
+        }
     }
 
     public void Steer(Vector2 linearAcceleration)

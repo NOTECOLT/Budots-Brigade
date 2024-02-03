@@ -283,7 +283,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MaxHP: 80
-  Speed: 2
+  Speed: 4
   Acceleration: 15
   AttackCooldown: 1
   AttackDamage: 10

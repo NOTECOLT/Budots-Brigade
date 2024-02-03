@@ -87,6 +87,7 @@ public class EnemyEntity : MonoBehaviour, IEnemyMoveable, ITriggerCheckable {
             Vector3 rotator = new Vector3(transform.rotation.x, 180f, transform.rotation.z);
             transform.rotation = Quaternion.Euler(rotator);
             IsFacingRight = !IsFacingRight;
+            
         }
         else if (!IsFacingRight && velocity.x > 0f)
         {
