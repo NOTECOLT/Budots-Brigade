@@ -1,25 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class HealthBar : MonoBehaviour
-{
-    public float n;
-    private float max;
+public class HealthBar : MonoBehaviour {
+    private Slider _s;
 
-    [SerializeField] public RectTransform over;
-    float initWidth;
-
-    void Start()
-    {
-        max = 100;
-        initWidth = over.rect.width;
+    void Start() {
+        _s = GetComponent<Slider>();
     }
 
-    void Update()
-    {
-        Debug.Log(n);
-        float newWidth = n/max * initWidth;
-        over.sizeDelta = new Vector2 (newWidth, 69.0816f);
+    void Update() {
+        _s.value = GameManager.Instance.CurrentHP / GameManager.Instance.PlayerHP;
     }
 }

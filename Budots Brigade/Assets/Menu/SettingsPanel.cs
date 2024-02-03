@@ -11,7 +11,15 @@ public class SettingsPanel : MonoBehaviour
     }
     public void Hide()
     {
-        GetComponent<RectTransform>().anchoredPosition = new Vector3(0, 2000, 0);
-        Time.timeScale = 1;
+        // GetComponent<RectTransform>().anchoredPosition = new Vector3(0, 2000, 0);
+        GameManager.Instance.ResumeGame();
+    }
+    void Update() {
+        if (GameManager.Instance.GamePaused) {
+            GetComponent<RectTransform>().anchoredPosition = new Vector3(0, 0, 0);
+        } else {
+            GetComponent<RectTransform>().anchoredPosition = new Vector3(0, 0, 0);
+            GetComponent<RectTransform>().anchoredPosition = new Vector3(0, 2000, 0);
+        }
     }
 }

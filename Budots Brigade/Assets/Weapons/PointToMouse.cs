@@ -15,6 +15,7 @@ public class PointToMouse : MonoBehaviour {
 
 
     void Update() {
+        if (GameManager.Instance.GamePaused) return;
         Vector2 mousePos = Input.mousePosition;
 
         // If the transform has no parent, the vector to the cursor will point from the center of the screen

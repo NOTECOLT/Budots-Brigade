@@ -6,7 +6,6 @@ using UnityEngine;
 //[CreateAssetMenu(fileName = "Melee", menuName = "Enemy/Melee", order = 1)]
 public class MeleeEnemy : EnemyClass {
     public override void Attack(GameObject playerObj) {
-        Debug.Log("Melee Attack hit Player");
         GameManager.Instance.DamagePlayer(AttackDamage);
     }
 }

@@ -18,6 +18,7 @@ public class RotateAroundParent : MonoBehaviour {
 
 
     void Update() {
+        if (GameManager.Instance.GamePaused) return;
         Vector2 mousePos = Input.mousePosition;
         
         if (transform.parent != null)

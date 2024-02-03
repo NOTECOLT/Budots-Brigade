@@ -23,6 +23,7 @@ public class ProjectileVelocity : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
+        if (GameManager.Instance.GamePaused) return;
         if (timer <= 0) Destroy(gameObject);
 
         // Forever Moving

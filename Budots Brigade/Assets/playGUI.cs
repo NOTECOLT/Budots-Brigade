@@ -14,11 +14,9 @@ public class playGUI : MonoBehaviour
     [SerializeField] public UnityEngine.UI.Image gunImage;
     [SerializeField] public TextMeshProUGUI waveText;
     [SerializeField] public TextMeshProUGUI timerText;
-    [SerializeField] public HealthBar hpBar;
-    public void PauseGame()
-    {
-        Time.timeScale = 0;
-        Settings.Open();
+    public void PauseGame() {
+        GameManager.Instance.PauseGame();
+        // Settings.Open();
     }
 
     void FixedUpdate()
@@ -26,6 +24,5 @@ public class playGUI : MonoBehaviour
         timerText.text = gm.Timer.ToString("");
         waveText.text = gm.Wave.ToString("");
         if (gun.sprite) gunImage.sprite =  gun.sprite;
-        hpBar.n = gm.PlayerHP;
     }
 }

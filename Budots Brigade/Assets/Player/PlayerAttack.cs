@@ -19,6 +19,7 @@ public class PlayerAttack : MonoBehaviour {
     }
 
     void Update() {
+        if (GameManager.Instance.GamePaused) return;
         if (equippedWeapon == null) return;
 
         if (_cooldownTimer <= 0) {

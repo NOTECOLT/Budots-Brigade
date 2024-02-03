@@ -17,8 +17,9 @@ public class GameManager : MonoBehaviour {
     }
     [SerializeField] private float _nullWeaponTimer;
     public float PlayerHP = 100;
-    private float _currentHP;
+    public float CurrentHP { get; private set; }
     public float Timer;
+    public bool GamePaused = false;
     public int Wave = 0;
     public Vector2 SpawnCenter = Vector2.zero;
     public Vector2 SpawnRadius;
@@ -29,13 +30,13 @@ public class GameManager : MonoBehaviour {
     [SerializeField] private List<GameObject> _enemyPrefabs; // EnemyPrefabs[(int)EnemyType] to find the enemy prefab to instantiate
 
     void Start() {
-        _currentHP = PlayerHP;
+        CurrentHP = PlayerHP;
         _r = new System.Random();
     }
 
     
     void Update() {
-        if (_currentHP <= 0) Debug.Log("PLAYER DIED");
+        if (CurrentHP <= 0) Debug.Log("PLAYER DIED");
 
         if (_enemyParent.transform.childCount == 0) {
             SpawnNextWave();
@@ -44,8 +45,26 @@ public class GameManager : MonoBehaviour {
         if (Timer > 0) {
             Timer -= Time.deltaTime;
         } else {    
-            _currentHP = 0;
+            CurrentHP = 0;
         }
+
+        if (Input.GetKeyUp(KeyCode.Escape)) {
+            if (!GamePaused) {
+                PauseGame();
+            } else {
+                ResumeGame();
+            }
+        }
+    }
+
+    public void PauseGame() {
+        Time.timeScale = 0;
+        GamePaused = true;
+    }
+
+    public void ResumeGame() {
+        Time.timeScale = 1;
+        GamePaused = false;
     }
 
     public void StartTimer(float sec) {
@@ -76,7 +95,7 @@ public class GameManager : MonoBehaviour {
     }
 
     public void DamagePlayer(float damage) {
-        _currentHP -= damage;
+        CurrentHP -= damage;
     }
 
     private GameObject SpawnEnemy(EnemyType enemyType) {
