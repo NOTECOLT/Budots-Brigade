@@ -20,6 +20,5 @@ public class SFXManager : MonoBehaviour {
     public void PlayClip(AudioClip audio) {
         _src.clip = audio;
         _src.Play();
-        // _src.clip = null;
     }
 }

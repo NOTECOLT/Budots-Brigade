@@ -31,7 +31,6 @@ public class EnemyClass : MonoBehaviour {
     public void DoAttack(GameObject playerObj) {
         if (Time.time > nextFire)
         {
-            
             nextFire = Time.time + AttackCooldown;
             Attack(playerObj);
             anim.SetTrigger("Attack");

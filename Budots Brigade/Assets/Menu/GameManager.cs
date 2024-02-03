@@ -15,6 +15,8 @@ public class GameManager : MonoBehaviour {
         } else {
             Instance = this;
         }
+
+        audioSrc = GetComponent<AudioSource>();
     }
     [SerializeField] private float _nullWeaponTimer;
     public float PlayerHP = 100;
@@ -26,10 +28,10 @@ public class GameManager : MonoBehaviour {
     public Vector2 SpawnRadius;
 
     private System.Random _r;
+    private AudioSource audioSrc;
     
     [SerializeField] private GameObject _enemyParent;
     [SerializeField] private List<GameObject> _enemyPrefabs; // EnemyPrefabs[(int)EnemyType] to find the enemy prefab to instantiate
-
     void Start() {
         CurrentHP = PlayerHP;
         _r = new System.Random();
@@ -45,8 +47,14 @@ public class GameManager : MonoBehaviour {
 
         if (Timer > 0) {
             Timer -= Time.deltaTime;
+
+            if (Timer <= audioSrc.clip.length && !audioSrc.isPlaying) {
+                audioSrc.Play();
+            }
         } else {    
-            CurrentHP = 0;
+            CurrentHP -= 20;
+            StartNullWeaponTimer();
+            Timer += 2.0f;
         }
 
         if (Input.GetKeyUp(KeyCode.Escape)) {
@@ -70,10 +78,14 @@ public class GameManager : MonoBehaviour {
 
     public void StartTimer(float sec) {
         Timer = sec;
+
+        if (audioSrc.isPlaying) {
+            audioSrc.Stop();
+        }
     }
 
     public void StartNullWeaponTimer() {
-        StartTimer(_nullWeaponTimer);
+        Timer = _nullWeaponTimer;
     }
 
     public void SpawnNextWave() {

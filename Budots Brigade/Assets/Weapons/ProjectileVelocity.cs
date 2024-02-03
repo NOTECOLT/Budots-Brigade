@@ -35,7 +35,7 @@ public class ProjectileVelocity : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D col) {
         if (col.gameObject.tag == "Projectile" || col.gameObject.tag == "TriggerArea" || col.gameObject.tag == "Pickup") return;
 
-        Debug.Log("hit " + col.gameObject.name + " , " + col.gameObject.tag);
+        // Debug.Log("hit " + col.gameObject.name + " , " + col.gameObject.tag);
 
         if (isPlayerProjectile) {
             if (col.gameObject.tag == "Player") return;
