@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour {
 
         audioSrc = GetComponent<AudioSource>();
     }
+    public GameObject Player;
     [SerializeField] private float _nullWeaponTimer;
     public float PlayerHP = 100;
     public float CurrentHP { get; private set; }
@@ -29,6 +30,11 @@ public class GameManager : MonoBehaviour {
 
     private System.Random _r;
     private AudioSource audioSrc;
+    public AudioClip timerWarningSFX;
+    // public AudioClip explosionSFX;
+
+    public GameObject explosionVFX;
+    
     
     [SerializeField] private GameObject _enemyParent;
     [SerializeField] private List<GameObject> _enemyPrefabs; // EnemyPrefabs[(int)EnemyType] to find the enemy prefab to instantiate
@@ -49,10 +55,12 @@ public class GameManager : MonoBehaviour {
             Timer -= Time.deltaTime;
 
             if (Timer <= audioSrc.clip.length && !audioSrc.isPlaying) {
+                audioSrc.clip = timerWarningSFX;
                 audioSrc.Play();
             }
         } else {    
-            CurrentHP -= 20;
+            SpawnExplosion(Player.transform.position);
+            DamagePlayer(20);
             StartNullWeaponTimer();
             Timer += 2.0f;
         }
@@ -64,6 +72,12 @@ public class GameManager : MonoBehaviour {
                 ResumeGame();
             }
         }
+    }
+
+    private void SpawnExplosion(Vector2 position) {
+        Instantiate(explosionVFX, position, Quaternion.identity);
+        // audioSrc.clip = explosionSFX;
+        // audioSrc.Play();
     }
 
     public void PauseGame() {
@@ -109,6 +123,7 @@ public class GameManager : MonoBehaviour {
 
     public void DamagePlayer(float damage) {
         CurrentHP -= damage;
+        Player.GetComponent<Animator>().SetTrigger("Entity_Hit_Trigger");
     }
 
     private GameObject SpawnEnemy(EnemyType enemyType) {

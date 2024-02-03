@@ -17,7 +17,6 @@ public class HitscanTrail : MonoBehaviour {
         transform.position = Vector3.Lerp(_startVec, _direction, _progress);
     }
     public void SetValues(Vector2 start, Vector2 direction) {
-        Debug.Log("HITSCAN " + start + " -> " + direction);
         _startVec = start;
         _direction = direction;
     }

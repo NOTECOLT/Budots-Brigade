@@ -1005,6 +1005,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ceb1cb268897c640b48d95f93cb7ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player: {fileID: 535985777}
   _nullWeaponTimer: 3
   PlayerHP: 100
   Timer: 0
@@ -1012,6 +1013,9 @@ MonoBehaviour:
   Wave: 0
   SpawnCenter: {x: 0, y: 0}
   SpawnRadius: {x: 7, y: 7}
+  timerWarningSFX: {fileID: 8300000, guid: 39a711fa7c8288f4787639429af00636, type: 3}
+  explosionSFX: {fileID: 8300000, guid: 0742a2c10aa2b954080e1240503b3498, type: 3}
+  explosionVFX: {fileID: 4502316032283292423, guid: b30bc2ff41be0964e87af45916146833, type: 3}
   _enemyParent: {fileID: 1641654066}
   _enemyPrefabs:
   - {fileID: 5930310144420328257, guid: fcd2d22c898bc934e9c106bc5215b5ab, type: 3}
