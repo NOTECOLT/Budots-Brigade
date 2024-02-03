@@ -6,10 +6,10 @@ public class GameSettings : MonoBehaviour {
     public static GameSettings Instance { get; private set; }
     void Awake() {
         if (Instance != null && Instance != this) {
-            Destroy(this);
+            Destroy(gameObject);
         } else {
             Instance = this; 
-            DontDestroyOnLoad(this.gameObject);
+            DontDestroyOnLoad(gameObject);
         }        
     }
 

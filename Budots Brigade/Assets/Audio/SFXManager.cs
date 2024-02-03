@@ -7,7 +7,7 @@ public class SFXManager : MonoBehaviour {
     private AudioSource _src;
     void Awake() {
         if (Instance != null && Instance != this) {
-            Destroy(this);
+            Destroy(gameObject);
         } else {
             Instance = this;
         }
