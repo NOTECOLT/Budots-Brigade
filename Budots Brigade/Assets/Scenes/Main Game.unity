@@ -19754,6 +19754,26 @@ PrefabInstance:
       propertyPath: m_CullTransparentMesh
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1357160217127579451, guid: 90f9d9d0d768e42478e623ccf6837e3c, type: 3}
+      propertyPath: m_fontSize
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1357160217127579451, guid: 90f9d9d0d768e42478e623ccf6837e3c, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 905bc9f5b61fa5547a2a6644563ef0c0, type: 2}
+    - target: {fileID: 1357160217127579451, guid: 90f9d9d0d768e42478e623ccf6837e3c, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1357160217127579451, guid: 90f9d9d0d768e42478e623ccf6837e3c, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -8963461908782195456, guid: 905bc9f5b61fa5547a2a6644563ef0c0, type: 2}
+    - target: {fileID: 1357160217127579451, guid: 90f9d9d0d768e42478e623ccf6837e3c, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2299013644440147332, guid: 90f9d9d0d768e42478e623ccf6837e3c, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -19954,6 +19974,30 @@ PrefabInstance:
       propertyPath: timerText
       value: 
       objectReference: {fileID: 1598818214}
+    - target: {fileID: 8406781034215200957, guid: 90f9d9d0d768e42478e623ccf6837e3c, type: 3}
+      propertyPath: m_fontSize
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8406781034215200957, guid: 90f9d9d0d768e42478e623ccf6837e3c, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 905bc9f5b61fa5547a2a6644563ef0c0, type: 2}
+    - target: {fileID: 8406781034215200957, guid: 90f9d9d0d768e42478e623ccf6837e3c, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8406781034215200957, guid: 90f9d9d0d768e42478e623ccf6837e3c, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -8963461908782195456, guid: 905bc9f5b61fa5547a2a6644563ef0c0, type: 2}
+    - target: {fileID: 8406781034215200957, guid: 90f9d9d0d768e42478e623ccf6837e3c, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8406781034215200957, guid: 90f9d9d0d768e42478e623ccf6837e3c, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8535190613882549076, guid: 90f9d9d0d768e42478e623ccf6837e3c, type: 3}
       propertyPath: m_Name
       value: GUI

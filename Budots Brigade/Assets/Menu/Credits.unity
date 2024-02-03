@@ -180,12 +180,31 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'TILESET
+  m_text: 'NARRATIVE
 
-    MicroRoguelike SCI-FI 1 DEMO by toosday'
+    Sai Mateo - Lead
+
+
+    AUDIO
+
+    Neal Lerios / RITUNI
+    - Lead
+
+    Zach Romualdez
+
+
+    TILESET
+
+    MicroRoguelike SCI-FI 1 DEMO by
+    toosday
+
+
+    FONT
+
+    at01 by grafxkid'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 905bc9f5b61fa5547a2a6644563ef0c0, type: 2}
+  m_sharedMaterial: {fileID: -8963461908782195456, guid: 905bc9f5b61fa5547a2a6644563ef0c0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -209,8 +228,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -426,8 +445,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 524.82, y: -21.438}
-  m_SizeDelta: {x: 545.3381, y: 709.6218}
+  m_AnchoredPosition: {x: 561.2191, y: -21.438}
+  m_SizeDelta: {x: 618.1363, y: 709.6218}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &485652411
 MonoBehaviour:
@@ -469,23 +488,10 @@ MonoBehaviour:
     Jonat
     Roxas - Lead
 
-    Miwa Crisostomo
-
-
-    NARRATIVE
-
-    Sai Mateo - Lead
-
-
-    AUDIO
-
-    Neal
-    Lerios / RITUNI - Lead
-
-    Zach Romualdez'
+    iwame'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 905bc9f5b61fa5547a2a6644563ef0c0, type: 2}
+  m_sharedMaterial: {fileID: -8963461908782195456, guid: 905bc9f5b61fa5547a2a6644563ef0c0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -509,8 +515,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -686,8 +692,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: MENU
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 905bc9f5b61fa5547a2a6644563ef0c0, type: 2}
+  m_sharedMaterial: {fileID: -8963461908782195456, guid: 905bc9f5b61fa5547a2a6644563ef0c0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -711,8 +717,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 54
-  m_fontSizeBase: 54
+  m_fontSize: 100
+  m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -941,8 +947,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 905bc9f5b61fa5547a2a6644563ef0c0, type: 2}
+  m_sharedMaterial: {fileID: -8963461908782195456, guid: 905bc9f5b61fa5547a2a6644563ef0c0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -966,8 +972,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 54
-  m_fontSizeBase: 54
+  m_fontSize: 100
+  m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
