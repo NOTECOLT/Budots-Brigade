@@ -8,6 +8,8 @@ public class MuteToggle : MonoBehaviour {
         GetComponent<AudioSource>().mute = !GetComponent<AudioSource>().mute;
     }
     void Update() {
+        if (GameSettings.Instance == null) return;
+        
         switch (setting) {
             case ToggleSetting.TOGGLE_SFX:
                 GetComponent<AudioSource>().mute = GameSettings.Instance.MuteSFX;
