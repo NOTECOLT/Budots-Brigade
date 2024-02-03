@@ -11,10 +11,18 @@ public class MainMenuButtonHandler : MonoBehaviour
     // 0 = start menu
     // 1 = main game
     // 2 = credits
+    // 3 = opening
     public void StartGame()
     {
         SceneManager.LoadScene(1);
     }
+    public void DoOpening() {
+        SceneManager.LoadScene(3);
+    }
+    public void OpenMainMenu() {
+        SceneManager.LoadScene(0);
+    }
+
     // Settings should just be an open window. Are we still making this?
     public void OpenSettings()
     {

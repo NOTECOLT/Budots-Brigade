@@ -21,8 +21,9 @@ public class playGUI : MonoBehaviour
 
     void FixedUpdate()
     {
-        timerText.text = gm.Timer.ToString("");
-        waveText.text = gm.Wave.ToString("");
+        timerText.text = Mathf.FloorToInt(gm.Timer) + ":" + (int)(gm.Timer % 1 * 1000);
+
+        waveText.text = "Wave: " + gm.Wave;
         if (gun.sprite) gunImage.sprite =  gun.sprite;
     }
 }

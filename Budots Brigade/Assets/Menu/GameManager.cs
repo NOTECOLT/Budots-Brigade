@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
     
@@ -36,7 +37,7 @@ public class GameManager : MonoBehaviour {
 
     
     void Update() {
-        if (CurrentHP <= 0) Debug.Log("PLAYER DIED");
+        if (CurrentHP <= 0) SceneManager.LoadScene(4);
 
         if (_enemyParent.transform.childCount == 0) {
             SpawnNextWave();

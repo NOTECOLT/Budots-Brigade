@@ -867,6 +867,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7439907752450300730}
   - component: {fileID: 7334261325709012106}
+  - component: {fileID: 2137229429416264408}
   m_Layer: 5
   m_Name: MusicToggle
   m_TagString: Untagged
@@ -943,6 +944,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_IsOn: 1
+--- !u!114 &2137229429416264408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6629419328391501661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 925dcab0e7249014d877a3e55f9c7119, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toggleSetting: 1
 --- !u!1 &7152468768493934231
 GameObject:
   m_ObjectHideFlags: 0
@@ -1028,6 +1042,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5532862966557211460}
   - component: {fileID: 986734248361808145}
+  - component: {fileID: 7705550471039675576}
   m_Layer: 5
   m_Name: SFXToggle
   m_TagString: Untagged
@@ -1104,3 +1119,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_IsOn: 1
+--- !u!114 &7705550471039675576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7859938874750771508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 925dcab0e7249014d877a3e55f9c7119, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toggleSetting: 0
