@@ -10,12 +10,12 @@ public class EnemyClass : MonoBehaviour {
     public float Acceleration;
     public float AttackCooldown; // Time between
     public int AttackDamage;
-    Animator anim;
+    protected Animator anim;
 
     // player
     protected GameObject player;
     
-    float nextFire;
+    protected float nextFire;
 
     void Awake()
     {
@@ -28,12 +28,10 @@ public class EnemyClass : MonoBehaviour {
         anim = GetComponent<Animator>();
     }
 
-    public void DoAttack(GameObject playerObj) {
-        if (Time.time > nextFire)
-        {
+    public virtual void DoAttack(GameObject playerObj) {
+        if (Time.time > nextFire) {
             nextFire = Time.time + AttackCooldown;
-            Attack(playerObj);
-            anim.SetTrigger("Attack");
+            Attack(playerObj); 
         }
     }
 
