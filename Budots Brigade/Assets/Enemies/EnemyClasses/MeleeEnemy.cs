@@ -12,7 +12,9 @@ public class MeleeEnemy : EnemyClass {
         }
     }
     public override void Attack(GameObject playerObj) {
-        if (GetComponent<EnemyEntity>().IsWithinAttackRange) // Do a second check in case the player moved out of ranged
+        if (GetComponent<EnemyEntity>().IsWithinAttackRange){ // Do a second check in case the player moved out of ranged
             GameManager.Instance.DamagePlayer(AttackDamage);
+            Debug.Log("Melee attack");
+        }
     }
 }

@@ -60,6 +60,7 @@ public class GameManager : MonoBehaviour {
             }
         } else {    
             SpawnExplosion(Player.transform.position);
+            Player.GetComponent<PlayerAttack>().DeEquipWeapon();
             DamagePlayer(20);
             StartNullWeaponTimer();
             Timer += 2.0f;
@@ -124,6 +125,7 @@ public class GameManager : MonoBehaviour {
     public void DamagePlayer(float damage) {
         CurrentHP -= damage;
         Player.GetComponent<Animator>().SetTrigger("Entity_Hit_Trigger");
+        Debug.Log(damage);
     }
 
     private GameObject SpawnEnemy(EnemyType enemyType) {

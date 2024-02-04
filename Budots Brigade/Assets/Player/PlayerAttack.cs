@@ -41,6 +41,12 @@ public class PlayerAttack : MonoBehaviour {
         weaponObj.GetComponent<PlayerWeapon>().EquipWeapon(equip);
     }
 
+    public void DeEquipWeapon() {
+        weaponObj.GetComponent<PlayerWeapon>().DequipWeapon();
+        equippedWeapon = null;
+        GameManager.Instance.StartNullWeaponTimer();
+    }
+
     private void ThrowEquipped() {
         if (equippedWeapon == null) return;
 
@@ -56,9 +62,7 @@ public class PlayerAttack : MonoBehaviour {
         ProjectileVelocity pv = proj.GetComponent<ProjectileVelocity>();
         pv.SetValues((mousePos - (Vector2)transform.position).normalized, throwVelocity, GameManager.Instance.Timer, equippedWeapon.Damage, true);
 
-        weaponObj.GetComponent<PlayerWeapon>().DequipWeapon();
-        equippedWeapon = null;
-        GameManager.Instance.StartNullWeaponTimer();
+        DeEquipWeapon();
     }
 
     void OnTriggerEnter2D(Collider2D other) {
