@@ -35,19 +35,28 @@ public class GameManager : MonoBehaviour {
 
     public GameObject explosionVFX;
     
+    public bool isStartFlag = false;
     
     [SerializeField] private GameObject _enemyParent;
     [SerializeField] private List<GameObject> _enemyPrefabs; // EnemyPrefabs[(int)EnemyType] to find the enemy prefab to instantiate
     void Start() {
         CurrentHP = PlayerHP;
         _r = new System.Random();
+        Invoke("SpawnNextWave", 5f);
     }
 
     
     void Update() {
-        if (CurrentHP <= 0) SceneManager.LoadScene(4);
+        // Death
+        if (CurrentHP <= 0)
+        {
+            Player.GetComponent<PlayerMovement>().Die();
+            Invoke("DeathScreen", 5f);
+        } 
+        
 
-        if (_enemyParent.transform.childCount == 0) {
+        if (_enemyParent.transform.childCount == 0 && isStartFlag == true) {
+            // added a flag to give the stand animation breathing room.
             SpawnNextWave();
         }
 
@@ -106,7 +115,7 @@ public class GameManager : MonoBehaviour {
     public void SpawnNextWave() {
         Wave++;
         Debug.Log("Spawning Wave " + Wave);
-        
+        if(!isStartFlag) isStartFlag = true;
         Dictionary<EnemyType, int> currentWave = EnemyWaves.WaveList[(Wave - 1) % EnemyWaves.WAVE_LIST_LEN];
 
         foreach (KeyValuePair<EnemyType, int> entry in currentWave) {
@@ -130,5 +139,10 @@ public class GameManager : MonoBehaviour {
 
     private GameObject SpawnEnemy(EnemyType enemyType) {
         return Instantiate(_enemyPrefabs[(int)enemyType], _enemyParent.transform);
+    }
+
+    private void DeathScreen()
+    {
+        SceneManager.LoadScene(4);
     }
 }

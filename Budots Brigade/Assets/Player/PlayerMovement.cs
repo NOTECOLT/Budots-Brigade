@@ -19,11 +19,12 @@ public class PlayerMovement : MonoBehaviour
     // Animation States
     [SerializeField] public Animator anim;
     string currentState;
+    //private bool isStart = false;
     private bool facingLeft = true;
     private bool facingUp = true;
     private bool prioUp = false;
     private bool isMoving = false;
-
+    private bool isDead = true;
     [SerializeField] private PlayerStats stats;
 
     // Sounds
@@ -37,10 +38,13 @@ public class PlayerMovement : MonoBehaviour
         updateStats();
         audioSrc = GetComponent<AudioSource>();
         _r = new System.Random();
+        ChangeAnimationState("Player_Stand");
+        Invoke("Activate", 1.5f);
     }
 
     void Update()
     {
+        if (isDead) return;
         movement.x = Input.GetAxisRaw("Horizontal");
 		movement.y = Input.GetAxisRaw("Vertical");
         
@@ -57,6 +61,7 @@ public class PlayerMovement : MonoBehaviour
 	
 	void LateUpdate()
 	{
+        if (isDead) return;
 		rb.velocity = new Vector2(movement.x * moveSpeed, movement.y * moveSpeed);
 
         if (movement.x < 0) facingLeft = true;
@@ -105,7 +110,7 @@ public class PlayerMovement : MonoBehaviour
         }
 	}
 
-    void ChangeAnimationState(string newState)
+    public void ChangeAnimationState(string newState)
     {
         if (newState == currentState) return;
         anim.Play(newState);
@@ -129,6 +134,17 @@ public class PlayerMovement : MonoBehaviour
     void DashGain()
     {
         canDash = true;
+    }
+
+    public void Activate()
+    {
+        isDead = false;
+    }
+
+    public void Die()
+    {
+        isDead = true;
+        ChangeAnimationState("Player_Death");
     }
 
     public void updateStats()

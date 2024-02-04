@@ -1279,6 +1279,7 @@ MonoBehaviour:
   SpawnRadius: {x: 7, y: 7}
   timerWarningSFX: {fileID: 8300000, guid: 39a711fa7c8288f4787639429af00636, type: 3}
   explosionVFX: {fileID: 4502316032283292423, guid: b30bc2ff41be0964e87af45916146833, type: 3}
+  isStartFlag: 0
   _enemyParent: {fileID: 1641654066}
   _enemyPrefabs:
   - {fileID: 5930310144420328257, guid: fcd2d22c898bc934e9c106bc5215b5ab, type: 3}
