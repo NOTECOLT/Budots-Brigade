@@ -9,6 +9,11 @@ public class MeleeEnemy : EnemyClass {
         if (Time.time > nextFire) {
             nextFire = Time.time + AttackCooldown;
             anim.SetTrigger("Attack"); // Call to Attack is in the Animation
+
+            if (!GetComponent<AudioSource>().isPlaying) {
+                GetComponent<AudioSource>().clip = AttackSFX[_r.Next(0, AttackSFX.Length)];
+                GetComponent<AudioSource>().Play();
+            }
         }
     }
     public override void Attack(GameObject playerObj) {

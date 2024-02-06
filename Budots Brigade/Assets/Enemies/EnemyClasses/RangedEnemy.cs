@@ -6,17 +6,21 @@ using UnityEngine;
 public class RangedEnemy : EnemyClass {
     public GameObject projectile;
     public float projectileVelocity;
+    
 
-    void Start()
-    {
-
+    void Start() {
     }
 
     public override void Attack(GameObject playerObj) {
-        // Debug.Log("making projectile");
+        AudioSource asrc = gameObject.GetComponent<AudioSource>();
+
+        if (!asrc.isPlaying) {
+            asrc.clip = AttackSFX[_r.Next(0, AttackSFX.Length)];
+            asrc.Play();
+        }
+        
         GameObject bulletGameObject = Instantiate(projectile, this.gameObject.transform.position, Quaternion.identity);
         bulletGameObject.GetComponent<ProjectileVelocity>().SetValues(GetDirectionToPlayer(playerObj), projectileVelocity, 3.0f, AttackDamage, false);
-
     }
 
     Vector2 GetDirectionToPlayer(GameObject playerObj)

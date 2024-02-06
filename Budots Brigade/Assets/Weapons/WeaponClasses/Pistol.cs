@@ -27,8 +27,8 @@ public class Pistol : Weapon {
 
         System.Random random = new System.Random();
 
-        if (SFX.Length > 0)
-            SFXManager.Instance.PlayClip(SFX[random.Next(SFX.Length)]);
+        GunSFX gunSFX = obj.GetComponentInChildren<GunSFX>();
+        gunSFX.PlayClip(SFX[random.Next(SFX.Length)]);
 
         return 1;
     }

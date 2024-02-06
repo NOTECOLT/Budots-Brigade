@@ -30,7 +30,9 @@ public class GameManager : MonoBehaviour {
     private System.Random _r;
     private AudioSource audioSrc;
     public AudioClip timerWarningSFX;
-    // public AudioClip explosionSFX;
+    
+    public AudioClip[] PlayerHurtSFX;
+    public GameObject PlayerHurtObj;
 
     public GameObject explosionVFX;
     
@@ -133,7 +135,9 @@ public class GameManager : MonoBehaviour {
     public void DamagePlayer(float damage) {
         CurrentHP -= damage;
         Player.GetComponent<Animator>().SetTrigger("Entity_Hit_Trigger");
-        Debug.Log(damage);
+        AudioSource asrce = PlayerHurtObj.GetComponent<AudioSource>();
+        asrce.clip = PlayerHurtSFX[_r.Next(0, PlayerHurtSFX.Length)];
+        asrce.Play();
     }
 
     private GameObject SpawnEnemy(EnemyType enemyType) {

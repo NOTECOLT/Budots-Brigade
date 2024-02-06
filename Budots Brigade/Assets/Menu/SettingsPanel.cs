@@ -9,8 +9,10 @@ public class SettingsPanel : MonoBehaviour {
         GetComponent<RectTransform>().anchoredPosition = new Vector3(0, 0, 0);
     }
     public void Hide() {
-        if (GameManager.Instance == null)
+        if (GameManager.Instance == null) {
             GetComponent<RectTransform>().anchoredPosition = new Vector3(0, 2000, 0);
+        }
+        
         GameManager.Instance?.ResumeGame();
     }
     void Update() {
@@ -19,7 +21,6 @@ public class SettingsPanel : MonoBehaviour {
         if (GameManager.Instance.GamePaused) {
             GetComponent<RectTransform>().anchoredPosition = new Vector3(0, 0, 0);
         } else {
-            GetComponent<RectTransform>().anchoredPosition = new Vector3(0, 0, 0);
             GetComponent<RectTransform>().anchoredPosition = new Vector3(0, 2000, 0);
         }
     }

@@ -24,6 +24,13 @@ public class playGUI : MonoBehaviour
         timerText.text = Mathf.FloorToInt(gm.Timer) + ":" + (int)(gm.Timer % 1 * 100);
 
         waveText.text = "Wave: " + gm.Wave;
-        if (gun.sprite) gunImage.sprite =  gun.sprite;
+        if (gun.sprite) {
+            gunImage.sprite =  gun.sprite;
+            gunImage.color = new Color(255, 255, 255, 1);
+        }
+        else {
+            gunImage.sprite = null;
+            gunImage.color = new Color(255, 255, 255, 0);
+        }
     }
 }

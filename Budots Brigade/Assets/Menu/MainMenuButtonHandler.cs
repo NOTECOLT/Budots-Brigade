@@ -19,6 +19,7 @@ public class MainMenuButtonHandler : MonoBehaviour
         SceneChanger.Instance.ChangeScene(Scenes.OPENING);
     }
     public void OpenMainMenu() {
+        Time.timeScale = 1;
         SceneChanger.Instance.ChangeScene(Scenes.MAINMENU);
     }
 
