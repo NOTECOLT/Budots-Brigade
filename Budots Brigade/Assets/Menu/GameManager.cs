@@ -51,7 +51,7 @@ public class GameManager : MonoBehaviour {
         if (CurrentHP <= 0)
         {
             Player.GetComponent<PlayerMovement>().Die();
-            Invoke("DeathScreen", 5f);
+            // Invoke("DeathScreen", 5f);
         } 
         
 
@@ -63,7 +63,7 @@ public class GameManager : MonoBehaviour {
         if (Timer > 0) {
             Timer -= Time.deltaTime;
 
-            if (Timer <= audioSrc.clip.length && !audioSrc.isPlaying) {
+            if (Timer <= timerWarningSFX.length && !audioSrc.isPlaying) {
                 audioSrc.clip = timerWarningSFX;
                 audioSrc.Play();
             }
@@ -139,10 +139,5 @@ public class GameManager : MonoBehaviour {
 
     private GameObject SpawnEnemy(EnemyType enemyType) {
         return Instantiate(_enemyPrefabs[(int)enemyType], _enemyParent.transform);
-    }
-
-    private void DeathScreen()
-    {
-        SceneManager.LoadScene(4);
     }
 }

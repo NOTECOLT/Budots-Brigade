@@ -343,7 +343,7 @@ MonoBehaviour:
   m_text: "Unfortunately, the momentary peace did not last. Perhaps taking advantage
     of Dyxia's current interspace vulnerability, a platoon of General Makah dropped
     from the sky like meteors. Despite originating from a planet lightyears away,
-    General Makah\u2019s notorious deeds were known throughout the colony. "
+    General Makah\u2019s notorious deeds were known throughout the colony. (2/3)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 905bc9f5b61fa5547a2a6644563ef0c0, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -378,7 +378,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 8
-  m_VerticalAlignment: 512
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -420,6 +420,142 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 325338722}
   m_CullTransparentMesh: 1
+--- !u!1 &814459778
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 814459779}
+  - component: {fileID: 814459781}
+  - component: {fileID: 814459780}
+  m_Layer: 5
+  m_Name: Page 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &814459779
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814459778}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 881993197}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -177.6117}
+  m_SizeDelta: {x: 1303.377, y: 355.2234}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &814459780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814459778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Their glimmer of hope slowly dims but no matter how cruel each passing
+    day, it never fades. Dyxians has flourished amidst a planetary collapse and it
+    will rise again. (3/3)
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 905bc9f5b61fa5547a2a6644563ef0c0, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 65
+  m_fontSizeBase: 65
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 8
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: -4.118225, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 1
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &814459781
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814459778}
+  m_CullTransparentMesh: 1
 --- !u!1 &881993196
 GameObject:
   m_ObjectHideFlags: 0
@@ -451,6 +587,7 @@ RectTransform:
   m_Children:
   - {fileID: 1786765255}
   - {fileID: 325338723}
+  - {fileID: 814459779}
   m_Father: {fileID: 1889361574}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
@@ -473,6 +610,7 @@ MonoBehaviour:
   Pages:
   - {fileID: 1786765254}
   - {fileID: 325338722}
+  - {fileID: 814459778}
 --- !u!1 &969367336
 GameObject:
   m_ObjectHideFlags: 0
@@ -530,16 +668,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Goal: Survive as long as possible.
+  m_text: 'Controls:
 
 
-    LCLICK - Shoot.
+    Left Click - Shoot.
 
-    RCLICK -
-    Dash.
+    Right Click - Dash.
 
-    Q - Throw Weapon. Throw your weapon constantly to avoid getting damaged
-    by the weapon timer.'
+    Q -
+    Throw Weapon. Throw your weapon constantly to avoid getting damaged by the weapon
+    timer.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 905bc9f5b61fa5547a2a6644563ef0c0, type: 2}
   m_sharedMaterial: {fileID: -8963461908782195456, guid: 905bc9f5b61fa5547a2a6644563ef0c0, type: 2}
@@ -650,7 +788,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 5.1, y: 8}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1010320207
@@ -1053,8 +1191,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 594.45, y: 573}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 611.69, y: 591}
+  m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1698506590
 MonoBehaviour:
@@ -1211,6 +1349,7 @@ MonoBehaviour:
     the territory being reduced to ruins of a place of dazzling technological advancements,
     a significant number of citizens stayed. Enough to transform the place into a
     culture of its own. Scrap motherboards tinkered and rebuilt into new systems.
+    (1/3)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 905bc9f5b61fa5547a2a6644563ef0c0, type: 2}
   m_sharedMaterial: {fileID: -8963461908782195456, guid: 905bc9f5b61fa5547a2a6644563ef0c0, type: 2}
@@ -1245,7 +1384,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 8
-  m_VerticalAlignment: 512
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
