@@ -143,6 +143,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void Die()
     {
+        rb.velocity = Vector2.zero;
         isDead = true;
         ChangeAnimationState("Player_Death");
     }

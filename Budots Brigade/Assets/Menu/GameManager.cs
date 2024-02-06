@@ -69,7 +69,7 @@ public class GameManager : MonoBehaviour {
             }
         } else {    
             SpawnExplosion(Player.transform.position);
-            Player.GetComponent<PlayerAttack>().DeEquipWeapon();
+            Player.GetComponent<PlayerAttack>().DequipWeapon();
             DamagePlayer(20);
             StartNullWeaponTimer();
             Timer += 2.0f;
