@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class MainMenuButtonHandler : MonoBehaviour
 {
@@ -14,13 +13,13 @@ public class MainMenuButtonHandler : MonoBehaviour
     // 3 = opening
     public void StartGame()
     {
-        SceneManager.LoadScene(1);
+        SceneChanger.Instance.ChangeScene(Scenes.MAINGAME);
     }
     public void DoOpening() {
-        SceneManager.LoadScene(3);
+        SceneChanger.Instance.ChangeScene(Scenes.OPENING);
     }
     public void OpenMainMenu() {
-        SceneManager.LoadScene(0);
+        SceneChanger.Instance.ChangeScene(Scenes.MAINMENU);
     }
 
     // Settings should just be an open window. Are we still making this?
@@ -30,6 +29,6 @@ public class MainMenuButtonHandler : MonoBehaviour
     }
     public void OpenCredits()
     {
-        SceneManager.LoadScene(2);
+        SceneChanger.Instance.ChangeScene(Scenes.CREDITS);
     }
 }

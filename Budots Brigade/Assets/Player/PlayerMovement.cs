@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 public class PlayerMovement : MonoBehaviour
 {
     // Basics
@@ -157,7 +156,7 @@ public class PlayerMovement : MonoBehaviour
     // CALLED UPON BY PLAYER DEATH ANIMATION
     private void DeathScreen()
     {
-        SceneManager.LoadScene(4);
+        SceneChanger.Instance.ChangeScene(Scenes.GAMEOVER);
     }
 
 }
